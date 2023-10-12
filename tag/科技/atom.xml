@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>Hexo • Posts by &#34;科技&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2023-10-12T10:49:33.010Z</updated>
+    <category term="游记" />
+    <category term="散文" />
+    <category term="java" />
+    <category term="书籍" />
+    <category term="java基础" />
+    <category term="java学习路线" />
+    <category term="科幻" />
+    <category term="小说" />
+    <category term="历史政治" />
+    <category term="人物传记" />
+    <category term="阅读" />
+    <category term="余华" />
+    <category term="名言警句" />
+    <category term="心理学" />
+    <category term="历史" />
+    <category term="政治" />
+    <category term="明朝" />
+    <category term="科技人文" />
+    <category term="杂文" />
+    <category term="人生感悟" />
+    <category term="经济学" />
+    <category term="中国" />
+    <category term="科技" />
+    <category term="心理" />
+    <category term="人际交往" />
+    <category term="Excel" />
+    <category term="office" />
+    <category term="日常办公" />
+    <category term="鲁迅" />
+    <category term="Premiere" />
+    <category term="视频剪辑" />
+    <category term="电影" />
+    <category term="动漫" />
+    <category term="短剧" />
+    <category term="电视剧" />
+    <category term="电子书" />
+    <category term="计算机基础" />
+    <category term="云开发" />
+    <category term="微信小程序" />
+    <category term="数据库" />
+    <category term="MySQL" />
+    <category term="跨考" />
+    <category term="考研" />
+    <category term="计算机" />
+    <category term="Python" />
+    <category term="编程" />
+    <category term="算法" />
+    <category term="月报" />
+    <entry>
+        <id>http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E7%AE%97%E6%B3%95%E4%B9%8B%E7%BE%8E_[%E7%BE%8E]%E5%B8%83%E8%8E%B1%E6%81%A9%E5%85%8B%E9%87%8C%E6%96%AF%E3%80%81[%E7%BE%8E]%E6%B1%A4%E5%A7%86%E6%A0%BC%E9%87%8C%E8%8F%B2%E6%96%AF_92/</id>
+        <title>算法之美_[美]布莱恩克里斯、[美]汤姆格里菲斯_92</title>
+        <link rel="alternate" href="http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E7%AE%97%E6%B3%95%E4%B9%8B%E7%BE%8E_[%E7%BE%8E]%E5%B8%83%E8%8E%B1%E6%81%A9%E5%85%8B%E9%87%8C%E6%96%AF%E3%80%81[%E7%BE%8E]%E6%B1%A4%E5%A7%86%E6%A0%BC%E9%87%8C%E8%8F%B2%E6%96%AF_92/"/>
+        <content type="html">&lt;h1 id=&#34;摘要&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#摘要&#34;&gt;#&lt;/a&gt; 摘要&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;阈值完全取决于搜寻成本。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可见，有些问题有解，反而会有损无益。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;但是，决策行为几乎都不是孤立的，期望值也不是最终目标。&lt;/li&gt;
+&lt;li&gt;基廷斯指数，一定要选择指数最高的那个拉把。&lt;/li&gt;
+&lt;li&gt;把人生当中的遗憾降到最小。&lt;/li&gt;
+&lt;li&gt;上限置信区间算法告诉我们，多臂老虎机问题非常简单，可以直接选择置信区间上限最高的那个方案。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;从长远来看，乐观主义是防范遗憾的最有效措施。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;一般而言，人们似乎倾向于过度探索 —— 对新鲜事物的青睐程度超过效果最佳的事物。&lt;/li&gt;
+&lt;li&gt;孩子们的有些想法在我们看来是任性，但是实际上，可能比我们想象的更明智。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;老年人的社会关系越来越简单，是他们主观选择的结果。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;当人们接近生命的终点时，他们希望更多地关注对他们来说最重要的人。&lt;/li&gt;
+&lt;li&gt;计算机科学同样认为，探索和利用的困境对剩余时间很敏感。&lt;/li&gt;
+&lt;li&gt;这是排序理论的第一个，也是最基本的深刻见解：规模越大，难度越大。&lt;/li&gt;
+&lt;li&gt;桶排序：有时候我们并不需要完全排序，有的时候根本不需要逐项比较也能完成排序工作。&lt;/li&gt;
+&lt;li&gt;随着探索成本的下降，排序的价值也会随之降低。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;有时，混乱不仅仅是轻松的选择，还是一个最优选择。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;我们人类不仅会对数据，财产进行排序，还会把我们自己变成排序对象。&lt;/li&gt;
+&lt;li&gt;比较计数排序：每个排序对象都会与其他对象做比较，从而统计出比该排序对象小的对象一共有多少个。&lt;/li&gt;
+&lt;li&gt;冠军戒指或许并不是那么可信，但是分区的排名货真价实。&lt;/li&gt;
+&lt;li&gt;如果一个动物根据它对等级概念的了解，判断不值得实施某个对抗行为，就会发生转位这种现象。&lt;/li&gt;
+&lt;li&gt;竞争与争斗在本质上是不同的。&lt;/li&gt;
+&lt;li&gt;自计算机问世以来，计算机科学家就开始苦苦思索哪些东西需要保存以及如何保存这两个孪生问题。&lt;/li&gt;
+&lt;li&gt;在同等条件下，如果某个程序处于闲置的时间较长，就表明你在未来一段时间内应该也不会调用该程序。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;最接近未卜先知的做法就是假定历史会重演，不过是按照相反的顺序上演。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;预测个人购买行为是有挑战性的，但是当预测数千人的购买行为时，大数定律就会生效。&lt;/li&gt;
+&lt;li&gt;尽可能把物品的 “缓存” 建立在它们通常使用的位置附近。&lt;/li&gt;
+&lt;li&gt;他认为，大脑的记忆能力基本上的无限的，但我们在大脑中搜索的时间是有限的。&lt;/li&gt;
+&lt;li&gt;存储器越大，在其中搜索并提取信息就不可避免地需要越多时间。&lt;/li&gt;
+&lt;li&gt;在你有一个计划之前，必须首先选择一个衡量指标。&lt;/li&gt;
+&lt;li&gt;最早到期日原则：从截止日期最近的任务开始。&lt;/li&gt;
+&lt;li&gt;最短加工时间：总是先做完能最快完成的任务。&lt;/li&gt;
+&lt;li&gt;我们通常认为拖延是一个错误的算法，但如果它正好相反呢？&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;计算机科学家称之为 “PING 攻击” 或 “拒绝服务” 攻击：给系统无数琐碎的事情做，重要的东西就会迷失在混乱之中。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;重点不只是要把事情做好，更重要的是把权值更高的事情做好。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;要承诺做你所能做的最重要的事情，如果你一直目光短浅而不远望前方，那么你眼中的整个世界都仿佛处于拖延之中。&lt;/li&gt;
+&lt;li&gt;有时候，最重要的事要等不重要的事情完成之后才能进行，所以这里只有将这些不重要的事情看得跟被阻塞的重要任务一样重要。&lt;/li&gt;
+&lt;li&gt;换句话说，大多数的调度问题都没有现成的解决方案。&lt;/li&gt;
+&lt;li&gt;在面对不确定性时最短加工时间调度加权版本是一种最通用的调度策略。&lt;/li&gt;
+&lt;li&gt;在有些情况下，透视是一种负担。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;任何一个人，如果你在一小时内被中断几次，那么你就有这一小时什么都做不成的危险。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;这就是颠簸：系统全速运行，却一事无成。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;另一种避免颠簸的方式是学会说 “不” 的艺术。&lt;/li&gt;
+&lt;li&gt;事实上，如果买 n 张彩票共 w 次获奖，那么中奖概率就是中奖数加 1，除以所购买的数目加 2，即。&lt;/li&gt;
+&lt;li&gt;哥白尼原则：如果有任何一个时刻都有相同的可能性，那么平均来说，他的到来应该是在一个精确的中间点。&lt;/li&gt;
+&lt;li&gt;如果我们要预测某个事物还将持续存在多久（在对它没有其他任何了解时），我们可以做出的最好的猜测就是，它将再持续已经存在的时间。&lt;/li&gt;
+&lt;li&gt;对于任何幂律分布，贝叶斯法则表明，一个合适的预测策略就是相乘法则：将迄今观察到的数量乘以一些常数。&lt;/li&gt;
+&lt;li&gt;厄兰分布给出了第三种预测法则 —— 相加法则：总是预测事物只会再持续一个常量。&lt;/li&gt;
+&lt;li&gt;正态分布 ——“平均法则”。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;我们的判断背叛了我们的预期，我们的期望又背叛了我们的经验。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;学习自我控制是一个重要的问题，但在一个成年人始终能信赖的环境中成长也是同样重要的 。&lt;/li&gt;
+&lt;li&gt;简单来说，媒体对事件的报道并不与其在世界上发生的频率相符。&lt;/li&gt;
+&lt;li&gt;机器学习的最深刻的真理之一就是，事实上，并非使用一个更复杂的模型就会更好，它需要考虑更多的因素。&lt;/li&gt;
+&lt;li&gt;击剑本来是一种令人兴奋的运动，但运动员因为奇怪的计分工具而对策略过度拟合，因此灌输真实的就变得不那么重要了。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;对本就错误的事物进行无情和聪明的优化。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;考希克的结论是：“真正的朋友是不会让朋友去测量页面浏览量的，永远都不会。”&lt;/li&gt;
+&lt;li&gt;人们可能会对自己的准备过程过度拟合。&lt;/li&gt;
+&lt;li&gt;如果你不能简单地解释一个问题，那你就没有完全理解它。&lt;/li&gt;
+&lt;li&gt;所有的事情都是平等的，最简单的假设可能就是最正确的那个。&lt;/li&gt;
+&lt;li&gt;计算机科学家将这个原则 —— 使用约束来惩罚模型的复杂性，称为正则化。&lt;/li&gt;
+&lt;li&gt;面对现实生活的复杂性，他放弃了理性的模型，转而遵循一个简单的启发法则。&lt;/li&gt;
+&lt;li&gt;如果我们最先想到的因素可能是最重要的因素，那么如果考虑的量超过某一个度的话，就不仅是浪费时间和努力，它会让我们找到更糟糕的解决方案。&lt;/li&gt;
+&lt;li&gt;如果你有很高的不确定性和有限的数据，那么务必提前停止。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;当你处于黑暗之中，最好的计划将是最简单的。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;研究人员消除了一些问题的约束，并着手解决他们希望解决的问题。&lt;/li&gt;
+&lt;li&gt;拉格朗日松弛算法：优化问题有两个部分：规则和计分。&lt;/li&gt;
+&lt;li&gt;有时候，解决问题的最好方法是依靠运气，而不是试图完全地分析出答案。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;的确，你从来不会完全确定，但是可以非常接近确定，或是非常快确定。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;一个统计数据只能告诉我们部分的故事，它也掩盖了任何潜在的异质性。&lt;/li&gt;
+&lt;li&gt;无论是抖动，随机重启，还是偶然的恶化，随机性对于避免局部最大值都是非常有用的。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;“我无法让数学界人士相信，这些复杂的东西和温度，以及充满类比的东西都是真实的，因为数学家都被训练得不相信直觉。”&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;从爬山算法可以得知：即使你有执行坏主意的习惯，你也应该坚持执行那些好的想法。&lt;/li&gt;
+&lt;li&gt;从梅特罗利斯算法可知：你有一个坏主意的可能性与该想法的糟糕程度成反比。&lt;/li&gt;
+&lt;li&gt;从模拟退火算法可知：你应该提前实现随机性，在完全随机的状态下迅速冷却，随着时间的推移，使用越来越少的随机性，当接近冰点时，持续时间最长。&lt;/li&gt;
+&lt;li&gt;包交换的网络没有给每个链接设立专用渠道，发送方和接受方将它们的消息拆分成一个个 “数据包” 的小碎片中，再将这些碎片合并到数据的公共流中。&lt;/li&gt;
+&lt;li&gt;在三次握手的背后，每台机器都提供了一种序列号，而且每一个发送的数据包每次都会在发送的时候增加一个序列号，就像支票簿上的支票一样。&lt;/li&gt;
+&lt;li&gt;第一个问题是，我们应该认为多长时间的不响应可以构成故障。&lt;/li&gt;
+&lt;li&gt;因为最大延迟长度（2,4,8,16…）呈现一种指数递增，因此它被称为指数退避算法。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;阿尔姆说：“我想，尝试改变别人的行为是一种疯狂的方式。”&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;传输协议拥塞控制的核心是一个被称为 “和式增加积式减少” 的算法，简称 AIMP。&lt;/li&gt;
+&lt;li&gt;彼得说：“每个员工都倾向于提升自己的能力。”&lt;/li&gt;
+&lt;li&gt;按照彼得原理的预测性推理，最终一个组织中的每一个职位都会被一个做得不好的人填补。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;一个糟糕的听众往往会毁掉一个故事。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;当一个网络缓冲区被填满时，通常会发生 “尾部丢弃”。&lt;/li&gt;
+&lt;li&gt;一组游戏玩家的均衡，所有人都玩得很理性，这对那些玩家来说可能不是最好的结果。&lt;/li&gt;
+&lt;li&gt;调和率衡量合作和竞争之间的差距。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;“工作价值越高，休闲的价值就越低。”&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;通过恶化令人不满意的均衡，可以创造出一个新的，更好的均衡。&lt;/li&gt;
+&lt;li&gt;信息瀑布提供了一个理性的理论，不仅是泡沫，而且更普遍的是潮流和羊群行为。&lt;/li&gt;
+&lt;li&gt;任何一种好的算法的指令都是把思考的劳动最小化。&lt;/li&gt;
+&lt;li&gt;礼貌地表达你的喜好有助于承担对团队带到问题解决办法上的认知负荷。&lt;/li&gt;
+&lt;li&gt;设计的主要目的之一应该是保护人们避免不必要的紧张，摩擦混合精神劳动。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;37 法则：在考察前 37% 的申请人时，不要接受任何人的申请；然后，只要任何一名申请人比前面所有人选都优秀，就要毫不犹豫的选择他。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="科技" />
+        <updated>2023-10-12T10:49:33.010Z</updated>
+    </entry>
+</feed>

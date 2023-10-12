@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Hexo • Posts by &#34;电子书&#34; category</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>en</language>
+        <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
+        <lastBuildDate>Thu, 12 Oct 2023 18:49:32 +0800</lastBuildDate>
+        <category>游记</category>
+        <category>散文</category>
+        <category>java</category>
+        <category>书籍</category>
+        <category>java基础</category>
+        <category>java学习路线</category>
+        <category>科幻</category>
+        <category>小说</category>
+        <category>历史政治</category>
+        <category>人物传记</category>
+        <category>阅读</category>
+        <category>余华</category>
+        <category>名言警句</category>
+        <category>心理学</category>
+        <category>历史</category>
+        <category>政治</category>
+        <category>明朝</category>
+        <category>科技人文</category>
+        <category>杂文</category>
+        <category>人生感悟</category>
+        <category>经济学</category>
+        <category>中国</category>
+        <category>科技</category>
+        <category>心理</category>
+        <category>人际交往</category>
+        <category>Excel</category>
+        <category>office</category>
+        <category>日常办公</category>
+        <category>鲁迅</category>
+        <category>Premiere</category>
+        <category>视频剪辑</category>
+        <category>电影</category>
+        <category>动漫</category>
+        <category>短剧</category>
+        <category>电视剧</category>
+        <category>电子书</category>
+        <category>计算机基础</category>
+        <category>云开发</category>
+        <category>微信小程序</category>
+        <category>数据库</category>
+        <category>MySQL</category>
+        <category>跨考</category>
+        <category>考研</category>
+        <category>计算机</category>
+        <category>Python</category>
+        <category>编程</category>
+        <category>算法</category>
+        <category>月报</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/10/12/%E7%94%B5%E5%AD%90%E4%B9%A6/%E7%A0%81%E5%86%9C%E7%BF%BB%E8%BA%AB/</guid>
+            <title>码农翻身-刘欣</title>
+            <link>http://example.com/2023/10/12/%E7%94%B5%E5%AD%90%E4%B9%A6/%E7%A0%81%E5%86%9C%E7%BF%BB%E8%BA%AB/</link>
+            <category>书籍</category>
+            <category>电子书</category>
+            <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
+            <description><![CDATA[ &lt;ol&gt;
+&lt;li&gt;最好的办法是：把日志、安全、事务、性能统计这样的非功能性代码和业务逻辑完全隔离开来！因为它们关注点和业务代码完全不同，它们之间应该是正交的。&lt;/li&gt;
+&lt;li&gt;CAS 本质上就是一个认证中心的 cookie，加上多个子系统的 cookie 而已。&lt;/li&gt;
+&lt;li&gt;计算机行业的所有问题都可以通过增加一个抽象层来解决，我看我们就在应用程序和数据库之间增加一个抽象层 —— 缓存。&lt;/li&gt;
+&lt;li&gt;框架是一个半成品，是无法独立运行的，必须由开发人员按照它定义的规则，把项目的代码放置到指定的位置，由框架整合起来，这才是一个完整的应用程序。&lt;/li&gt;
+&lt;li&gt;大部分人只会抱怨项目很无趣、没有挑战，遇到问题也只会安于现状。只有少数人会发现工作中的 “痛点”，并且真正动手解决它，给公司带来价值。这是提高自己，让自己和别人区分开来的重要方法。&lt;/li&gt;
+&lt;li&gt;只要遵循路径的约定，大家就不用费心费力地指定各种路径了，一切由工具自动完成。这样一来，Build 脚本就可以极大地简化，只需寥寥数行。&lt;/li&gt;
+&lt;li&gt;这就是程序员辛苦的地方：需要把复杂，容易产生歧义的人类语言翻译成精确的计算机语言指令。&lt;/li&gt;
+&lt;li&gt;对于性格内向的程序员，很多时候你认为基本准备好了其实就够了，凡事必先骑上虎背，勇敢地迈出去，努力地争取一下，你就会发现自己登上了更高一层的台阶。&lt;/li&gt;
+&lt;li&gt;指令集是对 CPU 的抽象，文件是对输入 / 输出设备的抽象，虚拟存储器是对程序存储的抽象，进程是对一个正在运行的程序的抽象，而虚拟机是对整个计算机 (包括操作系统，处理器和程序) 的抽象。&lt;/li&gt;
+&lt;li&gt;停下来，思考，才是进步的本质。&lt;/li&gt;
+&lt;li&gt;写作会逼着你去思考，梳理知识体系，防止自己被碎片化所填满。&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/10/12/%E7%94%B5%E5%AD%90%E4%B9%A6/%E4%B8%8A%E4%BA%A4%E7%94%9F%E5%AD%98%E6%89%8B%E5%86%8C/</guid>
+            <title>上交生存手册</title>
+            <link>http://example.com/2023/10/12/%E7%94%B5%E5%AD%90%E4%B9%A6/%E4%B8%8A%E4%BA%A4%E7%94%9F%E5%AD%98%E6%89%8B%E5%86%8C/</link>
+            <category>电子书</category>
+            <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
+            <description><![CDATA[ &lt;ol&gt;
+&lt;li&gt;平庸的生活方式是麻醉药。他只会束缚你，让你没有作为，甚至没有出息地度过大学的四年。&lt;/li&gt;
+&lt;li&gt;一般来说，一项任务的价值，取决于它在时间尺度上的作用效率。花同样的功夫，我们应该尽量多做那些对整个人生都产生正面影响的事情，少做对中期的未来产生影响的事情，不做那些只对近期产生影响的事情。当然，产生负面影响的事是最应该避免的。&lt;/li&gt;
+&lt;li&gt;事务对我们都会有影响，其价值必须定量，而非定性地讨论。&lt;/li&gt;
+&lt;li&gt;成功的人在不同的地方有不同的成功方式，但是失败的人在不同的地方会有完全相同的失败方法。&lt;/li&gt;
+&lt;li&gt;某个环境的条件如何如何之好并不是你去到某个环境中的理由，你能从这个环境中获得什么样的成就，才是你前往某个环境的原因。&lt;/li&gt;
+&lt;li&gt;一个事实是，设置博士学位的唯一目的是培养顶尖科研人才。这个学位不考虑你的就业前景，不考虑你精神所能承受的压力，它唯一考虑的，是你在某一个领域做出了多大的开创性贡献。&lt;/li&gt;
+&lt;li&gt;人生本来就是如此的不公平，一个人的家庭比你多一点钱可以让他读硕士实在不算什么大不了的事，有太多太多的人根本不需要读硕士，甚至根本不需要读书，就可以坐拥万贯家产，一辈子都比你过得好。所以大家只要尽自己能力去努力，好好规划自己的人生，能够过上自己能达到的最好的生活，也就可以了。&lt;/li&gt;
+&lt;li&gt;对于一名研究者而言，摆在你面前的是一片开阔的汪洋大海，仅靠毅力闭着眼睛向前冲是很难看到新大陆的。&lt;/li&gt;
+&lt;li&gt;在研究中，知道做什么比知道怎样做更为重要。&lt;/li&gt;
+&lt;li&gt;一个成熟的研究人员必须学会习惯失败。&lt;/li&gt;
+&lt;li&gt;我们在研究起步阶段，应该仔细阅读该领域的权威教科书。一般来讲，知识会随着时间而沉淀，在一代代人的努力下变得精炼而富有结构性。一本好的教科书则可以很好地总结记录这样的结构。&lt;/li&gt;
+&lt;li&gt;真正能断定一个理论是不是垃圾，有多大价值，要看他会不会被后人记住。真正好的理论往往会引发人们广泛而深刻的探讨，甚至是争论。&lt;/li&gt;
+&lt;li&gt;越复杂的理论越有可能是堆砌着补丁的伪装 —— 其内在思想却是肤浅的。&lt;/li&gt;
+&lt;li&gt;我们这个社会的浮躁之处就在于：太多的目光汇聚在那万里挑一的成功经验上，而失败的人甚至连发言权都没有。&lt;/li&gt;
+&lt;li&gt;在同等工作量的前提下，明智的进度控制应该是把自己的全部工作平均分配在各次课上提交。即便你已经做完了更多，也必须像说评书一样娓娓道来，说一半藏一半，不要一股脑呈现完。&lt;/li&gt;
+&lt;li&gt;读研，充其量只是一种缓冲 —— 当你不知道做什么好的时候，或者你知道了做什么好但是时间已经不足以让你获得理想的结果的时候，你没有更多的选择，于是才继续读硕士，寄希望于给自己一段可以继续努力的时间。&lt;/li&gt;
+&lt;li&gt;努力提升实力才是解决之道。在国内生存，你最缺的不是户口，而是实力。&lt;/li&gt;
+&lt;li&gt;突击备考的一个必要前提是，我们把时间用来做了更重要的事情。&lt;/li&gt;
+&lt;li&gt;你需要时刻牢记，你的分数在你毕业之后都已作废，分数的确是通往更高平台的通行证，但是与你本身的能力却是无关的。&lt;/li&gt;
+&lt;li&gt;毕竟大学是一个自由度很高的地方，到了大学没人会告诉你应该做什么，也没有说什么选择一定是对的，而恰好高考的应试教育最失败的地方就是没有让中国学生想清楚高中结束之后你到底要做什么，不过大学四年有充裕的时间让你想明白这件事情。&lt;/li&gt;
+&lt;li&gt;一定不要质疑自己的努力和上限，不要贱卖自己的未来。&lt;/li&gt;
+&lt;li&gt;我有持有幼稚观点的权力，而且持有这种 “愚蠢” 的观点常常让我感觉良好。&lt;/li&gt;
+&lt;li&gt;任何程度的工作都有它的价值，要敢于表达出来和团队成员多交流形成正反馈，让更多的人知道你在做什么。存在感在团队中很重要。&lt;/li&gt;
+&lt;li&gt;工作起来时间会过得很快。大部分时候我们会埋在工作中无暇考虑其他，但更多时候选择比努力更重要，设立一个时间节点能够帮助你判断自己的路有没有走偏。&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

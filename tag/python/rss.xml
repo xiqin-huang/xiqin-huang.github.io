@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Hexo • Posts by &#34;python&#34; tag</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>en</language>
+        <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
+        <lastBuildDate>Thu, 12 Oct 2023 18:49:32 +0800</lastBuildDate>
+        <category>游记</category>
+        <category>散文</category>
+        <category>java</category>
+        <category>书籍</category>
+        <category>java基础</category>
+        <category>java学习路线</category>
+        <category>科幻</category>
+        <category>小说</category>
+        <category>历史政治</category>
+        <category>人物传记</category>
+        <category>阅读</category>
+        <category>余华</category>
+        <category>名言警句</category>
+        <category>心理学</category>
+        <category>历史</category>
+        <category>政治</category>
+        <category>明朝</category>
+        <category>科技人文</category>
+        <category>杂文</category>
+        <category>人生感悟</category>
+        <category>经济学</category>
+        <category>中国</category>
+        <category>科技</category>
+        <category>心理</category>
+        <category>人际交往</category>
+        <category>Excel</category>
+        <category>office</category>
+        <category>日常办公</category>
+        <category>鲁迅</category>
+        <category>Premiere</category>
+        <category>视频剪辑</category>
+        <category>电影</category>
+        <category>动漫</category>
+        <category>短剧</category>
+        <category>电视剧</category>
+        <category>电子书</category>
+        <category>计算机基础</category>
+        <category>云开发</category>
+        <category>微信小程序</category>
+        <category>数据库</category>
+        <category>MySQL</category>
+        <category>跨考</category>
+        <category>考研</category>
+        <category>计算机</category>
+        <category>Python</category>
+        <category>编程</category>
+        <category>算法</category>
+        <category>月报</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%9B%BD%E8%B5%9B%E9%A2%98%E7%9B%AE/</guid>
+            <title>蓝桥杯国赛题目</title>
+            <link>http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%9B%BD%E8%B5%9B%E9%A2%98%E7%9B%AE/</link>
+            <category>Python</category>
+            <category>编程</category>
+            <category>算法</category>
+            <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://blog.csdn.net/weixin_43919497/article/details/110011722?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162261625316780264075413%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&amp;amp;request_id=162261625316780264075413&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v29-1-110011722.pc_search_result_before_js&amp;amp;utm_term=%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%8A%E8%93%9D%E6%A1%A5%E6%9D%AFpython%E7%BB%84%E5%9B%BD%E8%B5%9B%E7%AD%94%E6%A1%88&amp;amp;spm=1018.2226.3001.4187&#34; &gt;CSDN 题解 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;美丽的 2&lt;br&gt;
+ 遍历即可，然后使用 str 和 count 函数就可以查找数字是否含有 2&lt;/li&gt;
+&lt;li&gt;合数个数&lt;br&gt;
+使用埃氏算法，就可以找到所有合数，然后使用 count 计算个数即可&lt;br&gt;
+使用埃氏算法要小心一点，它是用于判断 n 以内的素数的，所以要注意是否需要加一。&lt;/li&gt;
+&lt;li&gt;阶乘约数&lt;br&gt;
+使用唯一分解定理：&lt;br&gt;
+一个大于 1 的正整数 N，如果它的标准分解式为 N=p1a1+p2a2+…+pnan，那么它的正因数为（a1+1)(a2+1)…(an+1),&lt;br&gt;
+ 其中 pi 为素数（1 不为素数）&lt;br&gt;
+我们首先将 2 到 100 中含有的素数找出来，然后存储在字典中，设置值为 1，然后由于 100 的阶乘太大了，我们从 2 开始到 100，分别用素数去尝试是否能够整除，可以的话就将字典对应的值加一，然后遍历字典的值，乘起来就是答案了。&lt;/li&gt;
+&lt;li&gt;本质上升序列&lt;br&gt;
+我们使用动态规划求解该题，后面开始遍历&lt;br&gt;
+我们先将字符串翻转，使用 nums 记录以该字母开头的所有组合，然后我们遍历数组，如果是‘z’的话，将 nums [-1]=1，否则我们 nums [idx]=sum (nums [idx+1:]+1, 意思就是与该字母后面的所有有效的字母开头进行组合，加一是因为自己一个也可以作为一个序列。&lt;br&gt;
+最后我们 sum（nums）即得答案&lt;/li&gt;
+&lt;li&gt;玩具蛇&lt;br&gt;
+使用深度优先遍历，设定 dfs 函数和 VIS 矩阵判断该点是否被访问过。如果被访问过就直接返回，没有则先判断长度是否已经足够，是的话直接计数器加一，返回，否则将该位置的访问位置置为 1，然后再向四个位置进行深度优先访问，全部完成后再将 VIS 矩阵对应位置置为 0（这一步很关键）。而且要注意在 Python 的子函数中加入 global 关键字修饰 ans 和 VIS 矩阵 global ans,vis; 然后遍历每个起点位置进行深度遍历即可。&lt;/li&gt;
+&lt;li&gt;天干地支&lt;br&gt;
+使用数组存储天干和地支，推出第 0 个元素是什么后，然后天干使用与 10 取余，地支与 12 取余即可，然后使用该索引即可&lt;/li&gt;
+&lt;li&gt;重复字符串&lt;br&gt;
+无法重复的情况只有一种：当字符串长度无法被 K 整除时。此时我们返回 - 1，其他情况我们直接根据 K 将其分组，然后在对应位置的统计元素个数，然后将其他不相同的元素改为出现次数最多的元素。使用这种贪心算法，我们就可以得到答案了。但是要注意 k=1 的时候直接将元素个数减去出现最多的元素出现个数即可。&lt;/li&gt;
+&lt;li&gt;答疑&lt;br&gt;
+看上去很麻烦，但其实，只要存储（离开 - 进入，发信息 - 进入）两个信息，然后使用贪心算法即可。&lt;/li&gt;
+&lt;li&gt;补给&lt;br&gt;
+不会&lt;/li&gt;
+&lt;li&gt;蓝跳跳&lt;br&gt;
+不会&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E7%AE%97%E6%B3%95%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</guid>
+            <title>算法常用技巧</title>
+            <link>http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E7%AE%97%E6%B3%95%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</link>
+            <category>Python</category>
+            <category>编程</category>
+            <category>算法</category>
+            <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;数学&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数学&#34;&gt;#&lt;/a&gt; 数学&lt;/h1&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Html&#34;&gt;&lt;figure class=&#34;iseeu highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;等差数列求和：Sn=(a1+an)*n/2;Sn=n*a1+d*(n-1)*n/2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;等比数列求和：Sn=a1*(1-qn)/(1-q);Sn=(a1-an*q)/(1-q)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;组合数学：A(n,m)=(n!)/(n-m)!;C(n,m)=A(n,m)/m!=(n!)/((n-m)!*m!&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;唯一分解定理&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;一个大于 1 的正整数 N，如果它的标准分解式为 N=p1a1+p2a2+…+pnan，那么它的正因数为（a1+1)(a2+1)…(an+1),&lt;br&gt;
+ 其中 pi 为素数（1 不为素数）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;斐波那契数公式&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Python&#34;&gt;&lt;figure class=&#34;iseeu highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Solution&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;fib&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;self, n: &lt;span class=&#34;built_in&#34;&gt;int&lt;/span&gt;&lt;/span&gt;) -&amp;gt; &lt;span class=&#34;built_in&#34;&gt;int&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    sqrt5 = &lt;span class=&#34;number&#34;&gt;5&lt;/span&gt;**&lt;span class=&#34;number&#34;&gt;0.5&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    fibN = ((&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt; + sqrt5) / &lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;) ** n - ((&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt; - sqrt5) / &lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;) ** n&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;built_in&#34;&gt;round&lt;/span&gt;(fibN / sqrt5)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h1 id=&#34;做题小技巧&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#做题小技巧&#34;&gt;#&lt;/a&gt; 做题小技巧&lt;/h1&gt;
+&lt;p&gt;综合利用哈希表和前缀和可以解决连续子数组的问题。&lt;/p&gt;
+&lt;p&gt;有时候通过将问题的值进行变换，可以将问题转化为一个我们已知的问题或较为简单的问题，例如将 0 替换成 - 1，这样就可以使用通过前缀和的知识点来解决子数组中有相同 0 和 1 的问题。&lt;/p&gt;
+&lt;p&gt;子函数内使用 global 全局函数关键字&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;遍历的小技巧&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Python&#34;&gt;&lt;figure class=&#34;iseeu highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; i, w &lt;span class=&#34;keyword&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;built_in&#34;&gt;enumerate&lt;/span&gt;(servers)：i表示索引，w为实际从server中取出来的值&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h1 id=&#34;常用函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常用函数&#34;&gt;#&lt;/a&gt; 常用函数&lt;/h1&gt;
+&lt;h2 id=&#34;集合&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#集合&#34;&gt;#&lt;/a&gt; 集合&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;函数&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;set1=set()&lt;/td&gt;
+&lt;td&gt;创建集合&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;set1.add(6)&lt;/td&gt;
+&lt;td&gt;增加元素&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;set1.remove(5)&lt;/td&gt;
+&lt;td&gt;删除元素&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;字符串&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#字符串&#34;&gt;#&lt;/a&gt; 字符串&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;函数&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;find(sub)&lt;/td&gt;
+&lt;td&gt;检测 sub 是否存在于字符串中，有则返回索引值，无则返回 - 1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;count(sub)&lt;/td&gt;
+&lt;td&gt;判断 sub 在字符串中出现的次数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;isalnum()&lt;/td&gt;
+&lt;td&gt;如果字符串至少有一个字符并且所有的字符都是字母或数字则返回 True，否则返回 False。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;isalpha()&lt;/td&gt;
+&lt;td&gt;如果字符串至少有一个字符而且所有字符都是字母则返回 True，否则返回 false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;isdigit()&lt;/td&gt;
+&lt;td&gt;如果字符串只包含数字则返回 True，否则返回 false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;join()&lt;/td&gt;
+&lt;td&gt;以字符串为分隔符，插入到 sub 中所有的字符之间 n=“”.join (n)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;replace(old,new[,count])&lt;/td&gt;
+&lt;td&gt;把字符串中的 old 子字符串替换成 new 子字符串，如果 count 指定，则替换不超过 count 次&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;split(sep=None,maxsplit=-1)&lt;/td&gt;
+&lt;td&gt;分隔字符串，默认按照空格作为分隔符切片字符串&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;splitlines()&lt;/td&gt;
+&lt;td&gt;按照 “\n” 分隔，返回一个包含各行作为元素的列表&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;strip([chars])&lt;/td&gt;
+&lt;td&gt;删除字符串前边和后边的所有空格，chars 参数可以定制删除的字符&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;数组&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数组&#34;&gt;#&lt;/a&gt; 数组&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;函数&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;copy.deepcopy()&lt;/td&gt;
+&lt;td&gt;深复制，真正的新建一个数组进行赋值，而不是传引用。使用前需要 import copy。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;clear()&lt;/td&gt;
+&lt;td&gt;清空列表中的元素，留下一个空列表。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;append()&lt;/td&gt;
+&lt;td&gt;向列表添加元素&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;extend()&lt;/td&gt;
+&lt;td&gt;使用一个列表来拓展一个列表&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;remove（sub）&lt;/td&gt;
+&lt;td&gt;删除 sub 元素&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;insert（num,index）&lt;/td&gt;
+&lt;td&gt;在 index 处插入一个 num&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;pop（index）&lt;/td&gt;
+&lt;td&gt;弹出 index 处元素&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;count（）&lt;/td&gt;
+&lt;td&gt;计算出现次数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;index（）&lt;/td&gt;
+&lt;td&gt;返回元素位置&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;reverse（）&lt;/td&gt;
+&lt;td&gt;翻转列表&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;sort（）&lt;/td&gt;
+&lt;td&gt;排序&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;math库&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#math库&#34;&gt;#&lt;/a&gt; Math 库&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;函数&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;math.pow(x, y)&lt;/td&gt;
+&lt;td&gt;返回 x 的 y 次方&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;math.ceil(x)&lt;/td&gt;
+&lt;td&gt;返回不小于 x 的整数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;math.fabs(x)&lt;/td&gt;
+&lt;td&gt;返回 x 的绝对值&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;math.floor(x)&lt;/td&gt;
+&lt;td&gt;返回不大于 x 的整数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;math.fsum([x, y, …])&lt;/td&gt;
+&lt;td&gt;返回无损精度的和&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;math.sqrt(x)&lt;/td&gt;
+&lt;td&gt;返回 x 的平方根&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;其他&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#其他&#34;&gt;#&lt;/a&gt; 其他&lt;/h1&gt;
+&lt;h2 id=&#34;datatime&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#datatime&#34;&gt;#&lt;/a&gt; datatime&lt;/h2&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Python&#34;&gt;&lt;figure class=&#34;iseeu highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;date.isocalendar()        &lt;span class=&#34;comment&#34;&gt;#返回结果是三元组(年号，第几周，第几天)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;date.strftime(&lt;span class=&#34;string&#34;&gt;&amp;quot;%j&amp;quot;&lt;/span&gt;)        &lt;span class=&#34;comment&#34;&gt;#计算输入的日期是一年中的第几天&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;end=datetime.datetime(year=&lt;span class=&#34;number&#34;&gt;2020&lt;/span&gt;,month=&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;,day=&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;dela=datetime.timedelta(days=&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; start.day==&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;or&lt;/span&gt; start.weekday()==&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;:&lt;span class=&#34;comment&#34;&gt;#月初或周一&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2 id=&#34;优先队列&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#优先队列&#34;&gt;#&lt;/a&gt; 优先队列&lt;/h2&gt;
+&lt;p&gt;优先队列是按照递增进行排列的，弹出的数据是最小的元素，如果想让其递减的排列，可以在前面乘一个 - 1.&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Python&#34;&gt;&lt;figure class=&#34;iseeu highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; heapq     %导入库函数&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;heapq.heapify(nums)     %将数组转化为优先队列&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;heapq.heappush(nums,&lt;span class=&#34;number&#34;&gt;7&lt;/span&gt;)     %往优先队列中插入元素&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;num=heapq.heappop(nums)     %从优先队列中取出元素&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2 id=&#34;类的声明&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#类的声明&#34;&gt;#&lt;/a&gt; 类的声明&lt;/h2&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Python&#34;&gt;&lt;figure class=&#34;iseeu highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Potato&lt;/span&gt;:&lt;span class=&#34;comment&#34;&gt;#声明类名&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;__init__&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;self,name&lt;/span&gt;):&lt;span class=&#34;comment&#34;&gt;#声明构造方法，self用于在类中传递各种属性&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          self.name=name&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;kick&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;self&lt;/span&gt;):&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &lt;span class=&#34;built_in&#34;&gt;print&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;我叫%s。&amp;quot;&lt;/span&gt;%self.name);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

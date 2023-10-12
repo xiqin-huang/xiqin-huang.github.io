@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>Hexo • Posts by &#34;premiere&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2023-10-12T10:49:32.908Z</updated>
+    <category term="游记" />
+    <category term="散文" />
+    <category term="java" />
+    <category term="书籍" />
+    <category term="java基础" />
+    <category term="java学习路线" />
+    <category term="科幻" />
+    <category term="小说" />
+    <category term="历史政治" />
+    <category term="人物传记" />
+    <category term="阅读" />
+    <category term="余华" />
+    <category term="名言警句" />
+    <category term="心理学" />
+    <category term="历史" />
+    <category term="政治" />
+    <category term="明朝" />
+    <category term="科技人文" />
+    <category term="杂文" />
+    <category term="人生感悟" />
+    <category term="经济学" />
+    <category term="中国" />
+    <category term="科技" />
+    <category term="心理" />
+    <category term="人际交往" />
+    <category term="Excel" />
+    <category term="office" />
+    <category term="日常办公" />
+    <category term="鲁迅" />
+    <category term="Premiere" />
+    <category term="视频剪辑" />
+    <category term="电影" />
+    <category term="动漫" />
+    <category term="短剧" />
+    <category term="电视剧" />
+    <category term="电子书" />
+    <category term="计算机基础" />
+    <category term="云开发" />
+    <category term="微信小程序" />
+    <category term="数据库" />
+    <category term="MySQL" />
+    <category term="跨考" />
+    <category term="考研" />
+    <category term="计算机" />
+    <category term="Python" />
+    <category term="编程" />
+    <category term="算法" />
+    <category term="月报" />
+    <entry>
+        <id>http://example.com/2023/10/12/%E5%8A%9E%E5%85%AC/Premiere%E7%AC%94%E8%AE%B0/</id>
+        <title>Premiere笔记</title>
+        <link rel="alternate" href="http://example.com/2023/10/12/%E5%8A%9E%E5%85%AC/Premiere%E7%AC%94%E8%AE%B0/"/>
+        <content type="html">&lt;h2 id=&#34;常用技巧&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常用技巧&#34;&gt;#&lt;/a&gt; 常用技巧&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;新建字幕：新建 -&amp;gt; 旧版标题。&lt;/li&gt;
+&lt;li&gt;工程文件也需要预览，绿色的是字，红色的是视频。&lt;/li&gt;
+&lt;li&gt;To EDIT 是用于替换的地方，SHOT 是视频，TEXT 是文本。&lt;/li&gt;
+&lt;li&gt;效果 -&amp;gt; 点击已有的效果可以更加详细的调整效果。&lt;/li&gt;
+&lt;li&gt;可以设置暂存盘，最好是 C 盘以外。&lt;/li&gt;
+&lt;li&gt;编辑 -&amp;gt; 首选项 -&amp;gt; 时间轴，可以调整导入的东西的持续时间。&lt;/li&gt;
+&lt;li&gt;窗口 -&amp;gt; 基本图形 -&amp;gt; 编辑，调整字体大小。&lt;/li&gt;
+&lt;li&gt;PS 蒙版的使用&lt;/li&gt;
+&lt;li&gt;图像大小和移动，点击编辑 -&amp;gt; 效果控件，用里面的位置和缩放即可。&lt;/li&gt;
+&lt;li&gt;AVI 格式更清晰，Quicktime。&lt;/li&gt;
+&lt;li&gt;关键帧点击位置和旋转。&lt;/li&gt;
+&lt;li&gt;设置字体背景的不透明度为 0 就不会影响视频文件。&lt;/li&gt;
+&lt;li&gt;视频过渡 -&amp;gt; 渐变擦除，可以用 PS 生成灰度图自定义转场。&lt;/li&gt;
+&lt;li&gt;可以在效果控件中消除，复制和粘贴视频效果。&lt;/li&gt;
+&lt;li&gt;新建一个图层可以增加一个共有的效果。&lt;/li&gt;
+&lt;li&gt;模板是 mogrt 文件。&lt;/li&gt;
+&lt;li&gt;窗口 -&amp;gt; 基本图形 -&amp;gt; 导入，当作时间轴拖入。&lt;/li&gt;
+&lt;li&gt;要先按回车进行渲染，再播放，不然会很卡。&lt;/li&gt;
+&lt;li&gt;蓝色的模板是不要渲染，而红色的需要。&lt;/li&gt;
+&lt;li&gt;字体问题直接忽略，或者可以去下载字体库。&lt;/li&gt;
+&lt;li&gt;工程文件模板在每个素材那里替换即可。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;快捷键&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#快捷键&#34;&gt;#&lt;/a&gt; 快捷键&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;寻找剪辑点&lt;/td&gt;
+&lt;td&gt;寻找剪辑点时，我们可以按下空格键 Space 播放和暂停。大致找到后，细找帧&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Left Right 键&lt;/td&gt;
+&lt;td&gt;向前向后一帧 （比较细致，可以一直按，这样速度快一点）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;shift+Left Right 键&lt;/td&gt;
+&lt;td&gt;向前向后五帧（这个比较快）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;J&lt;/td&gt;
+&lt;td&gt;左穿梭 / 倒放&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K&lt;/td&gt;
+&lt;td&gt;停止穿梭&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;L&lt;/td&gt;
+&lt;td&gt;右穿梭 / 正放&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shift + L&lt;/td&gt;
+&lt;td&gt;慢速右穿梭&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shift + J&lt;/td&gt;
+&lt;td&gt;慢速左穿梭，穿梭键如果连按，可以加速，K 和 Space 都可以停止播放&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan=&#34;2&#34;&gt;时间线窗口中时间帧的管理&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;End&lt;/td&gt;
+&lt;td&gt;跳转到序列 - 素材结束点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Home&lt;/td&gt;
+&lt;td&gt;跳转到序列 - 素材开始点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shift + End&lt;/td&gt;
+&lt;td&gt;跳转到所选素材结束点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Up&lt;/td&gt;
+&lt;td&gt;跳转上一个编辑点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Down&lt;/td&gt;
+&lt;td&gt;跳转下一个编辑点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+D&lt;/td&gt;
+&lt;td&gt;添加转场效果，效果直接拖到转场处即可&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt&lt;/td&gt;
+&lt;td&gt;复制视频&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan=&#34;2&#34;&gt;剪辑开始&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;i&lt;/td&gt;
+&lt;td&gt;设置入点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;o&lt;/td&gt;
+&lt;td&gt;设置出点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shift + I&lt;/td&gt;
+&lt;td&gt;跳转入店&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shift + O&lt;/td&gt;
+&lt;td&gt;跳转出点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;‘&lt;/td&gt;
+&lt;td&gt;提取&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;，&lt;/td&gt;
+&lt;td&gt;插入&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;.&lt;/td&gt;
+&lt;td&gt;覆盖&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M&lt;/td&gt;
+&lt;td&gt;标记点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;shift+M&lt;/td&gt;
+&lt;td&gt;移动点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;直接剪辑&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#直接剪辑&#34;&gt;#&lt;/a&gt; 直接剪辑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;剃刀 D，不建议用，一个是慢一个是不准确&lt;/li&gt;
+&lt;li&gt;用 “添加编辑” 功能，因为常用，我把他重设了快捷键，大家可以在快捷键面板上搜索，一按此键，就可以在时间帧处切开&lt;/li&gt;
+&lt;li&gt;Q 把时间帧前面的素材切掉，W 把时间帧后面的素材切掉，补充说明切掉的素材指此段素材，不是说时间帧之前到开头的都没有了&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="Premiere" />
+        <category term="视频剪辑" />
+        <updated>2023-10-12T10:49:32.908Z</updated>
+    </entry>
+</feed>

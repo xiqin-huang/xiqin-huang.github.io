@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Hexo • Posts by &#34;云开发&#34; tag</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>en</language>
+        <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
+        <lastBuildDate>Thu, 12 Oct 2023 18:49:32 +0800</lastBuildDate>
+        <category>游记</category>
+        <category>散文</category>
+        <category>java</category>
+        <category>书籍</category>
+        <category>java基础</category>
+        <category>java学习路线</category>
+        <category>科幻</category>
+        <category>小说</category>
+        <category>历史政治</category>
+        <category>人物传记</category>
+        <category>阅读</category>
+        <category>余华</category>
+        <category>名言警句</category>
+        <category>心理学</category>
+        <category>历史</category>
+        <category>政治</category>
+        <category>明朝</category>
+        <category>科技人文</category>
+        <category>杂文</category>
+        <category>人生感悟</category>
+        <category>经济学</category>
+        <category>中国</category>
+        <category>科技</category>
+        <category>心理</category>
+        <category>人际交往</category>
+        <category>Excel</category>
+        <category>office</category>
+        <category>日常办公</category>
+        <category>鲁迅</category>
+        <category>Premiere</category>
+        <category>视频剪辑</category>
+        <category>电影</category>
+        <category>动漫</category>
+        <category>短剧</category>
+        <category>电视剧</category>
+        <category>电子书</category>
+        <category>计算机基础</category>
+        <category>云开发</category>
+        <category>微信小程序</category>
+        <category>数据库</category>
+        <category>MySQL</category>
+        <category>跨考</category>
+        <category>考研</category>
+        <category>计算机</category>
+        <category>Python</category>
+        <category>编程</category>
+        <category>算法</category>
+        <category>月报</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E5%BE%AE%E4%BF%A1%E4%BA%91%E5%BC%80%E5%8F%91/</guid>
+            <title>微信云开发</title>
+            <link>http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E5%BE%AE%E4%BF%A1%E4%BA%91%E5%BC%80%E5%8F%91/</link>
+            <category>云开发</category>
+            <category>微信小程序</category>
+            <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;day1&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#day1&#34;&gt;#&lt;/a&gt; day1&lt;/h1&gt;
+&lt;h2 id=&#34;增删查改&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#增删查改&#34;&gt;#&lt;/a&gt; 增删查改&lt;/h2&gt;
+&lt;p&gt;今天学会了在微信开发中如何对数据库进行增删改查，和进行页面之间的跳转，还有数据之间的传递。&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Javascript&#34;&gt;&lt;figure class=&#34;iseeu highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wx.&lt;span class=&#34;property&#34;&gt;cloud&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;database&lt;/span&gt;().&lt;span class=&#34;title function_&#34;&gt;collection&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;goods&amp;#x27;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            .&lt;span class=&#34;title function_&#34;&gt;add&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                &lt;span class=&#34;attr&#34;&gt;data&lt;/span&gt;:&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                    &lt;span class=&#34;attr&#34;&gt;name&lt;/span&gt;:goodname,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                    &lt;span class=&#34;attr&#34;&gt;price&lt;/span&gt;:price&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                &amp;#125; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2 id=&#34;id传递&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#id传递&#34;&gt;#&lt;/a&gt; ID 传递&lt;/h2&gt;
+&lt;p&gt;data-id 与后面获取的变量名 id 相对应&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Html&#34;&gt;&lt;figure class=&#34;iseeu highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;tag&#34;&gt;&amp;lt;&lt;span class=&#34;name&#34;&gt;view&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;bindtap&lt;/span&gt;=&lt;span class=&#34;string&#34;&gt;&amp;#x27;goDetail&amp;#x27;&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;data-id&lt;/span&gt;=&lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;#123;&amp;#123;item._id&amp;#125;&amp;#125;&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;商品名：&amp;#123;&amp;#123;item.name&amp;#125;&amp;#125;,价格：&amp;#123;&amp;#123;item.price&amp;#125;&amp;#125;&lt;span class=&#34;tag&#34;&gt;&amp;lt;/&lt;span class=&#34;name&#34;&gt;view&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;console.log(&amp;quot;点击了跳转商品详情&amp;quot;,event.currentTarget.dataset.id)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;在 app.json 中的 pages 新增页面，页面的次序是有影响的&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;返回结果&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#返回结果&#34;&gt;#&lt;/a&gt; 返回结果&lt;/h2&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Javascript&#34;&gt;&lt;figure class=&#34;iseeu highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wx.&lt;span class=&#34;property&#34;&gt;cloud&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;database&lt;/span&gt;().&lt;span class=&#34;title function_&#34;&gt;collection&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;goods&amp;#x27;&lt;/span&gt;).&lt;span class=&#34;title function_&#34;&gt;get&lt;/span&gt;()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;.&lt;span class=&#34;title function_&#34;&gt;then&lt;/span&gt;(&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;params&#34;&gt;res&lt;/span&gt;=&amp;gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;成功&amp;#x27;&lt;/span&gt;,res)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;.&lt;span class=&#34;title function_&#34;&gt;catch&lt;/span&gt;(&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;params&#34;&gt;err&lt;/span&gt;=&amp;gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;失败&amp;#x27;&lt;/span&gt;,err)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;day2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#day2&#34;&gt;#&lt;/a&gt; day2&lt;/h1&gt;
+&lt;p&gt;通过封装方法，使用 this 进行调用，在使用&lt;strong&gt; this 时要注意所在的作用域&lt;/strong&gt;。&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Javascript&#34;&gt;&lt;figure class=&#34;iseeu highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable language_&#34;&gt;this&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;getList&lt;/span&gt;()&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;使用全局变量来传递值，可以使用 let，也可以使用 var 变量&lt;/p&gt;
+&lt;p&gt;可以在 updated 中的 status 中看出是否有更新成功，在对数据库进行操作时要注意权限问题&lt;/p&gt;
+&lt;p&gt;使用 return 截断错误，方便调试&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;接受数字小心是字符串，可以通过是否变蓝看出，可以使用 parseInt (price) 来进行强制转换&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;可以使用变量接收数据库对象，来方便操作&lt;/p&gt;
+&lt;p&gt;限制返回的数据条数 &lt;code&gt;.limit(3)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;跳过若干条数据，用于分页 &lt;code&gt;.skip(1)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;要注意套餐所给的量，小心写，不然用完就要开新的套餐。数据库的读写次数是有限制的&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;快捷键使用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#快捷键使用&#34;&gt;#&lt;/a&gt; 快捷键使用&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+B&lt;/td&gt;
+&lt;td&gt;编译&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+z&lt;/td&gt;
+&lt;td&gt;撤销操作&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+s&lt;/td&gt;
+&lt;td&gt;保存&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;shift+Alt + 方向键&lt;/td&gt;
+&lt;td&gt;向对应方向复制当前行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+ALT+l&lt;/td&gt;
+&lt;td&gt;格式化代码&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;shift+Alt+f&lt;/td&gt;
+&lt;td&gt;全局搜索&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+f&lt;/td&gt;
+&lt;td&gt;当前页面搜索&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+h&lt;/td&gt;
+&lt;td&gt;查找并替换&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;绑定事件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#绑定事件&#34;&gt;#&lt;/a&gt; 绑定事件&lt;/h2&gt;
+&lt;p&gt;前端界面绑定方法，bindtap 点击事件，bindinput 输入事件，然后在后端函数中获取值&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Javascript&#34;&gt;&lt;figure class=&#34;iseeu highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 前端页面&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;input bindinput=&lt;span class=&#34;string&#34;&gt;&amp;quot;getPrice&amp;quot;&lt;/span&gt;&amp;gt;&amp;lt;/input&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 后端页面&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;title function_&#34;&gt;getPrice&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;event&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        price = event.&lt;span class=&#34;property&#34;&gt;detail&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;value&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2 id=&#34;弹窗提示确认是否删除&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#弹窗提示确认是否删除&#34;&gt;#&lt;/a&gt; 弹窗提示确认是否删除&lt;/h2&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Javascript&#34;&gt;&lt;figure class=&#34;iseeu highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wx.&lt;span class=&#34;title function_&#34;&gt;showModal&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &lt;span class=&#34;attr&#34;&gt;cancelColor&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;#x27;cancelColor&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &lt;span class=&#34;attr&#34;&gt;title&lt;/span&gt;:&lt;span class=&#34;string&#34;&gt;&amp;quot;是否确定删除&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &lt;span class=&#34;attr&#34;&gt;content&lt;/span&gt;:&lt;span class=&#34;string&#34;&gt;&amp;quot;您再仔细想一想，是否真的要删除，删除后不可恢复&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &lt;span class=&#34;title function_&#34;&gt;success&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;res&lt;/span&gt;)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;              &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt;(res.&lt;span class=&#34;property&#34;&gt;confirm&lt;/span&gt;==&lt;span class=&#34;literal&#34;&gt;true&lt;/span&gt;)&amp;#123;&lt;span class=&#34;comment&#34;&gt;//用户点击了确认&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;点击确定&amp;#x27;&lt;/span&gt;,res)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;              &amp;#125;&lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt;(res.&lt;span class=&#34;property&#34;&gt;cancel&lt;/span&gt;==&lt;span class=&#34;literal&#34;&gt;true&lt;/span&gt;)&amp;#123;&lt;span class=&#34;comment&#34;&gt;//用户点击了取消&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;点击取消&amp;#x27;&lt;/span&gt;,res)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;              &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2 id=&#34;页面跳转&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#页面跳转&#34;&gt;#&lt;/a&gt; 页面跳转&lt;/h2&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Javascript&#34;&gt;&lt;figure class=&#34;iseeu highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wx.&lt;span class=&#34;title function_&#34;&gt;navigateTo&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;              &lt;span class=&#34;attr&#34;&gt;url&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;#x27;/pages/demo1/demo1&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2 id=&#34;升序排列&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#升序排列&#34;&gt;#&lt;/a&gt; 升序排列&lt;/h2&gt;
+&lt;p&gt;asc 表示升序，desc 为降序，前面是关键字&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;.orderBy(&amp;quot;price&amp;quot;,&amp;#x27;asc&amp;#x27;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2 id=&#34;command命令筛选&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#command命令筛选&#34;&gt;#&lt;/a&gt; command 命令筛选&lt;/h2&gt;
+&lt;p&gt;可以在微信开放文档&lt;a href=&#34;https://&#34;&gt; https://developers.weixin.qq.com/miniprogram/dev/wxcloud/reference-sdk-api/database/Command.html&lt;/a&gt; 中查看具体，常见的有 gt 大于，lt 小于，gte 大于等于&lt;/p&gt;
+&lt;p&gt;还可以使用 and 关键字设置多个查找条件，要注意格式 and ([]),[] 中用 {} 包裹筛选条件&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Javascript&#34;&gt;&lt;figure class=&#34;iseeu highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;.&lt;span class=&#34;title function_&#34;&gt;where&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;attr&#34;&gt;price&lt;/span&gt;:db.&lt;span class=&#34;property&#34;&gt;command&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;gt&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 组合查找&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;.&lt;span class=&#34;title function_&#34;&gt;where&lt;/span&gt;(_.&lt;span class=&#34;title function_&#34;&gt;and&lt;/span&gt;([&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;attr&#34;&gt;price&lt;/span&gt;: _.&lt;span class=&#34;title function_&#34;&gt;gt&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;, &lt;span class=&#34;comment&#34;&gt;//大于10&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;attr&#34;&gt;price&lt;/span&gt;: _.&lt;span class=&#34;title function_&#34;&gt;lt&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;20&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;, &lt;span class=&#34;comment&#34;&gt;//小于20&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    ]))&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2 id=&#34;云函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#云函数&#34;&gt;#&lt;/a&gt; 云函数&lt;/h2&gt;
+&lt;h3 id=&#34;初始化云函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#初始化云函数&#34;&gt;#&lt;/a&gt; 初始化云函数&lt;/h3&gt;
+&lt;p&gt;新增的文件夹一定要与 pages 平级，可以先点击与 pages 平级的文件，再点击新增文件夹，命名为 cloud，或者在云函数列表中右键新增 node.js 云函数&lt;/p&gt;
+&lt;p&gt;在 project.config.json 文件顶部配置云函数所在目录为 cloud，可以根据喜欢换名字，只要能对应起来就可以&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Javascript&#34;&gt;&lt;figure class=&#34;iseeu highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;&amp;quot;cloudfunctionRoot&amp;quot;&lt;/span&gt;:&lt;span class=&#34;string&#34;&gt;&amp;quot;/cloud&amp;quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;保存成功，此时 cloud 文件夹会出现云朵标志，代表初始化成功&lt;/p&gt;
+&lt;h3 id=&#34;注意事项&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#注意事项&#34;&gt;#&lt;/a&gt; 注意事项&lt;/h3&gt;
+&lt;p&gt;要注意云函数的环境要和小程序的环境对应&lt;/p&gt;
+&lt;p&gt;文件夹右键选择新建 node.js 文件&lt;/p&gt;
+&lt;h3 id=&#34;云函数的调用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#云函数的调用&#34;&gt;#&lt;/a&gt; 云函数的调用&lt;/h3&gt;
+&lt;p&gt;使用 callFunction, 在 name 处填写需要调用的云函数名称&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Javascript&#34;&gt;&lt;figure class=&#34;iseeu highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//云函数的调用&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//传统写法&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;wx.&lt;span class=&#34;property&#34;&gt;cloud&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;callFunction&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;attr&#34;&gt;name&lt;/span&gt;:&lt;span class=&#34;string&#34;&gt;&amp;#x27;getData&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;title function_&#34;&gt;success&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;res&lt;/span&gt;)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;请求云函数成功&amp;#x27;&lt;/span&gt;,res)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;title function_&#34;&gt;fail&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;err&lt;/span&gt;)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;请求云函数失败&amp;#x27;&lt;/span&gt;,res)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 建议写法&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;wx.&lt;span class=&#34;property&#34;&gt;cloud&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;callFunction&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;attr&#34;&gt;name&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;#x27;getData&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;.&lt;span class=&#34;title function_&#34;&gt;then&lt;/span&gt;(&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;params&#34;&gt;res&lt;/span&gt; =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;成功&amp;#x27;&lt;/span&gt;, res)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;variable language_&#34;&gt;this&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;setData&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &lt;span class=&#34;comment&#34;&gt;// 传递值&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;attr&#34;&gt;openid&lt;/span&gt;: res.&lt;span class=&#34;property&#34;&gt;result&lt;/span&gt;.&lt;span class=&#34;property&#34;&gt;openid&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;.&lt;span class=&#34;title function_&#34;&gt;catch&lt;/span&gt;(&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;params&#34;&gt;err&lt;/span&gt; =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;失败&amp;#x27;&lt;/span&gt;, err)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h3 id=&#34;云函数获取数据&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#云函数获取数据&#34;&gt;#&lt;/a&gt; 云函数获取数据&lt;/h3&gt;
+&lt;p&gt;云函数只要有变动，就要重新部署，否则云函数不生效&lt;/p&gt;
+&lt;p&gt;部署选择上传并部署：云端安装依赖 (不上传 node_modules)&lt;/p&gt;
+&lt;p&gt;如果只改变了 js 文件，可点击对应的 js 文件，右键选择云函数增量上传：更新文件&lt;/p&gt;
+&lt;p&gt;而且在云函数中操作数据库时，不再需要写 wx，wx 只在本地编写的时候才需要写&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;有多个云开发环境的时候，需要指定环境，或者使用 DYNAMIC_CURRENT_ENV 指定为当前环境（提倡写法）&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Javascript&#34;&gt;&lt;figure class=&#34;iseeu highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cloud.&lt;span class=&#34;title function_&#34;&gt;init&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;env&lt;/span&gt;: cloud.&lt;span class=&#34;property&#34;&gt;DYNAMIC_CURRENT_ENV&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;day3&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#day3&#34;&gt;#&lt;/a&gt; day3&lt;/h1&gt;
+&lt;p&gt;文件可以导出为 json 格式，可以使用记事本进行打开&lt;/p&gt;
+&lt;p&gt;导入的时候可以选择 insert 和 upsert 模式，使用 insert 时注意不要有多个 id 相同的情况出现，否则会报错。建议使用 upsert 模式。&lt;/p&gt;
+&lt;p&gt;云函数一次最多可返回 100 条数据，本地一次最多可返回 20 条数据。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;云函数中 console 在云端打印，我们在调试器中只能看到本地的 console。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;向云函数传递值&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#向云函数传递值&#34;&gt;#&lt;/a&gt; 向云函数传递值&lt;/h2&gt;
+&lt;p&gt;在 data 中传递值，在云函数中使用 event 接收对应的值&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Javascript&#34;&gt;&lt;figure class=&#34;iseeu highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wx.&lt;span class=&#34;property&#34;&gt;cloud&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;callFunction&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    name = &lt;span class=&#34;string&#34;&gt;&amp;#x27;update0129&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;attr&#34;&gt;data&lt;/span&gt;:&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;attr&#34;&gt;id&lt;/span&gt;:id,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;attr&#34;&gt;price&lt;/span&gt;:&lt;span class=&#34;number&#34;&gt;20&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 云函数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;event.&lt;span class=&#34;property&#34;&gt;id&lt;/span&gt;和event.&lt;span class=&#34;property&#34;&gt;price&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;day4&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#day4&#34;&gt;#&lt;/a&gt; day4&lt;/h1&gt;
+&lt;p&gt;在编写云函数时，要注意先保存再上传到云端。&lt;/p&gt;
+&lt;p&gt;创建云函数不难，相当于把本地的代码移到云函数，去掉 wx&lt;/p&gt;
+&lt;p&gt;可以导入源码，但是如果使用别人的源码需要改开发者 ID&lt;/p&gt;
+&lt;h2 id=&#34;选择文件接口&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#选择文件接口&#34;&gt;#&lt;/a&gt; 选择文件接口&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;用户选择文件接口（api)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://&#34;&gt;https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.chooseMedia.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;也可以选择 chooseImage 接口&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Javascript&#34;&gt;&lt;figure class=&#34;iseeu highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;title function_&#34;&gt;chooseImg&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;//上传图片的第一步&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    wx.&lt;span class=&#34;title function_&#34;&gt;chooseImage&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;attr&#34;&gt;count&lt;/span&gt;: &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;, &lt;span class=&#34;comment&#34;&gt;//可以选择多少张图片&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;attr&#34;&gt;sizeType&lt;/span&gt;: [&lt;span class=&#34;string&#34;&gt;&amp;#x27;original&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;compressed&amp;#x27;&lt;/span&gt;],&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;attr&#34;&gt;sourceType&lt;/span&gt;: [&lt;span class=&#34;string&#34;&gt;&amp;#x27;album&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;camera&amp;#x27;&lt;/span&gt;], &lt;span class=&#34;comment&#34;&gt;//设置图片来源&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;attr&#34;&gt;success&lt;/span&gt;:&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;params&#34;&gt;res&lt;/span&gt;=&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;variable language_&#34;&gt;this&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;uploadImg&lt;/span&gt;(res.&lt;span class=&#34;property&#34;&gt;tempFilePaths&lt;/span&gt;[&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;])&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2 id=&#34;文件上传&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#文件上传&#34;&gt;#&lt;/a&gt; 文件上传&lt;/h2&gt;
+&lt;p&gt;然后就可以对获取到的文件进行上传&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://&#34;&gt;https://developers.weixin.qq.com/miniprogram/dev/wxcloud/reference-sdk-api/storage/uploadFile/client.uploadFile.html&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Javascript&#34;&gt;&lt;figure class=&#34;iseeu highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;title function_&#34;&gt;uploadImg&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;temfile&lt;/span&gt;)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;要上传图片的临时路径&amp;#x27;&lt;/span&gt;,temfile)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    wx.&lt;span class=&#34;property&#34;&gt;cloud&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;uploadFile&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;attr&#34;&gt;cloudPath&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;#x27;西芹1.png&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;attr&#34;&gt;filePath&lt;/span&gt;: temfile, &lt;span class=&#34;comment&#34;&gt;// 文件路径&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;attr&#34;&gt;success&lt;/span&gt;: &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;params&#34;&gt;res&lt;/span&gt; =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;上传成功&amp;#x27;&lt;/span&gt;,res)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;attr&#34;&gt;fail&lt;/span&gt;: &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;params&#34;&gt;err&lt;/span&gt; =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;上传失败&amp;#x27;&lt;/span&gt;,err)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      &amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;点击预览即可在手机上体验使用小程序上传图片&lt;/p&gt;
+&lt;h1 id=&#34;day5&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#day5&#34;&gt;#&lt;/a&gt; day5&lt;/h1&gt;
+&lt;p&gt;存储图片路径，使用存储中的下载地址，复制的时候注意不要复制问号后面的东西，因为是时间戳，可能导致图片失效。&lt;/p&gt;
+&lt;h2 id=&#34;上传视频&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#上传视频&#34;&gt;#&lt;/a&gt; 上传视频&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://&#34;&gt;https://developers.weixin.qq.com/miniprogram/dev/api/media/video/wx.chooseVideo.html&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Javascript&#34;&gt;&lt;figure class=&#34;iseeu highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wx.&lt;span class=&#34;title function_&#34;&gt;chooseVideo&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;sourceType&lt;/span&gt;: [&lt;span class=&#34;string&#34;&gt;&amp;#x27;album&amp;#x27;&lt;/span&gt;,&lt;span class=&#34;string&#34;&gt;&amp;#x27;camera&amp;#x27;&lt;/span&gt;],&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;maxDuration&lt;/span&gt;: &lt;span class=&#34;number&#34;&gt;60&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;camera&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;#x27;back&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;title function_&#34;&gt;success&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;res&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(res.&lt;span class=&#34;property&#34;&gt;tempFilePath&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;上传视频有时候比较慢，需要耐心等待。&lt;/p&gt;
+&lt;p&gt;通过 type 值判断是上传视频还是图片&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Javascript&#34;&gt;&lt;figure class=&#34;iseeu highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;image &lt;span class=&#34;attr&#34;&gt;wx&lt;/span&gt;:&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt;=&lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;#123;&amp;#123;showImg&amp;#125;&amp;#125;&amp;quot;&lt;/span&gt; src=&lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;#123;&amp;#123;imgUrl&amp;#125;&amp;#125;&amp;quot;&lt;/span&gt;&amp;gt;&amp;lt;/image&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;language-xml&#34;&gt;&lt;span class=&#34;tag&#34;&gt;&amp;lt;&lt;span class=&#34;name&#34;&gt;video&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;wx:if&lt;/span&gt;=&lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;#123;&amp;#123;showVideo&amp;#125;&amp;#125;&amp;quot;&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;src&lt;/span&gt;=&lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;#123;&amp;#123;videoUrl&amp;#125;&amp;#125;&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;tag&#34;&gt;&amp;lt;/&lt;span class=&#34;name&#34;&gt;video&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2 id=&#34;上传word和pdf文件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#上传word和pdf文件&#34;&gt;#&lt;/a&gt; 上传 Word 和 PDF 文件&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://&#34;&gt;https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.chooseMessageFile.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;从客户端会话选择文件。&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wx.chooseMessageFile(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  count: 10,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  type: &amp;#x27;image&amp;#x27;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  success (res) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    // tempFilePath可以作为img标签的src属性显示图片&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    const tempFilePaths = res.tempFiles&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2 id=&#34;文件下载&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#文件下载&#34;&gt;#&lt;/a&gt; 文件下载&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://&#34;&gt;https://developers.weixin.qq.com/miniprogram/dev/wxcloud/reference-sdk-api/storage/downloadFile/client.downloadFile.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;从云存储空间下载文件&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Javascript&#34;&gt;&lt;figure class=&#34;iseeu highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wx.&lt;span class=&#34;property&#34;&gt;cloud&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;downloadFile&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;attr&#34;&gt;fileID&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;#x27;a7xzcb&amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&amp;#125;).&lt;span class=&#34;title function_&#34;&gt;then&lt;/span&gt;(&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;params&#34;&gt;res&lt;/span&gt; =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;下载成功&amp;#x27;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;).&lt;span class=&#34;title function_&#34;&gt;catch&lt;/span&gt;(&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;params&#34;&gt;error&lt;/span&gt; =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;variable language_&#34;&gt;console&lt;/span&gt;.&lt;span class=&#34;title function_&#34;&gt;log&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;#x27;下载失败&amp;#x27;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h1 id=&#34;day6&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#day6&#34;&gt;#&lt;/a&gt; day6&lt;/h1&gt;
+&lt;p&gt;vue 文件中，data 初始化需要使用的数据，生命周期函数写在 methods 外面，而自定义的函数写在 methods 内。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;传递值不需要 setdata，只需要 this. 变量名 = 值即可。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;目录结构&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#目录结构&#34;&gt;#&lt;/a&gt; 目录结构&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;目录名&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;pages&lt;/td&gt;
+&lt;td&gt;页面存放目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;static&lt;/td&gt;
+&lt;td&gt;静态文件目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;APP.vue&lt;/td&gt;
+&lt;td&gt;应用入口文件，和小程序 app.js 类似&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;main.js&lt;/td&gt;
+&lt;td&gt;应用入口文件，注册 vue 等&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;manifest.json&lt;/td&gt;
+&lt;td&gt;项目配置&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;pages.json&lt;/td&gt;
+&lt;td&gt;页面配置&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;common&lt;/td&gt;
+&lt;td&gt;存放共用的文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;components&lt;/td&gt;
+&lt;td&gt;自定义组件目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;store&lt;/td&gt;
+&lt;td&gt;vuex 目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;unpackage&lt;/td&gt;
+&lt;td&gt;编译后的文件目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;前端控制语句&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前端控制语句&#34;&gt;#&lt;/a&gt; 前端控制语句&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;函数&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;v-bind&lt;/td&gt;
+&lt;td&gt;可以简写为：，组件属性要使用 data 中定义的数据变量，或者组件属性使用表达式，要使用 v-bind 指定&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;v-on&lt;/td&gt;
+&lt;td&gt;可以简写为 @绑定事件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;v-model&lt;/td&gt;
+&lt;td&gt;数据双向绑定，例如根据输入值动态改变 data 中的值&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;v-if&lt;/td&gt;
+&lt;td&gt;条件判断，决定某个内容或者区块是否挂载&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;v-show&lt;/td&gt;
+&lt;td&gt;条件判断，是否显示&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;v-for&lt;/td&gt;
+&lt;td&gt;列表渲染，遍历循环，可以使用 index 获取序号，可以使用 value 和 key 获取对象中的对应关系&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;onclick 事件也能够通过写表达式改变值，.stop 可以阻止事件穿透&lt;/p&gt;
+&lt;h2 id=&#34;生命周期&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#生命周期&#34;&gt;#&lt;/a&gt; 生命周期&lt;/h2&gt;
+&lt;h3 id=&#34;应用的生命周期appvue&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#应用的生命周期appvue&#34;&gt;#&lt;/a&gt; 应用的生命周期（APP.vue)&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;周期名&lt;/th&gt;
+&lt;th&gt;意义&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;onLaunch&lt;/td&gt;
+&lt;td&gt;应用初始化完成执行，全局只执行一次，通常做登录的处理&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;onShow&lt;/td&gt;
+&lt;td&gt;应用显示时执行，或者从后台进入前台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;onHide&lt;/td&gt;
+&lt;td&gt;应用隐藏时执行，或者从前台进入后台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;页面的生命周期&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#页面的生命周期&#34;&gt;#&lt;/a&gt; 页面的生命周期&lt;/h3&gt;
+&lt;p&gt;onReady 在 onShow 之后触发，因为要等待数据&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;周期名&lt;/th&gt;
+&lt;th&gt;意义&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;onLoad&lt;/td&gt;
+&lt;td&gt;页面加载时触发&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;onReady&lt;/td&gt;
+&lt;td&gt;页面初次完成渲染时触发&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;onShow&lt;/td&gt;
+&lt;td&gt;页面显示时触发&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;onUnload&lt;/td&gt;
+&lt;td&gt;页面卸载时触发&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;onHide&lt;/td&gt;
+&lt;td&gt;页面隐藏时触发&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;在写完云函数之后，一定要先停止在模拟器上运行，在编译一次才可以的，然后上传到云端，就可以进行使用了&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;v-model 真的是神器，省去了很多获取值的麻烦操作&lt;/strong&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

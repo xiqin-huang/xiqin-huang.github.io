@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    
+    <meta name="author" content="The Redefine Team">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="http://example.com/2023/10/12/编程/算法常用技巧/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta name="description" content="# 数学 123等差数列求和：Sn&#x3D;(a1+an)*n&#x2F;2;Sn&#x3D;n*a1+d*(n-1)*n&#x2F;2等比数列求和：Sn&#x3D;a1*(1-qn)&#x2F;(1-q);Sn&#x3D;(a1-an*q)&#x2F;(1-q)组合数学：A(n,m)&#x3D;(n!)&#x2F;(n-m)!;C(n,m)&#x3D;A(n,m)&#x2F;m!&#x3D;(n!)&#x2F;((n-m)!*m! 唯一分解定理 一个大于 1 的正整数 N，如果它的标准分解式为 N&#x3D;p1a1+p2a2+…+pnan">
+<meta property="og:type" content="article">
+<meta property="og:title" content="算法常用技巧">
+<meta property="og:url" content="http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E7%AE%97%E6%B3%95%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="# 数学 123等差数列求和：Sn&#x3D;(a1+an)*n&#x2F;2;Sn&#x3D;n*a1+d*(n-1)*n&#x2F;2等比数列求和：Sn&#x3D;a1*(1-qn)&#x2F;(1-q);Sn&#x3D;(a1-an*q)&#x2F;(1-q)组合数学：A(n,m)&#x3D;(n!)&#x2F;(n-m)!;C(n,m)&#x3D;A(n,m)&#x2F;m!&#x3D;(n!)&#x2F;((n-m)!*m! 唯一分解定理 一个大于 1 的正整数 N，如果它的标准分解式为 N&#x3D;p1a1+p2a2+…+pnan">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-10-12T10:49:32.918Z">
+<meta property="article:modified_time" content="2022-06-18T07:07:24.000Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="Python">
+<meta property="article:tag" content="编程">
+<meta property="article:tag" content="算法">
+<meta name="twitter:card" content="summary">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/redefine-favicon.svg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/redefine-favicon.svg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/redefine-favicon.svg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            算法常用技巧 -
+        
+        Theme Redefine
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/assets/build/styles.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/fonts.css">
+
+    
+<link rel="stylesheet" href="/fonts/Satoshi/satoshi.css">
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+    <!--- Font Part-->
+    
+    
+    
+    
+
+    <!--- Inject Part-->
+    
+    <script id="hexo-configurations">
+    window.config = {"hostname":"example.com","root":"/","language":"en"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":true,"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/wallhaven-wqery6-light.webp","dark":"/images/wallhaven-wqery6-dark.webp"},"title":"Theme Redefine","subtitle":{"text":[],"hitokoto":{"enable":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":false,"links":{"github":null,"instagram":null,"zhihu":null,"twitter":null,"email":null},"qrs":{"weixin":null}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.5.0","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"}},"search":{"enable":false,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":null,"links":null},"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2022/8/17 11:45:14"};
+    window.lang_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+    window.data = {"masonry":false};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <span class="swup-progress-icon">
+            <i class="fa-solid fa-circle-notch fa-spin"></i>
+        </span>
+    
+</div>
+
+
+<main class="page-container" id="swup">
+
+    
+
+    <div class="main-content-container">
+
+
+        <div class="main-content-header">
+            <header class="navbar-container">
+    
+    <div class="navbar-content">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                
+                Theme Redefine
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-house"></i>
+                                        
+                                        HOME
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="navbar-drawer w-full absolute top-0 left-0 bg-background-color">
+        <ul class="drawer-navbar-list flex flex-col justify-start items-center">
+            
+                
+                    <li class="drawer-navbar-item text-base my-1.5 flex justify-center items-center">
+                        <a class="rounded-3xl py-1.5 px-5 hover:border hover:!text-primary active:!text-primary group " 
+                        href="/"  >
+                             
+                                
+                                    <i class="fa-regular fa-house"></i>
+                                
+                                HOME
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="post-page-container">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            
+                <h1 class="article-title-regular">算法常用技巧</h1>
+            
+            </div>
+            
+                    
+        
+        
+            <div class="article-header flex flex-row gap-2 items-center">
+                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+                    <img src="/images/redefine-avatar.svg">
+                </div>
+                <div class="info flex flex-col justify-between">
+                    <div class="author flex items-center">
+                        <span class="name text-default-text-color text-lg font-semibold">The Redefine Team</span>
+                        
+                            <span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">Lv5</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2023-10-12 18:49:32</span>
+        <span class="mobile">2023-10-12 18:49:32</span>
+        <span class="hover-info">Created</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2022-06-18 15:07:24</span>
+            <span class="mobile">2022-06-18 15:07:24</span>
+            <span class="hover-info">Updated</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/%E7%BC%96%E7%A8%8B/">编程</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/Python/">Python</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E7%BC%96%E7%A8%8B/">编程</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E7%AE%97%E6%B3%95/">算法</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body">
+            <h1 id="数学"><a class="markdownIt-Anchor" href="#数学">#</a> 数学</h1>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">等差数列求和：Sn=(a1+an)*n/2;Sn=n*a1+d*(n-1)*n/2</span><br><span class="line">等比数列求和：Sn=a1*(1-qn)/(1-q);Sn=(a1-an*q)/(1-q)</span><br><span class="line">组合数学：A(n,m)=(n!)/(n-m)!;C(n,m)=A(n,m)/m!=(n!)/((n-m)!*m!</span><br></pre></td></tr></table></figure></div>
+<p><strong>唯一分解定理</strong></p>
+<p>一个大于 1 的正整数 N，如果它的标准分解式为 N=p1a1+p2a2+…+pnan，那么它的正因数为（a1+1)(a2+1)…(an+1),<br>
+ 其中 pi 为素数（1 不为素数）</p>
+<p><strong>斐波那契数公式</strong></p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">fib</span>(<span class="params">self, n: <span class="built_in">int</span></span>) -&gt; <span class="built_in">int</span>:</span><br><span class="line">    sqrt5 = <span class="number">5</span>**<span class="number">0.5</span></span><br><span class="line">    fibN = ((<span class="number">1</span> + sqrt5) / <span class="number">2</span>) ** n - ((<span class="number">1</span> - sqrt5) / <span class="number">2</span>) ** n</span><br><span class="line"><span class="keyword">return</span> <span class="built_in">round</span>(fibN / sqrt5)</span><br></pre></td></tr></table></figure></div>
+<h1 id="做题小技巧"><a class="markdownIt-Anchor" href="#做题小技巧">#</a> 做题小技巧</h1>
+<p>综合利用哈希表和前缀和可以解决连续子数组的问题。</p>
+<p>有时候通过将问题的值进行变换，可以将问题转化为一个我们已知的问题或较为简单的问题，例如将 0 替换成 - 1，这样就可以使用通过前缀和的知识点来解决子数组中有相同 0 和 1 的问题。</p>
+<p>子函数内使用 global 全局函数关键字</p>
+<p><strong>遍历的小技巧</strong></p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i, w <span class="keyword">in</span> <span class="built_in">enumerate</span>(servers)：i表示索引，w为实际从server中取出来的值</span><br></pre></td></tr></table></figure></div>
+<h1 id="常用函数"><a class="markdownIt-Anchor" href="#常用函数">#</a> 常用函数</h1>
+<h2 id="集合"><a class="markdownIt-Anchor" href="#集合">#</a> 集合</h2>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>set1=set()</td>
+<td>创建集合</td>
+</tr>
+<tr>
+<td>set1.add(6)</td>
+<td>增加元素</td>
+</tr>
+<tr>
+<td>set1.remove(5)</td>
+<td>删除元素</td>
+</tr>
+</tbody>
+</table>
+<h2 id="字符串"><a class="markdownIt-Anchor" href="#字符串">#</a> 字符串</h2>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>find(sub)</td>
+<td>检测 sub 是否存在于字符串中，有则返回索引值，无则返回 - 1</td>
+</tr>
+<tr>
+<td>count(sub)</td>
+<td>判断 sub 在字符串中出现的次数</td>
+</tr>
+<tr>
+<td>isalnum()</td>
+<td>如果字符串至少有一个字符并且所有的字符都是字母或数字则返回 True，否则返回 False。</td>
+</tr>
+<tr>
+<td>isalpha()</td>
+<td>如果字符串至少有一个字符而且所有字符都是字母则返回 True，否则返回 false</td>
+</tr>
+<tr>
+<td>isdigit()</td>
+<td>如果字符串只包含数字则返回 True，否则返回 false</td>
+</tr>
+<tr>
+<td>join()</td>
+<td>以字符串为分隔符，插入到 sub 中所有的字符之间 n=“”.join (n)</td>
+</tr>
+<tr>
+<td>replace(old,new[,count])</td>
+<td>把字符串中的 old 子字符串替换成 new 子字符串，如果 count 指定，则替换不超过 count 次</td>
+</tr>
+<tr>
+<td>split(sep=None,maxsplit=-1)</td>
+<td>分隔字符串，默认按照空格作为分隔符切片字符串</td>
+</tr>
+<tr>
+<td>splitlines()</td>
+<td>按照 “\n” 分隔，返回一个包含各行作为元素的列表</td>
+</tr>
+<tr>
+<td>strip([chars])</td>
+<td>删除字符串前边和后边的所有空格，chars 参数可以定制删除的字符</td>
+</tr>
+</tbody>
+</table>
+<h2 id="数组"><a class="markdownIt-Anchor" href="#数组">#</a> 数组</h2>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>copy.deepcopy()</td>
+<td>深复制，真正的新建一个数组进行赋值，而不是传引用。使用前需要 import copy。</td>
+</tr>
+<tr>
+<td>clear()</td>
+<td>清空列表中的元素，留下一个空列表。</td>
+</tr>
+<tr>
+<td>append()</td>
+<td>向列表添加元素</td>
+</tr>
+<tr>
+<td>extend()</td>
+<td>使用一个列表来拓展一个列表</td>
+</tr>
+<tr>
+<td>remove（sub）</td>
+<td>删除 sub 元素</td>
+</tr>
+<tr>
+<td>insert（num,index）</td>
+<td>在 index 处插入一个 num</td>
+</tr>
+<tr>
+<td>pop（index）</td>
+<td>弹出 index 处元素</td>
+</tr>
+<tr>
+<td>count（）</td>
+<td>计算出现次数</td>
+</tr>
+<tr>
+<td>index（）</td>
+<td>返回元素位置</td>
+</tr>
+<tr>
+<td>reverse（）</td>
+<td>翻转列表</td>
+</tr>
+<tr>
+<td>sort（）</td>
+<td>排序</td>
+</tr>
+</tbody>
+</table>
+<h2 id="math库"><a class="markdownIt-Anchor" href="#math库">#</a> Math 库</h2>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>math.pow(x, y)</td>
+<td>返回 x 的 y 次方</td>
+</tr>
+<tr>
+<td>math.ceil(x)</td>
+<td>返回不小于 x 的整数</td>
+</tr>
+<tr>
+<td>math.fabs(x)</td>
+<td>返回 x 的绝对值</td>
+</tr>
+<tr>
+<td>math.floor(x)</td>
+<td>返回不大于 x 的整数</td>
+</tr>
+<tr>
+<td>math.fsum([x, y, …])</td>
+<td>返回无损精度的和</td>
+</tr>
+<tr>
+<td>math.sqrt(x)</td>
+<td>返回 x 的平方根</td>
+</tr>
+</tbody>
+</table>
+<h1 id="其他"><a class="markdownIt-Anchor" href="#其他">#</a> 其他</h1>
+<h2 id="datatime"><a class="markdownIt-Anchor" href="#datatime">#</a> datatime</h2>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">date.isocalendar()        <span class="comment">#返回结果是三元组(年号，第几周，第几天)</span></span><br><span class="line">date.strftime(<span class="string">&quot;%j&quot;</span>)        <span class="comment">#计算输入的日期是一年中的第几天</span></span><br><span class="line">end=datetime.datetime(year=<span class="number">2020</span>,month=<span class="number">10</span>,day=<span class="number">1</span>)</span><br><span class="line">dela=datetime.timedelta(days=<span class="number">1</span>)</span><br><span class="line"><span class="keyword">if</span> start.day==<span class="number">1</span> <span class="keyword">or</span> start.weekday()==<span class="number">0</span>:<span class="comment">#月初或周一</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="优先队列"><a class="markdownIt-Anchor" href="#优先队列">#</a> 优先队列</h2>
+<p>优先队列是按照递增进行排列的，弹出的数据是最小的元素，如果想让其递减的排列，可以在前面乘一个 - 1.</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> heapq     %导入库函数</span><br><span class="line">heapq.heapify(nums)     %将数组转化为优先队列</span><br><span class="line">heapq.heappush(nums,<span class="number">7</span>)     %往优先队列中插入元素</span><br><span class="line">num=heapq.heappop(nums)     %从优先队列中取出元素</span><br></pre></td></tr></table></figure></div>
+<h2 id="类的声明"><a class="markdownIt-Anchor" href="#类的声明">#</a> 类的声明</h2>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Potato</span>:<span class="comment">#声明类名</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self,name</span>):<span class="comment">#声明构造方法，self用于在类中传递各种属性</span></span><br><span class="line">          self.name=name</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">kick</span>(<span class="params">self</span>):</span><br><span class="line">          <span class="built_in">print</span>(<span class="string">&quot;我叫%s。&quot;</span>%self.name);</span><br></pre></td></tr></table></figure></div>
+
+        </div>
+
+        
+            <div class="post-copyright-info">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>Title:</strong> 算法常用技巧</li>
+        <li><strong>Author:</strong> The Redefine Team</li>
+        <li><strong>Created at
+                :</strong> 2023-10-12 18:49:32</li>
+        
+            <li>
+                <strong>Updated at
+                    :</strong> 2022-06-18 15:07:24
+            </li>
+        
+        <li>
+            <strong>Link:</strong> https://redefine.ohevan.com/2023/10/12/编程/算法常用技巧/
+        </li>
+        <li>
+            <strong>
+                License:
+            </strong>
+            
+            This work is licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>.
+            
+
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box">
+                
+                    <li class="tag-item">
+                        <a href="/tags/Python/">#Python</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item">
+                        <a href="/tags/%E7%BC%96%E7%A8%8B/">#编程</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item">
+                        <a href="/tags/%E7%AE%97%E6%B3%95/">#算法</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+
+        
+            <div class="article-nav">
+                
+                    <div class="article-prev">
+                        <a class="prev"
+                        rel="prev"
+                        href="/2023/10/12/%E7%BC%96%E7%A8%8B/%E7%BC%96%E7%A8%8B%E7%8F%A0%E7%8E%91-%E4%B9%94%E6%81%A9.%E6%9C%AC%E7%89%B9%E5%88%A9-85/"
+                        >
+                            <span class="left arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">编程珠玑-乔恩.本特利-85</span>
+                                <span class="post-nav-item">Prev posts</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                        rel="next"
+                        href="/2023/10/12/%E7%BC%96%E7%A8%8B/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BB%83%E4%B9%A0/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">数据库练习</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+            <div class="comment-container">
+                <div class="comments-container pjax">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fa-solid fa-comments"></i>&nbsp;Comments
+    </div>
+    
+
+        
+            
+ 
+    <div id="waline"></div>
+    <script type="module"  data-swup-reload-script>
+        import { init } from '/js/libs/waline.mjs';
+
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'https://example.example.com',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+            });
+        }
+
+        if ('true') {
+            const loadWalineTimeout = setTimeout(() => {
+                loadWaline();
+                clearTimeout(loadWalineTimeout);
+            }, 1000);
+        } else {
+            window.addEventListener('DOMContentLoaded', loadWaline);
+        }
+        
+    </script>
+
+
+
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">On this page</div>
+        <div class="page-title">算法常用技巧</div>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%95%B0%E5%AD%A6"><span class="nav-text"> 数学</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%81%9A%E9%A2%98%E5%B0%8F%E6%8A%80%E5%B7%A7"><span class="nav-text"> 做题小技巧</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0"><span class="nav-text"> 常用函数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9B%86%E5%90%88"><span class="nav-text"> 集合</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="nav-text"> 字符串</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E7%BB%84"><span class="nav-text"> 数组</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#math%E5%BA%93"><span class="nav-text"> Math 库</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B6%E4%BB%96"><span class="nav-text"> 其他</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#datatime"><span class="nav-text"> datatime</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97"><span class="nav-text"> 优先队列</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B1%BB%E7%9A%84%E5%A3%B0%E6%98%8E"><span class="nav-text"> 类的声明</span></a></li></ol></li></ol>
+
+    </div>
+</div>
+        </div>
+    
+</div>
+
+
+
+                
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2022</span>
+              -
+            
+            2023&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">The Redefine Team</a>
+        </div>
+        
+            <script data-swup-reload-script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">VISITOR COUNT</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">TOTAL PAGE VIEWS</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">POWERED BY <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a></span>
+            <span class="text-sm lg:block">THEME&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.5.0</a></span>
+        </div>
+        
+        
+            <div>
+                Blog up for <span class="odometer" id="runtime_days" ></span> days <span class="odometer" id="runtime_hours"></span> hrs <span class="odometer" id="runtime_minutes"></span> Min <span class="odometer" id="runtime_seconds"></span> Sec
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+
+</main>
+
+
+    
+<script src="/js/libs/Swup.min.js"></script>
+
+<script src="/js/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+</script>
+
+
+
+
+
+
+
+<script src="/js/tools/imageViewer.js" type="module"></script>
+
+<script src="/js/utils.js" type="module"></script>
+
+<script src="/js/main.js" type="module"></script>
+
+<script src="/js/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/js/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/js/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/js/layouts/categoryList.js" type="module"></script>
+
+
+
+
+
+    
+<script src="/js/tools/codeBlock.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/layouts/lazyload.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/tools/runtime.js"></script>
+
+    
+<script src="/js/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/libs/Typed.min.js"></script>
+
+  
+<script src="/js/plugins/typed.js" type="module"></script>
+
+
+
+
+
+
+
+<div class="post-scripts" data-swup-reload-script>
+    
+        
+<script src="/js/libs/anime.min.js"></script>
+
+        
+<script src="/js/tools/tocToggle.js" type="module"></script>
+
+<script src="/js/layouts/toc.js" type="module"></script>
+
+<script src="/js/plugins/tabs.js" type="module"></script>
+
+    
+</div>
+
+
+</body>
+</html>

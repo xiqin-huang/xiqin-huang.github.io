@@ -1,0 +1,646 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Hexo • Posts by &#34;办公&#34; category</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>en</language>
+        <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
+        <lastBuildDate>Thu, 12 Oct 2023 18:49:32 +0800</lastBuildDate>
+        <category>游记</category>
+        <category>散文</category>
+        <category>java</category>
+        <category>书籍</category>
+        <category>java基础</category>
+        <category>java学习路线</category>
+        <category>科幻</category>
+        <category>小说</category>
+        <category>历史政治</category>
+        <category>人物传记</category>
+        <category>阅读</category>
+        <category>余华</category>
+        <category>名言警句</category>
+        <category>心理学</category>
+        <category>历史</category>
+        <category>政治</category>
+        <category>明朝</category>
+        <category>科技人文</category>
+        <category>杂文</category>
+        <category>人生感悟</category>
+        <category>经济学</category>
+        <category>中国</category>
+        <category>科技</category>
+        <category>心理</category>
+        <category>人际交往</category>
+        <category>Excel</category>
+        <category>office</category>
+        <category>日常办公</category>
+        <category>鲁迅</category>
+        <category>Premiere</category>
+        <category>视频剪辑</category>
+        <category>电影</category>
+        <category>动漫</category>
+        <category>短剧</category>
+        <category>电视剧</category>
+        <category>电子书</category>
+        <category>计算机基础</category>
+        <category>云开发</category>
+        <category>微信小程序</category>
+        <category>数据库</category>
+        <category>MySQL</category>
+        <category>跨考</category>
+        <category>考研</category>
+        <category>计算机</category>
+        <category>Python</category>
+        <category>编程</category>
+        <category>算法</category>
+        <category>月报</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/10/12/%E5%8A%9E%E5%85%AC/Premiere%E7%AC%94%E8%AE%B0/</guid>
+            <title>Premiere笔记</title>
+            <link>http://example.com/2023/10/12/%E5%8A%9E%E5%85%AC/Premiere%E7%AC%94%E8%AE%B0/</link>
+            <category>Premiere</category>
+            <category>视频剪辑</category>
+            <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;常用技巧&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常用技巧&#34;&gt;#&lt;/a&gt; 常用技巧&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;新建字幕：新建 -&amp;gt; 旧版标题。&lt;/li&gt;
+&lt;li&gt;工程文件也需要预览，绿色的是字，红色的是视频。&lt;/li&gt;
+&lt;li&gt;To EDIT 是用于替换的地方，SHOT 是视频，TEXT 是文本。&lt;/li&gt;
+&lt;li&gt;效果 -&amp;gt; 点击已有的效果可以更加详细的调整效果。&lt;/li&gt;
+&lt;li&gt;可以设置暂存盘，最好是 C 盘以外。&lt;/li&gt;
+&lt;li&gt;编辑 -&amp;gt; 首选项 -&amp;gt; 时间轴，可以调整导入的东西的持续时间。&lt;/li&gt;
+&lt;li&gt;窗口 -&amp;gt; 基本图形 -&amp;gt; 编辑，调整字体大小。&lt;/li&gt;
+&lt;li&gt;PS 蒙版的使用&lt;/li&gt;
+&lt;li&gt;图像大小和移动，点击编辑 -&amp;gt; 效果控件，用里面的位置和缩放即可。&lt;/li&gt;
+&lt;li&gt;AVI 格式更清晰，Quicktime。&lt;/li&gt;
+&lt;li&gt;关键帧点击位置和旋转。&lt;/li&gt;
+&lt;li&gt;设置字体背景的不透明度为 0 就不会影响视频文件。&lt;/li&gt;
+&lt;li&gt;视频过渡 -&amp;gt; 渐变擦除，可以用 PS 生成灰度图自定义转场。&lt;/li&gt;
+&lt;li&gt;可以在效果控件中消除，复制和粘贴视频效果。&lt;/li&gt;
+&lt;li&gt;新建一个图层可以增加一个共有的效果。&lt;/li&gt;
+&lt;li&gt;模板是 mogrt 文件。&lt;/li&gt;
+&lt;li&gt;窗口 -&amp;gt; 基本图形 -&amp;gt; 导入，当作时间轴拖入。&lt;/li&gt;
+&lt;li&gt;要先按回车进行渲染，再播放，不然会很卡。&lt;/li&gt;
+&lt;li&gt;蓝色的模板是不要渲染，而红色的需要。&lt;/li&gt;
+&lt;li&gt;字体问题直接忽略，或者可以去下载字体库。&lt;/li&gt;
+&lt;li&gt;工程文件模板在每个素材那里替换即可。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;快捷键&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#快捷键&#34;&gt;#&lt;/a&gt; 快捷键&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;寻找剪辑点&lt;/td&gt;
+&lt;td&gt;寻找剪辑点时，我们可以按下空格键 Space 播放和暂停。大致找到后，细找帧&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Left Right 键&lt;/td&gt;
+&lt;td&gt;向前向后一帧 （比较细致，可以一直按，这样速度快一点）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;shift+Left Right 键&lt;/td&gt;
+&lt;td&gt;向前向后五帧（这个比较快）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;J&lt;/td&gt;
+&lt;td&gt;左穿梭 / 倒放&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;K&lt;/td&gt;
+&lt;td&gt;停止穿梭&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;L&lt;/td&gt;
+&lt;td&gt;右穿梭 / 正放&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shift + L&lt;/td&gt;
+&lt;td&gt;慢速右穿梭&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shift + J&lt;/td&gt;
+&lt;td&gt;慢速左穿梭，穿梭键如果连按，可以加速，K 和 Space 都可以停止播放&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan=&#34;2&#34;&gt;时间线窗口中时间帧的管理&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;End&lt;/td&gt;
+&lt;td&gt;跳转到序列 - 素材结束点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Home&lt;/td&gt;
+&lt;td&gt;跳转到序列 - 素材开始点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shift + End&lt;/td&gt;
+&lt;td&gt;跳转到所选素材结束点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Up&lt;/td&gt;
+&lt;td&gt;跳转上一个编辑点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Down&lt;/td&gt;
+&lt;td&gt;跳转下一个编辑点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+D&lt;/td&gt;
+&lt;td&gt;添加转场效果，效果直接拖到转场处即可&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt&lt;/td&gt;
+&lt;td&gt;复制视频&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan=&#34;2&#34;&gt;剪辑开始&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;i&lt;/td&gt;
+&lt;td&gt;设置入点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;o&lt;/td&gt;
+&lt;td&gt;设置出点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shift + I&lt;/td&gt;
+&lt;td&gt;跳转入店&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shift + O&lt;/td&gt;
+&lt;td&gt;跳转出点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;‘&lt;/td&gt;
+&lt;td&gt;提取&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;，&lt;/td&gt;
+&lt;td&gt;插入&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;.&lt;/td&gt;
+&lt;td&gt;覆盖&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M&lt;/td&gt;
+&lt;td&gt;标记点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;shift+M&lt;/td&gt;
+&lt;td&gt;移动点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;直接剪辑&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#直接剪辑&#34;&gt;#&lt;/a&gt; 直接剪辑&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;剃刀 D，不建议用，一个是慢一个是不准确&lt;/li&gt;
+&lt;li&gt;用 “添加编辑” 功能，因为常用，我把他重设了快捷键，大家可以在快捷键面板上搜索，一按此键，就可以在时间帧处切开&lt;/li&gt;
+&lt;li&gt;Q 把时间帧前面的素材切掉，W 把时间帧后面的素材切掉，补充说明切掉的素材指此段素材，不是说时间帧之前到开头的都没有了&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/10/12/%E5%8A%9E%E5%85%AC/Excel/</guid>
+            <title>Excel操作技巧</title>
+            <link>http://example.com/2023/10/12/%E5%8A%9E%E5%85%AC/Excel/</link>
+            <category>Excel</category>
+            <category>office</category>
+            <category>日常办公</category>
+            <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;01-excel入门&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#01-excel入门&#34;&gt;#&lt;/a&gt; 01 Excel 入门&lt;/h2&gt;
+&lt;p&gt;跨列居中：对齐方式 - 水平对齐 - 选定 “跨列居中”（Office365 版本）&lt;/p&gt;
+&lt;h3 id=&#34;自动调整栏宽&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#自动调整栏宽&#34;&gt;#&lt;/a&gt; 自动调整栏宽&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;单栏调整：双击间隔线。&lt;/li&gt;
+&lt;li&gt;多栏同宽调整：选定栏数，拖动任一栏宽度调整。（调整列亦同）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;日期输入&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#日期输入&#34;&gt;#&lt;/a&gt; 日期输入&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;输入使用斜线格式，方便 excel 函数等功能计算使用&lt;/li&gt;
+&lt;li&gt;使用 “右键单元格格式 - 数字 - 日期” 更换日期格式显示&lt;/li&gt;
+&lt;li&gt;更换后日期栏显示 “#######”，表示日期文字过长，调整栏宽即可&lt;/li&gt;
+&lt;li&gt;“Ctrl+；” 输入今日日期，向下拖动自动填充往后日期，拖动后方框右下角图标可设置填充格式，向下输入选项，有重复内容，右键 - 从下拉列表中选择，可从已输入选项中选择输入&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;计算总金额&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#计算总金额&#34;&gt;#&lt;/a&gt; 计算总金额&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在结果栏输入 “=”，无需输入数值坐标，直接选定条件数值，输入运算符号，回车自动显示结果&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;复制计算结果，粘贴到需计算的第二栏，直接得出第二栏计算结果&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择结果，向下拖动，自动计算&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;添加货币格式&lt;/p&gt;
+&lt;p&gt;a 选定数值，在数字功能区选择货币格式，功能区内可选择增减小数点。&lt;/p&gt;
+&lt;p&gt;b 添加后，可复制该区域，使用格式刷将货币格式粘贴到另一区域&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;02-表格设计&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#02-表格设计&#34;&gt;#&lt;/a&gt; 02 表格设计&lt;/h2&gt;
+&lt;h3 id=&#34;表格框线设计&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#表格框线设计&#34;&gt;#&lt;/a&gt; 表格框线设计&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;打印前预览，默认网格线不被打印，需自行添加设计表格框线（预览符号：快速访问工具栏，没有可在工具栏小箭头内添加）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;添加表格框线&lt;/p&gt;
+&lt;p&gt;a 页面布局 -&amp;gt; 工作表选项 -&amp;gt; 网格线 -&amp;gt; 打印（样式呆板）;&lt;/p&gt;
+&lt;p&gt;b 手动设计：开始 -&amp;gt; 字体 -&amp;gt; 框线（选择颜色和样式）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;画框方式&lt;/p&gt;
+&lt;p&gt;a 画笔（两种，绘制外框，绘制内框，按 Shift 切换橡皮功能，按 esc 退出）;&lt;/p&gt;
+&lt;p&gt;b 选取范围，套用类型&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;背景设计&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#背景设计&#34;&gt;#&lt;/a&gt; 背景设计&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;excel 背景（背景无法打印，仅设计表格时美观用）：页面布局 -&amp;gt; 页面设置 -&amp;gt; 背景&lt;/li&gt;
+&lt;li&gt;设计表格背景：开始 -&amp;gt; 字体 -&amp;gt; 油漆 -&amp;gt; 选择颜色&lt;/li&gt;
+&lt;li&gt;隐藏网格线：页面布局 -&amp;gt; 工作表选项 -&amp;gt; 网格线 -&amp;gt; 查看（取消勾选）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;03-冻结窗格与分割视图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#03-冻结窗格与分割视图&#34;&gt;#&lt;/a&gt; 03 冻结窗格与分割视图&lt;/h2&gt;
+&lt;p&gt;冻结窗格：选定需冻结窗格的下一栏 / 列 -&amp;gt; 视图 -&amp;gt; 窗口 -&amp;gt; 冻结窗格 -&amp;gt; 冻结窗格&lt;/p&gt;
+&lt;p&gt;拆分视窗：选定需拆分的大小 -&amp;gt; 选定那一栏 -&amp;gt; 视图 -&amp;gt; 窗口 -&amp;gt; 拆分&lt;/p&gt;
+&lt;h2 id=&#34;04-资料排序&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#04-资料排序&#34;&gt;#&lt;/a&gt; 04 资料排序&lt;/h2&gt;
+&lt;p&gt;单栏排序：选取排序栏中任一存储格（划重点）–排序与筛选–升序或降序（中文排序依照笔画多少）&lt;/p&gt;
+&lt;p&gt;多栏排序：选取表格内任一存储格 -&amp;gt; 排序与筛选 -&amp;gt; 自订排序 -&amp;gt; 先指定第一层排序 -&amp;gt; 新增层级 -&amp;gt; 指定第二层排序&lt;/p&gt;
+&lt;p&gt;自订清单（依照用户自己设定的顺序来排列资料）：排序与筛选 -&amp;gt; 自定排序 -&amp;gt; 选择要排列的栏位 -&amp;gt; 顺序选定为自订清单 -&amp;gt; 清单项目 -&amp;gt; 输入自己想要的顺序。PS：自订清单可以按照自己设定的顺序自动完成内容填充&lt;/p&gt;
+&lt;p&gt;删除清单：删除清单 -&amp;gt; 选择建立的清单 -&amp;gt; 删除&lt;/p&gt;
+&lt;h2 id=&#34;05-资料筛选&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#05-资料筛选&#34;&gt;#&lt;/a&gt; 05 资料筛选&lt;/h2&gt;
+&lt;p&gt;筛选：点选表格内任一存储格–排序与筛选–筛选–类别栏–按条件筛选。PS：可同时在多个栏位中进行筛选，筛选时可按正序／倒序排序&lt;/p&gt;
+&lt;p&gt;模糊比对功能：类别栏–文字筛选–开始于–“李”。PS：以 “李” 姓业务员为例&lt;/p&gt;
+&lt;p&gt;色彩筛选 + 排序：上色（按住 control 不放并选取）-&amp;gt; 依色彩排序 -&amp;gt; 自订排序 -&amp;gt; 选择要排序的栏位 -&amp;gt;“值” 为储存格色彩&lt;/p&gt;
+&lt;h3 id=&#34;移除筛选&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#移除筛选&#34;&gt;#&lt;/a&gt; 移除筛选&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;类别栏–清除筛选&lt;/li&gt;
+&lt;li&gt;还原表格–排序与筛选–清除／直接点选筛选&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;06-格式化为表格交叉分析筛选器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#06-格式化为表格交叉分析筛选器&#34;&gt;#&lt;/a&gt; 06 格式化为表格 &amp;amp; 交叉分析筛选器&lt;/h2&gt;
+&lt;p&gt;表格生成方式（自动侦测表格大小）：页面布局 -&amp;gt; 色彩 -&amp;gt; 可更换多种配色&lt;/p&gt;
+&lt;p&gt;取消表格：表格样式 -&amp;gt; 套用无 -&amp;gt; 清除表格样式&lt;/p&gt;
+&lt;h3 id=&#34;合计列汇总行&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#合计列汇总行&#34;&gt;#&lt;/a&gt; 合计列（汇总行）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;最后一栏会自动进行加总，也可以切换其他计算公式（存储格右侧三角形）&lt;/li&gt;
+&lt;li&gt;可以将此栏位公式向左套用（拖动存储格右下角黑十字）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;添加行或列&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#添加行或列&#34;&gt;#&lt;/a&gt; 添加行或列&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;添加行：选取汇总行上一行最后一列，按 tab 键&lt;/li&gt;
+&lt;li&gt;添加列：输入新一列列名，在此格内按下 enter 键&lt;/li&gt;
+&lt;li&gt;套用第一行公式直接拉右下角十字即可&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;交叉分析筛选器切片器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#交叉分析筛选器切片器&#34;&gt;#&lt;/a&gt; 交叉分析筛选器（切片器）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;表格 -&amp;gt; 插入交叉分析筛选器（切片器）-&amp;gt; 勾选想筛选的栏位 -&amp;gt; 生成面板&lt;/li&gt;
+&lt;li&gt;面板可调整大小、栏位，按 delete 可删除，右上角可清除筛选条件&lt;/li&gt;
+&lt;li&gt;同时显示多个项目：按住 control 不放选择&lt;/li&gt;
+&lt;li&gt;多重筛选：选取其他面板内的选项&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;07-设置格式化的条件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#07-设置格式化的条件&#34;&gt;#&lt;/a&gt; 07 设置格式化的条件&lt;/h2&gt;
+&lt;p&gt;更改／删除条件：选取要更改的列 -&amp;gt; 条件格式 -&amp;gt; 管理规则 -&amp;gt; 编辑规则 -&amp;gt; 可重新指定条件&lt;/p&gt;
+&lt;p&gt;数据条／色阶／图标集 -- 显示更有趣&lt;/p&gt;
+&lt;p&gt;清除规则：条件格式 -&amp;gt; 清除规则 -&amp;gt; 清除整个工作表的规则&lt;/p&gt;
+&lt;h3 id=&#34;设定格式化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#设定格式化&#34;&gt;#&lt;/a&gt; 设定格式化&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;选取想筛选的栏位所在列–功能区右上角 “条件格式”–自行设定条件和突出显示样式&lt;/li&gt;
+&lt;li&gt;栏位下方单元格新增突出显示的内容会自动填充显示样式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;08-工作表设定合并汇算&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#08-工作表设定合并汇算&#34;&gt;#&lt;/a&gt; 08 工作表设定 &amp;amp; 合并汇算&lt;/h2&gt;
+&lt;p&gt;工作表复制（不同 excel 文件之间）：打开两个 excel 文件 -&amp;gt; 点选工作表右键 -&amp;gt; 移动／复制 -&amp;gt; 选取移动路径&lt;br&gt;
+ -&amp;gt; 表格位置 -&amp;gt; 建立副本&lt;/p&gt;
+&lt;p&gt;工作组：按住 control 不放生成工作组&lt;/p&gt;
+&lt;h3 id=&#34;合并计算&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#合并计算&#34;&gt;#&lt;/a&gt; 合并计算&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;在需要计算的表格之外建立新的空白工作表 -&amp;gt; 功能区 -&amp;gt; 数据 -&amp;gt; 合并计算&lt;/li&gt;
+&lt;li&gt;选取表格范围 -&amp;gt; 如顶端列、最左栏无数字 -&amp;gt; 勾选则不计算 -&amp;gt;“+” 增加范围&lt;/li&gt;
+&lt;li&gt;挨个添加工作表需要计算的范围 -&amp;gt; 勾选 “创建指向原数据的链接”-&amp;gt; 可查看数据来源&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;09-图表制作&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#09-图表制作&#34;&gt;#&lt;/a&gt; 09 图表制作&lt;/h2&gt;
+&lt;p&gt;表格制作步骤：框选整个表格（必须包含行、列标题）-&amp;gt; 插入 -&amp;gt; 选择表格样式&lt;/p&gt;
+&lt;p&gt;图表移动：图表设计栏右上角 -&amp;gt; 移动图表 -&amp;gt; 可选择移动到另一工作表／将图表生成全新工作表&lt;/p&gt;
+&lt;p&gt;图表內添加文字或项目：图表设计 -&amp;gt; 添加图表元素 -&amp;gt; 选取要添加的内容&lt;/p&gt;
+&lt;p&gt;表格变化与图表变化同步：新增表格内容后 -&amp;gt; 点选图表 -&amp;gt; 出现框选部分 -&amp;gt; 将新增内容框选进范围内 -&amp;gt; 表格变化&lt;/p&gt;
+&lt;p&gt;直方图点击直方就可以进行选择填充的图像，比如说可以添加我们增加想要的图像。&lt;/p&gt;
+&lt;p&gt;点击图像可以调整选择的数据范围。&lt;/p&gt;
+&lt;p&gt;圆形图可以双击图形，并将想要突出的部分分离出来。&lt;/p&gt;
+&lt;p&gt;点击图形后可以通过设计按钮对图形进行自定义操作。比如切换行列。&lt;/p&gt;
+&lt;p&gt;框选空白位置，点击插入按钮选择迷你图，在选择数据范围即可画出走势图。&lt;/p&gt;
+&lt;p&gt;散点图可以点击 + 按钮选择趋势线对图形进行简单分析。&lt;/p&gt;
+&lt;p&gt;组合图可以用于实现不同数量级的数据的展示。&lt;/p&gt;
+&lt;h2 id=&#34;10-枢纽分析表&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#10-枢纽分析表&#34;&gt;#&lt;/a&gt; 10 枢纽分析表&lt;/h2&gt;
+&lt;p&gt;建立：点选表格内任一存储格 -&amp;gt; 插入 -&amp;gt; 数据透视表 -&amp;gt; 可选范围和位置。PS：勾选想要显示的栏位标题 -&amp;gt; 拖拽标题至不同位置会在数据透视表发生相应变化。&lt;/p&gt;
+&lt;p&gt;排序：点选数据透视表內任意一格 -&amp;gt; 右键 -&amp;gt; 排序&lt;/p&gt;
+&lt;p&gt;查看数据来源：点选数据透视表内某格 -&amp;gt; 左键 ×2&lt;/p&gt;
+&lt;p&gt;设置值的显示方式：选择要设定的选项 -&amp;gt; 数据透视表字段 -&amp;gt; 汇总方式、数据显示方式&lt;/p&gt;
+&lt;h3 id=&#34;筛选&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#筛选&#34;&gt;#&lt;/a&gt; 筛选&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;现有列筛选：右侧三角（清除 -&amp;gt; 选单内下拉）&lt;/li&gt;
+&lt;li&gt;筛选器筛选：勾选筛选项拖拽至筛选器内&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;资料分组&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#资料分组&#34;&gt;#&lt;/a&gt; 资料分组&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;按住 cotrol 不放点选对象 -&amp;gt; 右键 -&amp;gt; 组成群组&lt;/li&gt;
+&lt;li&gt;取消 -&amp;gt; 选择群组 -&amp;gt; 右键 -&amp;gt; 取消&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;11-列印分页设定&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11-列印分页设定&#34;&gt;#&lt;/a&gt; 11 列印分页设定&lt;/h2&gt;
+&lt;p&gt;通过分页线调整打印页面范围&lt;/p&gt;
+&lt;p&gt;页面布局可在打印时出现网格线和标题&lt;/p&gt;
+&lt;p&gt;设定页面宽度和高度可以自动缩放&lt;/p&gt;
+&lt;p&gt;只需打印几行资料 -&amp;gt; 框选内容 -&amp;gt; 设定打印范围&lt;/p&gt;
+&lt;h2 id=&#34;12-页首页尾设计浮水印制作&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#12-页首页尾设计浮水印制作&#34;&gt;#&lt;/a&gt; 12 页首，页尾设计 &amp;amp; 浮水印制作&lt;/h2&gt;
+&lt;p&gt;点击视图 -&amp;gt; 页面布局，就可以看到出现了页眉和页脚等信息，点击所选位置即可进行操作。&lt;/p&gt;
+&lt;p&gt;点击页眉和页脚处还可以选择想要的格式。&lt;/p&gt;
+&lt;p&gt;浮水印的利用图片即可，在图片处按 enter 键可以将图片往下移动。&lt;/p&gt;
+&lt;p&gt;点击设置图片格式可以对图片进行更深一步的处理。&lt;/p&gt;
+&lt;h2 id=&#34;13-逻辑函数if&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#13-逻辑函数if&#34;&gt;#&lt;/a&gt; 13 逻辑函数 IF&lt;/h2&gt;
+&lt;p&gt;普通 IF 函数结构 (标点符号为英文)：缺点：只能判断两个条件 = IF（条件，“条件成立”，“条件不成立”）&lt;/p&gt;
+&lt;p&gt;巢状 IF 函数 (EXCEL2016 版本后 IFS 函数)：缺点：如需叠加层级过多，则公式过于复杂 = IF（条件，成立，IF（条件，成立，不成立））&lt;/p&gt;
+&lt;h2 id=&#34;14-vlookup函数f4绝对参照&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#14-vlookup函数f4绝对参照&#34;&gt;#&lt;/a&gt; 14 VLOOKUP 函数 &amp;amp; F4 绝对参照&lt;/h2&gt;
+&lt;h3 id=&#34;vlookup函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#vlookup函数&#34;&gt;#&lt;/a&gt; VLOOKUP 函数&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;公式 = VLOOKUP (关键字，资料范围，列数，查询模式)&lt;/li&gt;
+&lt;li&gt;列数是指需要传回的是左起第几列的资料&lt;/li&gt;
+&lt;li&gt;参照表格需采用 “递增方式” 排列（最后一排数字最大）&lt;/li&gt;
+&lt;li&gt;查询模式：模糊比对：TRUE；精确比对：FALSE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;绝对引用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#绝对引用&#34;&gt;#&lt;/a&gt; 绝对引用&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;通常情况下，VLOOKUP 函数无法自动填充，需将 “资料范围” 设定为固定区域；&lt;br&gt;
+否则 “资料范围” 会因为 “相对引用” 规则，随 “关键字” 一行下移；&lt;/li&gt;
+&lt;li&gt;方法：选定公式中的资料范围 -&amp;gt; 笔记本（FN+F4）/ 电脑 F4-&amp;gt; 出现货币符号&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;15-iferror函数资料验证&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#15-iferror函数资料验证&#34;&gt;#&lt;/a&gt; 15 IFERROR 函数 &amp;amp; 资料验证&lt;/h2&gt;
+&lt;p&gt;公式 = IFERROR（要检查的公式，公式错误的讯息）&lt;/p&gt;
+&lt;p&gt;验证：选择存储格 -&amp;gt; 数据 -&amp;gt; 验证 -&amp;gt; 设置待验证内容和报错信息&lt;/p&gt;
+&lt;h2 id=&#34;16-countifssumifs函数应用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#16-countifssumifs函数应用&#34;&gt;#&lt;/a&gt; 16 COUNTIFS&amp;amp;SUMIFS 函数应用&lt;/h2&gt;
+&lt;p&gt;SUMIFS 函数公式 = SUMIFS（加总范围，范围 1，条件 1，范围 2，条件 2，…）&lt;/p&gt;
+&lt;h3 id=&#34;countif函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#countif函数&#34;&gt;#&lt;/a&gt; COUNTIF 函数&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;公式 = COUNTIF（资料范围，条件）&lt;/li&gt;
+&lt;li&gt;注意：文本资料一定要加双引号&lt;/li&gt;
+&lt;li&gt;小技巧： 条件可以指定为某空白存储格，便于随时修改&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;countifs函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#countifs函数&#34;&gt;#&lt;/a&gt; COUNTIFS 函数&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;公式 = COUNTIFS (范围 1，条件 1，范围 2，条件 2，…)&lt;/li&gt;
+&lt;li&gt;涉及金额的筛选 = COUNTIFS (范围 1，条件 1，范围 2，“&amp;gt;”&amp;amp; 存储格)&lt;/li&gt;
+&lt;li&gt;存储格内金额可随时修改，符号根据需求选择&lt;/li&gt;
+&lt;li&gt;涉及日期的筛选：如需筛选特定两个日期间的资料 = COUNTIFS (范围 1，条件 1，范围 2，“&amp;gt;2018/5/15”，范围 2，“&amp;lt;2018/6/3”)&lt;/li&gt;
+&lt;li&gt;如需筛选特定月份资料：
+&lt;ol&gt;
+&lt;li&gt;利用 MONTH 函数建立辅助列，归纳出每笔资料所处的月份；&lt;/li&gt;
+&lt;li&gt;建立 COUNTIF 函数，筛选范围设定为新建的月份列&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;17-定义名称indirect函数下拉选单设定&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#17-定义名称indirect函数下拉选单设定&#34;&gt;#&lt;/a&gt; 17 定义名称 &amp;amp; INDIRECT 函数 &amp;amp; 下拉选单设定&lt;/h2&gt;
+&lt;p&gt;定义名称：框选资料范围（不含标题）-&amp;gt; 公式 -&amp;gt; 定义名称&lt;/p&gt;
+&lt;p&gt;INDIRECT 函数：以线索中的文字为媒介，取得目标存储格的内容。线索可以来自于两个不同的存储格，以 “&amp;amp;” 连接&lt;/p&gt;
+&lt;h2 id=&#34;18-让你事半功倍的12个小技巧&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#18-让你事半功倍的12个小技巧&#34;&gt;#&lt;/a&gt; 18 让你事半功倍的 12 个小技巧&lt;/h2&gt;
+&lt;p&gt;资料剖析：框选需要剖析的单元格 -&amp;gt; 数据 -&amp;gt; 分列 -&amp;gt; 分隔符号 -&amp;gt; 勾选分隔符号&lt;br&gt;
+或分列 -&amp;gt; 固定宽度 -&amp;gt; 在数据预览处手动拖动分栏线。&lt;/p&gt;
+&lt;p&gt;插入多个空白列：选取想要插入的列数 -&amp;gt; 鼠标右键 -&amp;gt; 插入。F4：重复前面的操作&lt;/p&gt;
+&lt;p&gt;移除重复资料：框选单元格 -&amp;gt; 数据 -&amp;gt; 删除重复值 -&amp;gt; 勾选&lt;/p&gt;
+&lt;p&gt;表格转置：框选单元 -&amp;gt; 复制 -&amp;gt; 选择性粘贴 -&amp;gt; 勾选转置&lt;/p&gt;
+&lt;p&gt;贴上运算值：输入操作值 -&amp;gt; 框选单元格 -&amp;gt; 选择性粘贴 -&amp;gt; 运算处点选操作&lt;/p&gt;
+&lt;p&gt;显示公式：公式 -&amp;gt; 显示公式&lt;/p&gt;
+&lt;p&gt;目标搜寻：数据 -&amp;gt; 模拟分析 -&amp;gt; 单变量求解 -&amp;gt; 填入对应值。PS：目标单元格内一定要有公式&lt;/p&gt;
+&lt;p&gt;表格对角线：开始 -&amp;gt; 边框 -&amp;gt; 绘制边框 -&amp;gt; 手动绘制所需边框或右键 -&amp;gt; 设置单元格格式 -&amp;gt; 边框 -&amp;gt; 选择所需边框&lt;/p&gt;
+&lt;p&gt;储存格内换行：ALT+enter&lt;/p&gt;
+&lt;p&gt;插入图片注解：选取单元格 -&amp;gt; 右键 -&amp;gt; 插入批注 -&amp;gt; 删除注释框中的名字 -&amp;gt; 在边框处点击右键 -&amp;gt; 设置批注格式 -&amp;gt; 颜色与线条 -&amp;gt; 颜色 -&amp;gt; 填充效果 -&amp;gt; 图片 -&amp;gt; 选择图片。PS：只有在边框处点击右键才会有颜色与线条选项&lt;/p&gt;
+&lt;h3 id=&#34;快速选取资料&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#快速选取资料&#34;&gt;#&lt;/a&gt; 快速选取资料&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ctrl + 键盘方向键：选取框移动到表格的四个角落&lt;/li&gt;
+&lt;li&gt;Ctrl+shift + 键盘方向键：选取对应的范围&lt;/li&gt;
+&lt;li&gt;标题列左上角：选取整张表格&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;储存格选取框&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#储存格选取框&#34;&gt;#&lt;/a&gt; 储存格选取框&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;选取需要移动的单元格 -&amp;gt; 鼠标移至单元格边框 -&amp;gt; 拖动单元格&lt;/li&gt;
+&lt;li&gt;移动时按住 Ctrl，复制内容&lt;/li&gt;
+&lt;li&gt;移动时按住 shift，插入移动处，而不发生覆盖&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;19-表格数值格式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#19-表格数值格式&#34;&gt;#&lt;/a&gt; 19 表格数值格式&lt;/h2&gt;
+&lt;p&gt;开始 -&amp;gt; 数字右边的按钮 -&amp;gt; 数字 -&amp;gt; 自定义 -&amp;gt; 类型下面的输入框或快捷键 Ctrl+！&lt;/p&gt;
+&lt;p&gt;可以添加符号，或者在开头或末尾添加文字。PS：添加文字资讯时记得加上””&lt;/p&gt;
+&lt;p&gt;示例：0.00;(0.00);(0.00);@代表正值；负值；零值；文字&lt;/p&gt;
+&lt;p&gt;添加颜色：[所选颜色]，添加到所选区域前即可。只有 8 种颜色或 [颜色 + 色彩编号]，例如 [颜色 33]&lt;/p&gt;
+&lt;p&gt;若语法结构内某类型没有格式，那么将会隐藏该类型&lt;br&gt;
+可以在格式中加入判断语句，例如 [&amp;gt;90]，一个语法最多有两个判断语句若想有多个判断语句：开始 -&amp;gt; 设定格式化条件&lt;/p&gt;
+&lt;p&gt;点选格式后再点选自定义格式即可看到它的语法结构&lt;/p&gt;
+&lt;h3 id=&#34;符号表&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#符号表&#34;&gt;#&lt;/a&gt; 符号表&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;符号&lt;/th&gt;
+&lt;th&gt;意义&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;#&lt;/td&gt;
+&lt;td&gt;遇到无意义的 0 将不会显示&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;td&gt;遇到无意义的 0 将会空一格作为显示&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;强制显示每一个指定的位数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;@&lt;/td&gt;
+&lt;td&gt;预留文字位置&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;*&lt;/td&gt;
+&lt;td&gt;重复 * 后面的符号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;,&lt;/td&gt;
+&lt;td&gt;千&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;,&lt;/td&gt;
+&lt;td&gt;百万&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;_&lt;/td&gt;
+&lt;td&gt;预留一个_后面符号的宽度&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;20-时间格式工龄与工时计算&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#20-时间格式工龄与工时计算&#34;&gt;#&lt;/a&gt; 20 时间格式 &amp;amp; 工龄与工时计算&lt;/h2&gt;
+&lt;p&gt;Datadif (开始日期，结束日期，计算单位）计算单位用”y”,”m”。PS：找不到这个函数，但是可以直接输入使用&lt;/p&gt;
+&lt;p&gt;Networkdays（开始日期，结束日期，假日）&lt;/p&gt;
+&lt;p&gt;Networkdays.intl (开始日期，结束日期，自定周末，假日)。自定周末输入对应的数字即可&lt;/p&gt;
+&lt;h3 id=&#34;符号表-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#符号表-2&#34;&gt;#&lt;/a&gt; 符号表&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;符号&lt;/th&gt;
+&lt;th&gt;意义&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;[DBNUM1]&lt;/td&gt;
+&lt;td&gt;将阿拉伯数字转换为中文数字&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;aaaa&lt;/td&gt;
+&lt;td&gt;以星期的方式显示&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+；&lt;/td&gt;
+&lt;td&gt;插入现在的日期&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+shift+；&lt;/td&gt;
+&lt;td&gt;插入现在的时间&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Today（）&lt;/td&gt;
+&lt;td&gt;实时日期&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Now（）&lt;/td&gt;
+&lt;td&gt;实时时间，按 F9 或点击单元格时更新&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[h]&lt;/td&gt;
+&lt;td&gt;计算已经过的小时数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[m]&lt;/td&gt;
+&lt;td&gt;计算已经过的分钟数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;21-如何计算成绩排名&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#21-如何计算成绩排名&#34;&gt;#&lt;/a&gt; 21 如何计算成绩排名&lt;/h2&gt;
+&lt;p&gt;rank.eq (主体，比较范围，排序方式)&lt;/p&gt;
+&lt;p&gt;比较范围注意要使用 F4 来作为绝对参照&lt;/p&gt;
+&lt;p&gt;排序方式默认以降序排序，需要升序排序时在排序方式内填入 1 即可&lt;/p&gt;
+&lt;p&gt;rank.avg () 与 rank.eq 类似，只是当成绩相同时，rank.avg 采用排名的平均值&lt;/p&gt;
+&lt;h2 id=&#34;22-提取表格内信息&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#22-提取表格内信息&#34;&gt;#&lt;/a&gt; 22 提取表格内信息&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;命令&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Left（资料位置，捉取字数）&lt;/td&gt;
+&lt;td&gt;捉取数据左侧的数据&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Right（资料位置，捉取字数）&lt;/td&gt;
+&lt;td&gt;捉取数据右侧的数据&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mid（资料位置，开始位置，捉取字数）&lt;/td&gt;
+&lt;td&gt;捉取数据中间的数据&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Find（要搜寻的文字，资料来源，搜寻起点）&lt;/td&gt;
+&lt;td&gt;查找文字所在位置&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Len（资料）&lt;/td&gt;
+&lt;td&gt;计算储存格中的字数和空格&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;23-indexmatch&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#23-indexmatch&#34;&gt;#&lt;/a&gt; 23 index+match&lt;/h2&gt;
+&lt;p&gt;hlookup 与 vlookup 类似&lt;/p&gt;
+&lt;p&gt;Index（栏 / 列范围，顺位）或 index（资料范围，列数，栏数）&lt;/p&gt;
+&lt;p&gt;Match（查找对象，查找范围，比对方式）&lt;/p&gt;
+&lt;p&gt;综合运用例子 INDEX (C3:F10,MATCH (I2,D3:D10,0),MATCH (H3,C2:F2,0))&lt;/p&gt;
+&lt;h2 id=&#34;24-保护表格&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#24-保护表格&#34;&gt;#&lt;/a&gt; 24 保护表格&lt;/h2&gt;
+&lt;p&gt;可供修改的单元格：框选单元格 -&amp;gt; 右键 -&amp;gt; 设置单元格格式 -&amp;gt; 保护 -&amp;gt; 取消勾选锁定。&lt;/p&gt;
+&lt;p&gt;隐藏单元格公式：框选单元格 -&amp;gt; 右键 -&amp;gt; 设置单元格格式 -&amp;gt; 保护 -&amp;gt; 勾选隐藏&lt;/p&gt;
+&lt;p&gt;隐藏：选定行或列 -&amp;gt; 右键 -&amp;gt; 隐藏&lt;/p&gt;
+&lt;p&gt;允许编辑范围：审阅 -&amp;gt; 允许编辑范围 -&amp;gt; 新建 -&amp;gt; 设定标题、范围、密码 -&amp;gt; 确认密码 -&amp;gt; 确认&lt;/p&gt;
+&lt;p&gt;PS：以上操作需取消保护工作表，开启保护工作表后效果才会出现&lt;/p&gt;
+&lt;p&gt;保护工作表：审阅 -&amp;gt; 保护工作表 -&amp;gt; 输入密码 -&amp;gt; 确定密码&lt;/p&gt;
+&lt;p&gt;保护工作簿与保护工作表类似&lt;/p&gt;
+&lt;h3 id=&#34;excel表设置密码&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#excel表设置密码&#34;&gt;#&lt;/a&gt; Excel 表设置密码&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;文件 -&amp;gt; 信息 -&amp;gt; 保护工作簿 -&amp;gt; 用密码进行加密 -&amp;gt; 设定密码 -&amp;gt; 确认密码&lt;/li&gt;
+&lt;li&gt;另存为 -&amp;gt; 工具 -&amp;gt; 常规选项 -&amp;gt; 设定密码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;25-重复内容&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#25-重复内容&#34;&gt;#&lt;/a&gt; 25 重复内容&lt;/h2&gt;
+&lt;p&gt;删除重复信息：框选单元格 -&amp;gt; 数据 -&amp;gt; 删除重复值 -&amp;gt; 勾选选项 -&amp;gt; 确定&lt;/p&gt;
+&lt;p&gt;防止重复内容：选定行或列 -&amp;gt; 数据 -&amp;gt; 数据验证 -&amp;gt; 允许中选定自定义 -&amp;gt; 填入公式 -&amp;gt; 确定。公式例子：=countif (A:A,A1)=1&lt;/p&gt;
+&lt;h3 id=&#34;标注重复信息&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#标注重复信息&#34;&gt;#&lt;/a&gt; 标注重复信息&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;框选单元格 -&amp;gt; 开始 -&amp;gt; 条件格式 -&amp;gt; 突出显示单元格规则 -&amp;gt; 重复值 -&amp;gt; 确定&lt;/li&gt;
+&lt;li&gt;框选单元格 -&amp;gt; 开始 -&amp;gt; 条件格式 -&amp;gt; 新建规则 -&amp;gt; 使用公式确定要设置格式的单元格 -&amp;gt; 输入公式 -&amp;gt; 修改后一参数值为相对参照 -&amp;gt; 格式 -&amp;gt; 填充 -&amp;gt; 选择颜色 -&amp;gt; 确定&lt;/li&gt;
+&lt;li&gt;公式例子：=countif ($E&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo&gt;:&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;2:&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6444em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;E&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;14&lt;/mn&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;14,&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8389em;vertical-align:-0.1944em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;E2)&amp;gt;1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;26-随机函数的使用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#26-随机函数的使用&#34;&gt;#&lt;/a&gt; 26 随机函数的使用&lt;/h2&gt;
+&lt;h3 id=&#34;常见函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常见函数&#34;&gt;#&lt;/a&gt; 常见函数&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;函数&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Randbetween (最小值，最大值)&lt;/td&gt;
+&lt;td&gt;从最小值和最大值的范围内产生一个整数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Choose (序号，可供选择的选项)&lt;/td&gt;
+&lt;td&gt;根据序号选择对应选项&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Rand()&lt;/td&gt;
+&lt;td&gt;产生 0 到 1 的随机数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Roundup (数值，位数)&lt;/td&gt;
+&lt;td&gt;无条件进位函数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;常见例子&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常见例子&#34;&gt;#&lt;/a&gt; 常见例子&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;=INDEX(C3:C14,RANDBETWEEN(1,12))&lt;/li&gt;
+&lt;li&gt;=CHOOSE (RANDBETWEEN (1,2),“A 卷”,“B 卷”)&lt;/li&gt;
+&lt;li&gt;=CHOOSE(ROUNDUP(RANK(D3,$D&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo&gt;:&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;3:&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6444em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;D$14)/4,0),“A 组”,“B 组”,“C 组”)&lt;/li&gt;
+&lt;li&gt;=INDEX($C&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo&gt;:&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;3:&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6444em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;C&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;14&lt;/mn&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;mi&gt;R&lt;/mi&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;mi&gt;N&lt;/mi&gt;&lt;mi&gt;K&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;14,RANK(D3,&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.00773em;&#34;&gt;R&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10903em;&#34;&gt;N&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.07153em;&#34;&gt;K&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;D&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;D&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo&gt;:&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;3:&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6444em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;D$14))&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;27-进度追踪表&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#27-进度追踪表&#34;&gt;#&lt;/a&gt; 27 进度追踪表&lt;/h2&gt;
+&lt;p&gt;勾选框块：功能区空白处点击右键 -&amp;gt; 自定义功能区 -&amp;gt; 勾选开发工具 -&amp;gt; 确定 -&amp;gt; 开发工具 -&amp;gt; 插入 -&amp;gt; 选择勾选框块&lt;/p&gt;
+&lt;p&gt;完成格与状态的信息传输：框块右键 -&amp;gt; 设置控件格式 -&amp;gt; 选择单元格&lt;/p&gt;
+&lt;p&gt;进度栏函数设置：=IF (I3=TRUE,1,IF ($C$3&amp;gt;=G3,0,“🕒”))。PS：时钟符号可以：1.win10：wins+；2.UNICHAR (128336)&lt;/p&gt;
+&lt;p&gt;添加刻度：点击饼图 -&amp;gt; 设计 -&amp;gt; 选择数据 -&amp;gt; 添加 -&amp;gt; 系列值输入对应数值的 1（如 ={1,1,1,1,1,1,1,1,1,1,1}）-&amp;gt; 更换图表类型 -&amp;gt; 勾选次坐标轴 -&amp;gt; 选择未完成部分的饼图 -&amp;gt; 填充选择无填充&lt;/p&gt;
+&lt;h2 id=&#34;28-甘特图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#28-甘特图&#34;&gt;#&lt;/a&gt; 28 甘特图&lt;/h2&gt;
+&lt;p&gt;插入 -&amp;gt; 堆积条形图 -&amp;gt; 设计 -&amp;gt; 选择数据 -&amp;gt; 图例项选择 “开始日期” 和 “天数”-&amp;gt; 水平轴标签框选 “任务名称”-&amp;gt; 点击右侧条形 -&amp;gt; 设置数据系列格式 -&amp;gt; 填充 -&amp;gt; 无填充 -&amp;gt; 点击任务名称 -&amp;gt; 坐标轴设定 -&amp;gt; 勾选逆序刻度值 -&amp;gt; 点击日期标识 -&amp;gt; 坐标轴设定 -&amp;gt; 最小值（设定为对应数值，可通过设定单元格格式的通用格式查看）-&amp;gt; 单位的大选项为间距设定 -&amp;gt; 点击右侧条形 -&amp;gt; 点击 + 号 -&amp;gt; 勾选误差线 -&amp;gt; 更多选项 -&amp;gt; 选择正偏差、无线端 -&amp;gt; 自定义选择对应数列 -&amp;gt; 填充 -&amp;gt; 实线 -&amp;gt; 调整宽度&lt;/p&gt;
+&lt;h2 id=&#34;29-sumproduct&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#29-sumproduct&#34;&gt;#&lt;/a&gt; 29 sumproduct&lt;/h2&gt;
+&lt;p&gt;Sumproduct（A，B）：将 A，B 分别相乘后相加&lt;/p&gt;
+&lt;p&gt;=SUMPRODUCT((C3:C9=C11)*(D3:D9=D11)*F3:F9)&lt;/p&gt;
+&lt;p&gt;=SUMPRODUCT(C3:C8,D3:D8)&lt;/p&gt;
+&lt;p&gt;规则管理设定规则时需要加上一个&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mtext&gt;来锁定&lt;/mtext&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mi&gt;R&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;mi&gt;N&lt;/mi&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;来锁定
+=OR(AND(&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;来锁定&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.00773em;&#34;&gt;OR&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10903em;&#34;&gt;N&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;D&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;E3&amp;gt;1000,&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;D&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mo&gt;&amp;gt;&lt;/mo&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;D3&amp;gt;5),&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.7224em;vertical-align:-0.0391em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;D&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;C3=“有”)&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

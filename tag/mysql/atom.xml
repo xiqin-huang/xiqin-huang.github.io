@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>Hexo • Posts by &#34;mysql&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2023-10-12T10:49:32.916Z</updated>
+    <category term="游记" />
+    <category term="散文" />
+    <category term="java" />
+    <category term="书籍" />
+    <category term="java基础" />
+    <category term="java学习路线" />
+    <category term="科幻" />
+    <category term="小说" />
+    <category term="历史政治" />
+    <category term="人物传记" />
+    <category term="阅读" />
+    <category term="余华" />
+    <category term="名言警句" />
+    <category term="心理学" />
+    <category term="历史" />
+    <category term="政治" />
+    <category term="明朝" />
+    <category term="科技人文" />
+    <category term="杂文" />
+    <category term="人生感悟" />
+    <category term="经济学" />
+    <category term="中国" />
+    <category term="科技" />
+    <category term="心理" />
+    <category term="人际交往" />
+    <category term="Excel" />
+    <category term="office" />
+    <category term="日常办公" />
+    <category term="鲁迅" />
+    <category term="Premiere" />
+    <category term="视频剪辑" />
+    <category term="电影" />
+    <category term="动漫" />
+    <category term="短剧" />
+    <category term="电视剧" />
+    <category term="电子书" />
+    <category term="计算机基础" />
+    <category term="云开发" />
+    <category term="微信小程序" />
+    <category term="数据库" />
+    <category term="MySQL" />
+    <category term="跨考" />
+    <category term="考研" />
+    <category term="计算机" />
+    <category term="Python" />
+    <category term="编程" />
+    <category term="算法" />
+    <category term="月报" />
+    <entry>
+        <id>http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BB%83%E4%B9%A0/</id>
+        <title>数据库练习</title>
+        <link rel="alternate" href="http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BB%83%E4%B9%A0/"/>
+        <content type="html">&lt;h2 id=&#34;牛客&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#牛客&#34;&gt;#&lt;/a&gt; 牛客&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;like 表示模糊查找&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;浮点数的平均值可能小数点位数很多，按照示例保存一位小数，用 round 函数&lt;/p&gt;
+&lt;p&gt;多个条件进行分组： &lt;code&gt;group by university,gender;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;where 在 group by 前执行，所以需要用 having，而 order by 在 group by 后，所以可以不用 having。&lt;/p&gt;
+&lt;p&gt;每张表都需要有别名&lt;/p&gt;
+&lt;p&gt;多个条件判断： &lt;code&gt;case when then&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;日期函数 day () 取日，month () 取月份，datediff 求两个日期之间的差&lt;/p&gt;
+&lt;h3 id=&#34;常见例题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常见例题&#34;&gt;#&lt;/a&gt; 常见例题&lt;/h3&gt;
+&lt;p&gt;年龄在 20 到 23 之间： &lt;code&gt;SELECT device_id,gender,age from user_profile where age between 20 and 23&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;用 where 过滤空值练习： &lt;code&gt;select device_id,gender,age,university from user_profile where age is not null;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;查看学校名称中含北京的用户： &lt;code&gt;select device_id,age,university from user_profile where university like &#39;%北京%&#39;;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;统计每个学校的答过题的用户的平均答题数：首先构造出一张以 device_id 为分组的表，然后以该表为主表，进行链接，然后根据学校进行分组，使用 sum 和 count（1）即可，或者  &lt;code&gt;(count(question_id)/count(distinct(qpd.device_id)))&lt;/code&gt;  直接使用 count&lt;br&gt;
+SELECT DISTINCT Company FROM Orders： distinct 关键字表示只取一次，去重&lt;br&gt;
+结果不去重只需 union all 将两张表连接在一起。&lt;/p&gt;
+&lt;p&gt;选取文本中的最右的元素： &lt;code&gt;substring_index(profile,&#39;,&#39;,-1)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;查找倒数第二个元素需要两层： &lt;code&gt;SUBSTRING_INDEX(SUBSTRING_INDEX(profile,&#39;,&#39;,-2),&#39;,&#39;,1)AS age;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;day1&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#day1&#34;&gt;#&lt;/a&gt; day1&lt;/h2&gt;
+&lt;h3 id=&#34;字符串&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#字符串&#34;&gt;#&lt;/a&gt; 字符串&lt;/h3&gt;
+&lt;p&gt;verchar 和 char 的区别：verchar 存储时变长，最多容纳 65535 个字节；char 固定长度，最多容纳 255 个字符。&lt;/p&gt;
+&lt;p&gt;在配置文件（my.cnf）中加入如下配置： &lt;code&gt;sql-mode=&amp;quot;NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION&amp;quot;&lt;/code&gt;  保存并重启即可进入非严格模式&lt;/p&gt;
+&lt;p&gt;长的文本：text&lt;/p&gt;
+&lt;p&gt;创建表： &lt;code&gt;create table L3(id int not null primary key auto_increment,name varchar(5),depart char(3))default charset=utf8;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;插入元素： &lt;code&gt;insert into L3(name,depart) values(&amp;quot;alex&amp;quot;,&amp;quot;sb&amp;quot;);&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;增删改查&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#增删改查&#34;&gt;#&lt;/a&gt; 增删改查&lt;/h3&gt;
+&lt;p&gt;新增数据： &lt;code&gt;insert into L2(salary) values(5.289);&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;删除数据： &lt;code&gt;delete from L3 where name=&amp;quot;alex&amp;quot; and id=1;&lt;/code&gt;  。删除 name=alex 的数据，and 链接多个条件&lt;/p&gt;
+&lt;p&gt;更新数据： &lt;code&gt;update L2 set salary=1.99 where id=1;&lt;/code&gt; 。 &lt;code&gt;update L3 set name=concat(name,&amp;quot;3&amp;quot;) where id=2；&lt;/code&gt;  。PS：concat 函数用于拼接字符串&lt;/p&gt;
+&lt;p&gt;查找数据： &lt;code&gt;select id,name from L3 where id=2;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;显示一列标题为 age 的 111： &lt;code&gt;select id,name,111 as age from L3;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;小数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#小数&#34;&gt;#&lt;/a&gt; 小数&lt;/h3&gt;
+&lt;p&gt;decimal (8,2) 表示数字位有 8 位（不包含负号），小数位保留 2 位。&lt;/p&gt;
+&lt;p&gt;小数位数过多会自动四舍五入，整数部分超过会报错&lt;/p&gt;
+&lt;p&gt;插入元素： &lt;code&gt;insert into L2(salary) values(5.289);&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;新建表： &lt;code&gt;create table L2(id int not null primary key auto_increment,salary decimal(8,2))default charset=utf8;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;时间&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#时间&#34;&gt;#&lt;/a&gt; 时间&lt;/h3&gt;
+&lt;p&gt;timestamp 和 datetime 相比：除了表示的范围更小外，所存储的方式也不同，是根据当前时区再进行转换，而 datetime 是直接存储。&lt;/p&gt;
+&lt;p&gt;此外还有 date 和 time&lt;/p&gt;
+&lt;p&gt;创建表： &lt;code&gt;create table L5(id int not null primary key auto_increment,dt datetime,tt timestamp)default charset=utf8;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;插入表： &lt;code&gt;insert into L5(dt,tt) values(&amp;quot;2025-11-11 11:11:14&amp;quot;,&amp;quot;2025-11-11 11:11:14&amp;quot;);&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;今日总结&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#今日总结&#34;&gt;#&lt;/a&gt; 今日总结&lt;/h3&gt;
+&lt;p&gt;修改表： &lt;code&gt;alter table L6 add amount decimal(10,2) default 0 not null;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;删除表： &lt;code&gt;alter table L6 drop aaa;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;插入记录： &lt;code&gt;insert into L6(name,password,gender,email,crime,amount) values(&amp;quot;xiqin4&amp;quot;,&amp;quot;dsasa&amp;quot;,0,&amp;quot;7444545@qq.com&amp;quot;,&amp;quot;2020-7-1 11:11:14&amp;quot;,100);&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;更新记录： &lt;code&gt;update L6 set gender=1 where id&amp;gt;3;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;查看： &lt;code&gt;select * from L6 where amount&amp;gt;1000;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;更新： &lt;code&gt;update L6 set amount=amount+1000;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;删除： &lt;code&gt;delete from L6 where gender=1;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;创建表：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;create table L6(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    id int not null primary key auto_increment,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    name varchar(32) not null,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    password varchar(64) not null,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    gender char(2) check(gender in (0,1)),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    email varchar(64),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    crime datetime&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;)default charset=utf8;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2 id=&#34;day2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#day2&#34;&gt;#&lt;/a&gt; day2&lt;/h2&gt;
+&lt;h3 id=&#34;左右连表&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#左右连表&#34;&gt;#&lt;/a&gt; 左右连表&lt;/h3&gt;
+&lt;p&gt;以 info 作为主表，将 depart 进行左链接，根据 depart.id 进行： &lt;code&gt;select * from info left outer join depart on info.depart_id = depart.id;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;指定选中的数据进行展示： &lt;code&gt;select info.id,info.name,info.email,depart.title from info left outer join depart on info.depart_id = depart.id;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;将 left 改成 right 就是右链接： &lt;code&gt;select info.id,info.name,info.email,depart.title from info right outer join depart on info.depart_id = depart.id;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;从表 right outer join 主表 on &lt;a class=&#34;link&#34;   href=&#34;http://xn--tiq313l.x=%E4%BB%8E%E8%A1%A8.id&#34; &gt;主表.x = 从表.id &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;当主表中存在从表中没有的信息，则会产生区别；&lt;/p&gt;
+&lt;p&gt;简写 outer 可以省略&lt;/p&gt;
+&lt;p&gt;内链接：两张表进行链接，没有分主从，根据条件进行匹配：select * from info inner join depart on info.depart_id = &lt;a class=&#34;link&#34;   href=&#34;http://depart.id&#34; &gt;depart.id &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;;&lt;/p&gt;
+&lt;h3 id=&#34;指定列映射&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#指定列映射&#34;&gt;#&lt;/a&gt; 指定列（映射）&lt;/h3&gt;
+&lt;p&gt;帮 name 写别名 NM，并新增一列 123： &lt;code&gt;select id,name as NM,123 from info ;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;条件语句： &lt;code&gt;select id,name,case when age&amp;lt;18 then &amp;quot;少年&amp;quot; when age&amp;lt;30 then &amp;quot;青年&amp;quot; else &amp;quot;老年&amp;quot; end v6 from info;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;用户授权管理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#用户授权管理&#34;&gt;#&lt;/a&gt; 用户授权管理&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;用户&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;查看用户信息： &lt;code&gt;select user,authentication_string,host from mysql.user;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;查看用户和权限信息： &lt;code&gt;desc mysql.user;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;新建用户： &lt;code&gt;create user &#39;用户名&#39;@&#39;连接者的IP地址&#39; identified by &#39;密码&#39;&lt;/code&gt;  。PS：&#39;&#39; 号可加可不加&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;create user xiqin@127.0.0.1 identified by &#39;159123zxc&#39;&lt;/code&gt;  。解析：127.0.0.%：% 意味可以匹配任何值；地址为 % 意味所有地址都可以&lt;/li&gt;
+&lt;li&gt;删除用户： &lt;code&gt;drop user xiqin@127.0.0.1;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;修改用户： &lt;code&gt;rename user &#39;xiqin&#39;@&#39;127.0.0.1&#39; to &#39;huangyuqin&#39;@&#39;localhost&#39;;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;修改密码： &lt;code&gt;set password for &#39;huangyuqin&#39;@&#39;localhost&#39;=Password(&#39;123123&#39;);&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;授权&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;grant 权限 on 数据库。表 to ‘用户’@‘IP 地址’;&lt;/li&gt;
+&lt;li&gt;给用户 huangyuqin 用有数据库 day26db 中 info 表的查找和插入权限： &lt;code&gt;grant select,insert on day26db.info to &#39;huangyuqin&#39;@&#39;localhost&#39;;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;给用户 huangyuqin 拥有数据库的所有权限： &lt;code&gt;grant all privileges on *.* to &#39;huangyuqin&#39;@&#39;localhost&#39;;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;此时还没有真正生效，输入： &lt;code&gt;flush privileges;&lt;/code&gt;  。将数据读入内存，从而立即生效。&lt;/li&gt;
+&lt;li&gt;选择不同的用户进行登录： &lt;code&gt;&amp;quot;C:\Program Files\mysql-5.7.31-winx64\bin\mysql.exe&amp;quot; -h 127.0.0.1 -P 3306 -u huangyuqin -p&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;查看授权： &lt;code&gt;show grants for &#39;huangyuqin&#39;@&#39;localhost&#39;;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;取消授权： &lt;code&gt;revoke INSERT on day26db.info from &#39;huangyuqin&#39;@&#39;localhost&#39;;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;需要在管理员权限下使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;通配符&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#通配符&#34;&gt;#&lt;/a&gt; 通配符&lt;/h3&gt;
+&lt;p&gt;通配符主要用于模糊查找：&lt;/p&gt;
+&lt;p&gt;% 号表示 n 个字符，可以为 0 个： &lt;code&gt;select * from info where name like &amp;quot;%明%&amp;quot;;&lt;/code&gt; _号表示一个字符： &lt;code&gt;select * from info where name like &amp;quot;_明%&amp;quot;;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;注意：数据少时可以使用，数据量大时不要使用，因为效率很低。&lt;/p&gt;
+&lt;h3 id=&#34;上下连表和取部分&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#上下连表和取部分&#34;&gt;#&lt;/a&gt; 上下连表和取部分&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;select id,title from depart union select id,name from info;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;列数需相同，会自动去重。union all 则不去重&lt;/p&gt;
+&lt;p&gt;获取前五条数据：select * from info limit 5;&lt;/p&gt;
+&lt;p&gt;从位置 2 开始，向后获取前 5 条数据： &lt;code&gt;select * from info limit 3 offset 2;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;可以用于分页显示&lt;/p&gt;
+&lt;h3 id=&#34;排序和分组&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#排序和分组&#34;&gt;#&lt;/a&gt; 排序和分组&lt;/h3&gt;
+&lt;p&gt;desc 倒序排列，顺序排列，通常是得到结果再进行排序&lt;/p&gt;
+&lt;p&gt;优先按照 age 从小到大，age 相等则 id 从大到小： &lt;code&gt;select * from info order by age asc,id desc;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;将 age 相同的进行分组，遇到需要取舍的时候，选择 ID 更大的，同理还可以替换成 max (id),min (id),count (id),sum (id),avg (id)：select age,count (1) from info group by age;&lt;/p&gt;
+&lt;p&gt;对已经分组的数组，取其中 2 个以上的分组： &lt;code&gt;select depart_id,count(id) from info group by depart_id having count(id)&amp;gt;2;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;表关系&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#表关系&#34;&gt;#&lt;/a&gt; 表关系&lt;/h3&gt;
+&lt;p&gt;约束 depart_id 和 depart 中的 id，用于初始化的时候： &lt;code&gt;constraint fk_info_depart foreign key (depart_id) reference depart(id);&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;表结构已创建，额外增加外键： &lt;code&gt;alter table info add constraint fk_info_depart foreign key info(depart_id) references depart(id);&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;删除外键： &lt;code&gt;alter table info drop foreign key fk_info_depart;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;sql语句优先级&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#sql语句优先级&#34;&gt;#&lt;/a&gt; SQL 语句优先级&lt;/h3&gt;
+&lt;p&gt;优先级从高到低：join-&amp;gt;on-&amp;gt;where-&amp;gt;group by-&amp;gt;having-&amp;gt;order by-&amp;gt;limit&lt;/p&gt;
+&lt;p&gt;例子： &lt;code&gt;select age,count(id) from info where id&amp;gt;2 group by age having count(id)&amp;gt;1 order by age desc limit 1;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;day3&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#day3&#34;&gt;#&lt;/a&gt; day3&lt;/h2&gt;
+&lt;h3 id=&#34;表的数据的导入和导出&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#表的数据的导入和导出&#34;&gt;#&lt;/a&gt; 表的数据的导入和导出&lt;/h3&gt;
+&lt;p&gt;先判断是否存在，再进行删除： &lt;code&gt;drop database if exist day27db;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;导入文件：注意斜杠： &lt;code&gt;source /Users/86136/Desktop/数据库/第三天/day27db.sql;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;只能导入数据表，不能插入数据，不知道是什么问题，可能是主键导致的问题，暂时先不处理&lt;/p&gt;
+&lt;p&gt;查询姓李的老师个数： &lt;code&gt;select * from teacher where tname like &#39;李%&#39;;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;查询男生和女生的人数： &lt;code&gt;select gender,count(1) from student group by gender;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;查询 “三年二班” 的所有学生： &lt;code&gt;select * from student left join class on student.class_id = class.cid where class.caption=&#39;三年二班&#39;;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;查询每个班级的班级名称、班级人数： &lt;code&gt;select class.caption,count(1) from student left join class on student.class_id=class.cid group by class.caption;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;查询平均成绩大于 60 的所有学生的学号、平均成绩、姓名： &lt;code&gt;select student_id,avg(num) from score group by student_id having avg(num)&amp;gt;60;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;查询成绩小于 60 分的同学学号、姓名、成绩、课程名称：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;select student.sid,student.sname,score.num,course.cname from score &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join student on score.student_id=student.sid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join course on score.course_id=course.cid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;where num&amp;lt;60;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;查询各科成绩的总分、最高分、最低分、平均分，显示课程 ID、课程名称、总分、最高分、最低分：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;select course_id,course.cname,sum(num),max(num),min(num),avg(num) from score &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join course on score.course_id=course.cid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;group by course_id &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;order by avg(num) desc;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;查询各科成绩的平均分和及格率，显示：课程 ID、课程名称、平均分、及格率：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;select course_id,course.cname,avg(num),count(1) as total,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sum(case when score.num &amp;gt; 60 then 1 else 0 end) as jige from score &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join course on score.course_id =course.cid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;group by course_id;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;select course_id,course.cname,avg(num),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sum(case when score.num &amp;gt; 60 then 1 else 0 end)/count(1)*100 as prescent from score &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join course on score.course_id =course.cid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;group by course_id;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;三个表依次连在一起：查询 “三年二班” 每个学生的学号、姓名、总成绩、平均成绩：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;select student_id,sname,sum(num),avg(num) from score &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join student on score.student_id=student.sid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join class on class.cid=student.class_id &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;where class.caption=&amp;#x27;三年二班&amp;#x27; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;group by student_id;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;查询学过 “波多” 老师课的同学的学号，姓名：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;select student.sid,student.sname from score &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join student on score.student_id=student.sid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join course on score.course_id=course.cid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join teacher on course.teacher_id=teacher.tid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;where teacher.tname=&amp;#x27;波多&amp;#x27;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;查询没学过’波多’老师课的同学的学号，姓名（应该是选择先查询选过的同学的 ID，再进行排除，而不是直接使用！=）：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;select * from student &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;where sid not in(select student.sid from score &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join student on score.student_id=student.sid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join course on score.course_id=course.cid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join teacher on course.teacher_id=teacher.tid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;where teacher.tname=&amp;#x27;波多&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;查询选修‘苍空’老师所授课程的学生中，成绩最高的学生姓名及其成绩（考虑并列）不考虑并列只需使用到 order by 和 limit：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;select student.sid,student.sname from score &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join student on score.student_id =student.sid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join course on score.course_id=course.cid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join teacher on course.teacher_id=teacher.tid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;where teacher.tname=&amp;#x27;苍空&amp;#x27; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;and score.num=(select max(num) from score &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join course on score.course_id=course.cid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join teacher on course.teacher_id=teacher.tid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;where teacher.tname=&amp;#x27;苍空&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;查询选修了所有课程的学生的学号，姓名：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;select student.sid,student.sname from score &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join student on score.student_id=student.sid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;group by student_id having count(1)=(select count(1) from course);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;查询选修了 “生物” 和 “物理” 课程的所有学生学号，姓名：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;select student.sid,student.sname from score &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join course on score.course_id=course.cid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join student on score.student_id=student.sid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;where course.cname in (&amp;#x27;生物&amp;#x27;,&amp;#x27;物理&amp;#x27;) &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;group by student_id having count(1)=2;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;查询至少有一门课与学号为 1 的学生所选的课程相同的其他学生学号和姓名：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;select student.sid,student.sname from score &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join course on score.course_id=course.cid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join student on score.student_id=student.sid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;where score.course_id in (select course_id from score where student_id=1) and score.student_id!=1 &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;group by student_id having count(1)&amp;gt;1;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;查询 “生物” 比 “物理” 成绩高的所有学生的学号：PS：这里好像有点问题，存在没有该课成绩的情况，应该先选出同时有生物和物理成绩的同学&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;select student_id,max(case cname when &amp;quot;生物&amp;quot; then num else -1 end) as sw,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;max(case cname when &amp;quot;物理&amp;quot; then num else -1 end) as wl from score &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;left join course on score.course_id=course.cid &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;where cname in (&amp;quot;生物&amp;quot;,&amp;quot;物理&amp;quot;) &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;group by student_id having sw&amp;gt;wl;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;将一张表中的数据插入到另一张表中：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;insert into sc select * from score;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;insert into sc (student_id,course_id,num) &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;select sid,2,80 from student &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;where sid not in (select student_id from score where course_id=2);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2 id=&#34;day4&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#day4&#34;&gt;#&lt;/a&gt; day4&lt;/h2&gt;
+&lt;h3 id=&#34;执行计划&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#执行计划&#34;&gt;#&lt;/a&gt; 执行计划&lt;/h3&gt;
+&lt;p&gt;MySQL 中提供了执行计划，让你能够预判 SQL 的执行（只能给到一定的参考，不一定完全能预判准确）。&lt;/p&gt;
+&lt;p&gt;explain 关键字&lt;/p&gt;
+&lt;p&gt;主要看输出结果中的 type,all 表示进行了全表扫描，而 ref 则是通过索引进行查找&lt;/p&gt;
+&lt;p&gt;性能从低到高排序：all &amp;lt; index &amp;lt; range &amp;lt; index_merge &amp;lt; ref_or_null &amp;lt; ref &amp;lt; eq_ref &amp;lt; system/const&lt;/p&gt;
+&lt;h3 id=&#34;无法命中索引的情况&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#无法命中索引的情况&#34;&gt;#&lt;/a&gt; 无法命中索引的情况&lt;/h3&gt;
+&lt;p&gt;类型不一致：例如数据库中是字符串类型，却传入数字进行查找；主键比较特殊，即使类型不一致也不影响&lt;/p&gt;
+&lt;p&gt;使用了不等于，特殊的主键 or，当 or 条件要未建立的列时失效，但当后面有 and 有建立索引的列时比较生效&lt;/p&gt;
+&lt;p&gt;排序，当根据索引排序时候，选择的映射如果不是索引，则不走索引。特殊的主键 like 进行模糊匹配，只有在通配符在最后面才有效&lt;/p&gt;
+&lt;p&gt;联合索引要满足最左前缀&lt;/p&gt;
+&lt;p&gt;使用函数，例如 reverse（）, 放在后面才可以，例如&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;未命中： &lt;code&gt;select * from big where reverse(name) = &amp;quot;wupeiqi&amp;quot;;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;命中： &lt;code&gt;select * from big where name = reverse(&amp;quot;wupeiqi&amp;quot;);&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;索引&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#索引&#34;&gt;#&lt;/a&gt; 索引&lt;/h3&gt;
+&lt;p&gt;使用索引是为了加速查找，为什么可以加速查找是因为索引是按照 B + 树的方式进行存储的&lt;/p&gt;
+&lt;p&gt;引擎的不同会对索引的产生区别：myisam 是数据和索引结构分开存储；innodb 是数据和主键索引结构存储在一起&lt;/p&gt;
+&lt;p&gt;建表时可以进行指定 engine=myisam&lt;/p&gt;
+&lt;p&gt;查看数据表引擎类型： &lt;code&gt;show create table class;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;innodb 是默认索引，使用更为方便&lt;/p&gt;
+&lt;p&gt;常见索引&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;主键索引：加速查找、不能为空不能重复。&lt;/li&gt;
+&lt;li&gt;唯一索引：加速查找，不能重复，可以为空，但只能一个为空，不然会视为重复。&lt;/li&gt;
+&lt;li&gt;普通索引：加速查找。都可以进行联合索引&lt;/li&gt;
+&lt;li&gt;联合索引的意思是多列连接起来作为一个键&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;主键索引&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;primary key关键字&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;create table 表名(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    id int not null auto_increment,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    name varchar(32) not null,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    primary key(列1,列2)          -- 如果有多列，称为联合主键（不常用且myisam引擎支持）&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;新增主键索引：alter table 表名 add primary key(列名);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;删除主键索引：alter table 表名 drop primary key;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;自增列一定要是键，即索引，索引删除时可能会报错，此时改为使用alter table 表 change id id int not null;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;唯一索引：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;unique关键字&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;create table 表名(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    id int not null auto_increment,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    name varchar(32) not null,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    unique (列1,列2)               -- 如果有多列，称为联合唯一索引。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;新建create unique index 索引名 on 表名(列名);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;删除drop unique index 索引名 on 表名;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;普通索引：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;index&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;create table 表名(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    id int not null auto_increment primary key,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    name varchar(32) not null,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    email varchar(64) not null,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    index ix_email (name,email)     -- 如果有多列，称为联合索引。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;新增create index 索引名 on 表名(列名);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;删除drop index 索引名 on 表名;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h3 id=&#34;视图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#视图&#34;&gt;#&lt;/a&gt; 视图&lt;/h3&gt;
+&lt;p&gt;视图其实是一个虚拟表（非真实存在），其本质是【根据 SQL 语句获取动态的数据集，并为其命名】，用户使用时只需使用【名称】即可获取结果集，并可以将其当作表来使用，类似使用一个 temp 变量方便使用。&lt;/p&gt;
+&lt;p&gt;创建视图： &lt;code&gt;create view v1 as select id,name from d1 where id&amp;gt;1;&lt;/code&gt;  。然后可以当作一张表进行使用&lt;/p&gt;
+&lt;p&gt;修改视图： &lt;code&gt;alter view v1 as SQL语句&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;基于视图只能查询，针对视图不能执行 增加、修改、删除。 如果源表发生变化，视图表也会发生变化。&lt;/p&gt;
+&lt;h3 id=&#34;函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数&#34;&gt;#&lt;/a&gt; 函数&lt;/h3&gt;
+&lt;p&gt;字符串拼接： &lt;code&gt;select concat(&#39;alex&#39;,&#39;sb&#39;);&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;休眠 1 秒： &lt;code&gt;select sleep(1);&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;自定义函数：先将‘;’转换为美元符号，放在遇到；就自动结束了&lt;/p&gt;
+&lt;p&gt;执行函数： &lt;code&gt;select f1(11,22);&lt;/code&gt;  。 &lt;code&gt;select f1(11,id),name from d1;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;删除函数： &lt;code&gt;drop function f1;&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;delimiter $$&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;create function f1(&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    i1 int,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    i2 int)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;returns int&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;BEGIN&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    declare num int;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    declare maxId int;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    select max(id) from big into maxId;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    set num = i1 + i2 + maxId;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    return(num);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;END $$&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;delimiter ;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h3 id=&#34;存储过程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#存储过程&#34;&gt;#&lt;/a&gt; 存储过程&lt;/h3&gt;
+&lt;p&gt;事务，成功都成功，失败都失败。&lt;/p&gt;
+&lt;p&gt;存储过程，是一个存储在 MySQL 中的 SQL 语句集合，当主动去调用存储过程时，其中内部的 SQL 语句会按照逻辑执行。&lt;/p&gt;
+&lt;p&gt;rollback 进行回滚&lt;/p&gt;
+&lt;p&gt;创建存储过程&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;delimiter $$&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;create procedure p1()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;BEGIN&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    select * from d1;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;END $$&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;delimiter ;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;执行存储过程：call p1();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h3 id=&#34;触发器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#触发器&#34;&gt;#&lt;/a&gt; 触发器&lt;/h3&gt;
+&lt;p&gt;对某个表进行【增 / 删 / 改】操作的前后如果希望触发某个特定的行为时，可以使用触发器。&lt;/p&gt;
+&lt;p&gt;NEW 表示新数据，可以在里面直接进行使用。同理，old 表示原来的数据。&lt;/p&gt;
+&lt;p&gt;创建触发器&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;create trigger&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;例句：&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;CREATE TRIGGER tri_before_insert_tb1 BEFORE INSERT ON tb1 FOR EACH ROW&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;BEGIN&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    ...&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;END&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2 id=&#34;day5&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#day5&#34;&gt;#&lt;/a&gt; day5&lt;/h2&gt;
+&lt;h3 id=&#34;锁&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#锁&#34;&gt;#&lt;/a&gt; 锁&lt;/h3&gt;
+&lt;p&gt;MySQL 中自带了锁的功能，可以帮助我们实现开发过程中遇到的同时处理数据的情况。&lt;/p&gt;
+&lt;p&gt;MYISAM 支持表锁，不支持行锁；InnoDB 引擎支持行锁和表锁。&lt;/p&gt;
+&lt;p&gt;在 innodb 引擎中，update、insert、delete 的行为内部都会先申请锁（排它锁），申请到之后才执行相关操作，最后再释放锁。&lt;/p&gt;
+&lt;p&gt;select 默认不加锁，需要配合事务 + 特殊语法进行加锁&lt;/p&gt;
+&lt;p&gt;对于数据库中的锁，从锁的范围来讲有：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;表级锁，即 A 操作表时，其他人对整个表都不能操作，等待 A 操作完之后，才能继续。&lt;/li&gt;
+&lt;li&gt;行级锁，即 A 操作表时，其他人对指定的行数据不能操作，其他行可以操作，等待 A 操作完之后，才能继续。&lt;/li&gt;
+&lt;li&gt;for update 排他锁：&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;begin; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    select * from L1 where name=&amp;quot;武沛齐&amp;quot; for update;    -- name列不是索引（表锁）&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;commit;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;select * from L1 where id=1 for update;              -- id列是索引（行锁）&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;lock in share mode 共享锁，其他可读但不可写&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Plaintext&#34;&gt;&lt;figure class=&#34;iseeu highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;begin; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    select * from L1 where name=&amp;quot;武沛齐&amp;quot; lock in share mode;    -- 假设name列不是索引（表锁）&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;commit;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;使数据按字典格式cursor = conn.cursor(pymysql.cursors.DictCursor)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;事务&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#事务&#34;&gt;#&lt;/a&gt; 事务&lt;/h3&gt;
+&lt;p&gt;四大特性：原子性、一致性、隔离性、持久性。&lt;/p&gt;
+&lt;p&gt;开启事务：begin; 或者 start transaction;&lt;/p&gt;
+&lt;p&gt;提交事务：commit;&lt;/p&gt;
+&lt;p&gt;回滚：rollback;&lt;/p&gt;
+</content>
+        <category term="数据库" />
+        <category term="MySQL" />
+        <updated>2023-10-12T10:49:32.916Z</updated>
+    </entry>
+</feed>

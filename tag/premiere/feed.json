@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Hexo • All posts by \"premiere\" tag",
+    "description": "",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2023/10/12/%E5%8A%9E%E5%85%AC/Premiere%E7%AC%94%E8%AE%B0/",
+            "url": "http://example.com/2023/10/12/%E5%8A%9E%E5%85%AC/Premiere%E7%AC%94%E8%AE%B0/",
+            "title": "Premiere笔记",
+            "date_published": "2023-10-12T10:49:32.908Z",
+            "content_html": "<h2 id=\"常用技巧\"><a class=\"markdownIt-Anchor\" href=\"#常用技巧\">#</a> 常用技巧</h2>\n<ol>\n<li>新建字幕：新建 -&gt; 旧版标题。</li>\n<li>工程文件也需要预览，绿色的是字，红色的是视频。</li>\n<li>To EDIT 是用于替换的地方，SHOT 是视频，TEXT 是文本。</li>\n<li>效果 -&gt; 点击已有的效果可以更加详细的调整效果。</li>\n<li>可以设置暂存盘，最好是 C 盘以外。</li>\n<li>编辑 -&gt; 首选项 -&gt; 时间轴，可以调整导入的东西的持续时间。</li>\n<li>窗口 -&gt; 基本图形 -&gt; 编辑，调整字体大小。</li>\n<li>PS 蒙版的使用</li>\n<li>图像大小和移动，点击编辑 -&gt; 效果控件，用里面的位置和缩放即可。</li>\n<li>AVI 格式更清晰，Quicktime。</li>\n<li>关键帧点击位置和旋转。</li>\n<li>设置字体背景的不透明度为 0 就不会影响视频文件。</li>\n<li>视频过渡 -&gt; 渐变擦除，可以用 PS 生成灰度图自定义转场。</li>\n<li>可以在效果控件中消除，复制和粘贴视频效果。</li>\n<li>新建一个图层可以增加一个共有的效果。</li>\n<li>模板是 mogrt 文件。</li>\n<li>窗口 -&gt; 基本图形 -&gt; 导入，当作时间轴拖入。</li>\n<li>要先按回车进行渲染，再播放，不然会很卡。</li>\n<li>蓝色的模板是不要渲染，而红色的需要。</li>\n<li>字体问题直接忽略，或者可以去下载字体库。</li>\n<li>工程文件模板在每个素材那里替换即可。</li>\n</ol>\n<h2 id=\"快捷键\"><a class=\"markdownIt-Anchor\" href=\"#快捷键\">#</a> 快捷键</h2>\n<table>\n<thead>\n<tr>\n<th>快捷键</th>\n<th>作用</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>寻找剪辑点</td>\n<td>寻找剪辑点时，我们可以按下空格键 Space 播放和暂停。大致找到后，细找帧</td>\n</tr>\n<tr>\n<td>Left Right 键</td>\n<td>向前向后一帧 （比较细致，可以一直按，这样速度快一点）</td>\n</tr>\n<tr>\n<td>shift+Left Right 键</td>\n<td>向前向后五帧（这个比较快）</td>\n</tr>\n<tr>\n<td>J</td>\n<td>左穿梭 / 倒放</td>\n</tr>\n<tr>\n<td>K</td>\n<td>停止穿梭</td>\n</tr>\n<tr>\n<td>L</td>\n<td>右穿梭 / 正放</td>\n</tr>\n<tr>\n<td>Shift + L</td>\n<td>慢速右穿梭</td>\n</tr>\n<tr>\n<td>Shift + J</td>\n<td>慢速左穿梭，穿梭键如果连按，可以加速，K 和 Space 都可以停止播放</td>\n</tr>\n<tr>\n<td colspan=\"2\">时间线窗口中时间帧的管理</td>\n</tr>\n<tr>\n<td>End</td>\n<td>跳转到序列 - 素材结束点</td>\n</tr>\n<tr>\n<td>Home</td>\n<td>跳转到序列 - 素材开始点</td>\n</tr>\n<tr>\n<td>Shift + End</td>\n<td>跳转到所选素材结束点</td>\n</tr>\n<tr>\n<td>Up</td>\n<td>跳转上一个编辑点</td>\n</tr>\n<tr>\n<td>Down</td>\n<td>跳转下一个编辑点</td>\n</tr>\n<tr>\n<td>Ctrl+D</td>\n<td>添加转场效果，效果直接拖到转场处即可</td>\n</tr>\n<tr>\n<td>alt</td>\n<td>复制视频</td>\n</tr>\n<tr>\n<td colspan=\"2\">剪辑开始</td>\n</tr>\n<tr>\n<td>i</td>\n<td>设置入点</td>\n</tr>\n<tr>\n<td>o</td>\n<td>设置出点</td>\n</tr>\n<tr>\n<td>Shift + I</td>\n<td>跳转入店</td>\n</tr>\n<tr>\n<td>Shift + O</td>\n<td>跳转出点</td>\n</tr>\n<tr>\n<td>‘</td>\n<td>提取</td>\n</tr>\n<tr>\n<td>，</td>\n<td>插入</td>\n</tr>\n<tr>\n<td>.</td>\n<td>覆盖</td>\n</tr>\n<tr>\n<td>M</td>\n<td>标记点</td>\n</tr>\n<tr>\n<td>shift+M</td>\n<td>移动点</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"直接剪辑\"><a class=\"markdownIt-Anchor\" href=\"#直接剪辑\">#</a> 直接剪辑</h3>\n<ol>\n<li>剃刀 D，不建议用，一个是慢一个是不准确</li>\n<li>用 “添加编辑” 功能，因为常用，我把他重设了快捷键，大家可以在快捷键面板上搜索，一按此键，就可以在时间帧处切开</li>\n<li>Q 把时间帧前面的素材切掉，W 把时间帧后面的素材切掉，补充说明切掉的素材指此段素材，不是说时间帧之前到开头的都没有了</li>\n</ol>\n",
+            "tags": [
+                "Premiere",
+                "视频剪辑"
+            ]
+        }
+    ]
+}
