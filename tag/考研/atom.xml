@@ -4,14 +4,14 @@
     <title>Hexo • Posts by &#34;考研&#34; tag</title>
     <link href="http://example.com" />
     <updated>2023-10-12T10:49:33.040Z</updated>
-    <category term="游记" />
-    <category term="散文" />
     <category term="java" />
     <category term="书籍" />
     <category term="java基础" />
     <category term="java学习路线" />
     <category term="科幻" />
     <category term="小说" />
+    <category term="游记" />
+    <category term="散文" />
     <category term="历史政治" />
     <category term="人物传记" />
     <category term="阅读" />
@@ -25,33 +25,33 @@
     <category term="杂文" />
     <category term="人生感悟" />
     <category term="经济学" />
-    <category term="中国" />
     <category term="科技" />
+    <category term="中国" />
     <category term="心理" />
     <category term="人际交往" />
     <category term="Excel" />
     <category term="office" />
     <category term="日常办公" />
-    <category term="鲁迅" />
     <category term="Premiere" />
     <category term="视频剪辑" />
+    <category term="电子书" />
     <category term="电影" />
     <category term="动漫" />
-    <category term="短剧" />
+    <category term="鲁迅" />
     <category term="电视剧" />
-    <category term="电子书" />
-    <category term="计算机基础" />
-    <category term="云开发" />
-    <category term="微信小程序" />
-    <category term="数据库" />
-    <category term="MySQL" />
+    <category term="短剧" />
     <category term="跨考" />
     <category term="考研" />
     <category term="计算机" />
+    <category term="月报" />
+    <category term="云开发" />
+    <category term="微信小程序" />
+    <category term="计算机基础" />
+    <category term="数据库" />
+    <category term="MySQL" />
     <category term="Python" />
     <category term="编程" />
     <category term="算法" />
-    <category term="月报" />
     <entry>
         <id>http://example.com/2023/10/12/%E7%A0%94%E7%A9%B6%E7%94%9F/%E6%95%B0%E5%AD%A6%E8%B7%A8%E8%80%83%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF%E7%BB%8F%E9%AA%8C%E8%B4%B4/</id>
         <title>暨大计算机|数学跨考计算机技术经验贴</title>
