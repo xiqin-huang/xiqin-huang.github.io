@@ -7,16 +7,12 @@
         <language>en</language>
         <pubDate>Thu, 12 Oct 2023 18:49:33 +0800</pubDate>
         <lastBuildDate>Thu, 12 Oct 2023 18:49:33 +0800</lastBuildDate>
-        <category>java</category>
-        <category>书籍</category>
-        <category>java基础</category>
-        <category>java学习路线</category>
+        <category>散文</category>
         <category>科幻</category>
         <category>小说</category>
-        <category>游记</category>
-        <category>散文</category>
         <category>历史政治</category>
         <category>人物传记</category>
+        <category>书籍</category>
         <category>阅读</category>
         <category>余华</category>
         <category>名言警句</category>
@@ -24,25 +20,29 @@
         <category>历史</category>
         <category>政治</category>
         <category>明朝</category>
-        <category>科技人文</category>
         <category>杂文</category>
         <category>人生感悟</category>
-        <category>经济学</category>
+        <category>科技人文</category>
         <category>科技</category>
+        <category>经济学</category>
         <category>中国</category>
-        <category>心理</category>
         <category>人际交往</category>
+        <category>心理</category>
+        <category>java</category>
+        <category>java基础</category>
+        <category>java学习路线</category>
+        <category>鲁迅</category>
+        <category>游记</category>
+        <category>电影</category>
+        <category>动漫</category>
+        <category>短剧</category>
+        <category>电视剧</category>
         <category>Excel</category>
         <category>office</category>
         <category>日常办公</category>
         <category>Premiere</category>
         <category>视频剪辑</category>
         <category>电子书</category>
-        <category>电影</category>
-        <category>动漫</category>
-        <category>鲁迅</category>
-        <category>电视剧</category>
-        <category>短剧</category>
         <category>跨考</category>
         <category>考研</category>
         <category>计算机</category>
@@ -52,9 +52,9 @@
         <category>计算机基础</category>
         <category>数据库</category>
         <category>MySQL</category>
+        <category>算法</category>
         <category>Python</category>
         <category>编程</category>
-        <category>算法</category>
         <item>
             <guid isPermalink="true">http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E9%BD%90%E6%9C%A8%E6%A5%A0%E9%9B%84%E7%9A%84%E7%81%BE%E9%9A%BE_86/</guid>
             <title>齐木楠雄的灾难_86</title>
@@ -3645,9 +3645,9 @@
             <guid isPermalink="true">http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%9B%BD%E8%B5%9B%E9%A2%98%E7%9B%AE/</guid>
             <title>蓝桥杯国赛题目</title>
             <link>http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%9B%BD%E8%B5%9B%E9%A2%98%E7%9B%AE/</link>
+            <category>算法</category>
             <category>Python</category>
             <category>编程</category>
-            <category>算法</category>
             <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://blog.csdn.net/weixin_43919497/article/details/110011722?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162261625316780264075413%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&amp;amp;request_id=162261625316780264075413&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v29-1-110011722.pc_search_result_before_js&amp;amp;utm_term=%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%8A%E8%93%9D%E6%A1%A5%E6%9D%AFpython%E7%BB%84%E5%9B%BD%E8%B5%9B%E7%AD%94%E6%A1%88&amp;amp;spm=1018.2226.3001.4187&#34; &gt;CSDN 题解 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -3717,9 +3717,9 @@
             <guid isPermalink="true">http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E7%AE%97%E6%B3%95%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</guid>
             <title>算法常用技巧</title>
             <link>http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E7%AE%97%E6%B3%95%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</link>
+            <category>算法</category>
             <category>Python</category>
             <category>编程</category>
-            <category>算法</category>
             <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;数学&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数学&#34;&gt;#&lt;/a&gt; 数学&lt;/h1&gt;
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Html&#34;&gt;&lt;figure class=&#34;iseeu highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;等差数列求和：Sn=(a1+an)*n/2;Sn=n*a1+d*(n-1)*n/2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;等比数列求和：Sn=a1*(1-qn)/(1-q);Sn=(a1-an*q)/(1-q)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;组合数学：A(n,m)=(n!)/(n-m)!;C(n,m)=A(n,m)/m!=(n!)/((n-m)!*m!&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
@@ -9865,8 +9865,8 @@ SELECT DISTINCT Company FROM Orders： distinct 关键字表示只取一次，�
             <guid isPermalink="true">http://example.com/2023/10/12/java/HeadFirst%20Java-Kathy%20Sierra/</guid>
             <title>HeadFirst Java-Kathy Sierra-90</title>
             <link>http://example.com/2023/10/12/java/HeadFirst%20Java-Kathy%20Sierra/</link>
-            <category>java</category>
             <category>书籍</category>
+            <category>java</category>
             <category>java基础</category>
             <category>java学习路线</category>
             <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
