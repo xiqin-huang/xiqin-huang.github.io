@@ -4,54 +4,54 @@
     <title>Hexo • Posts by &#34;java基础&#34; tag</title>
     <link href="http://example.com" />
     <updated>2023-10-12T10:49:32.884Z</updated>
+    <category term="java" />
+    <category term="书籍" />
+    <category term="java基础" />
+    <category term="java学习路线" />
     <category term="散文" />
     <category term="科幻" />
     <category term="小说" />
     <category term="历史政治" />
     <category term="人物传记" />
-    <category term="书籍" />
+    <category term="名言警句" />
     <category term="阅读" />
     <category term="余华" />
-    <category term="名言警句" />
     <category term="心理学" />
     <category term="历史" />
     <category term="政治" />
     <category term="明朝" />
+    <category term="科技人文" />
+    <category term="经济学" />
     <category term="杂文" />
     <category term="人生感悟" />
-    <category term="科技人文" />
     <category term="科技" />
-    <category term="经济学" />
     <category term="中国" />
-    <category term="人际交往" />
     <category term="心理" />
-    <category term="java" />
-    <category term="java基础" />
-    <category term="java学习路线" />
-    <category term="鲁迅" />
-    <category term="游记" />
-    <category term="电影" />
-    <category term="动漫" />
-    <category term="短剧" />
-    <category term="电视剧" />
+    <category term="人际交往" />
     <category term="Excel" />
     <category term="office" />
     <category term="日常办公" />
     <category term="Premiere" />
     <category term="视频剪辑" />
+    <category term="鲁迅" />
     <category term="电子书" />
+    <category term="游记" />
+    <category term="电影" />
+    <category term="电视剧" />
+    <category term="动漫" />
+    <category term="短剧" />
+    <category term="计算机基础" />
+    <category term="云开发" />
+    <category term="微信小程序" />
+    <category term="数据库" />
+    <category term="MySQL" />
+    <category term="Python" />
+    <category term="编程" />
+    <category term="算法" />
     <category term="跨考" />
     <category term="考研" />
     <category term="计算机" />
     <category term="月报" />
-    <category term="云开发" />
-    <category term="微信小程序" />
-    <category term="计算机基础" />
-    <category term="数据库" />
-    <category term="MySQL" />
-    <category term="算法" />
-    <category term="Python" />
-    <category term="编程" />
     <entry>
         <id>http://example.com/2023/10/12/java/%E9%9F%A9%E9%A1%BA%E5%B9%B3%20%E9%9B%B6%E5%9F%BA%E7%A1%8030%E5%A4%A9%E5%AD%A6%E4%BC%9AJava/</id>
         <title>零基础30天学会Java-韩顺平-98</title>
@@ -3117,8 +3117,8 @@
 &lt;li&gt;JWS (Java Web Start) 程序由两个部分组成：可执行的 JAR 文件和.jnlp 文件。.jhlp 文件是用来描述 JWS 应用程序的 XML 文件，它有 target 指定 JAR 的名称和位置，以及带有 main () 的类名称。&lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="书籍" />
         <category term="java" />
+        <category term="书籍" />
         <category term="java基础" />
         <category term="java学习路线" />
         <updated>2023-10-12T10:49:32.879Z</updated>

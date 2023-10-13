@@ -4,54 +4,54 @@
     <title>Hexo • Posts by &#34;编程&#34; category</title>
     <link href="http://example.com" />
     <updated>2023-10-12T10:49:32.954Z</updated>
+    <category term="java" />
+    <category term="书籍" />
+    <category term="java基础" />
+    <category term="java学习路线" />
     <category term="散文" />
     <category term="科幻" />
     <category term="小说" />
     <category term="历史政治" />
     <category term="人物传记" />
-    <category term="书籍" />
+    <category term="名言警句" />
     <category term="阅读" />
     <category term="余华" />
-    <category term="名言警句" />
     <category term="心理学" />
     <category term="历史" />
     <category term="政治" />
     <category term="明朝" />
+    <category term="科技人文" />
+    <category term="经济学" />
     <category term="杂文" />
     <category term="人生感悟" />
-    <category term="科技人文" />
     <category term="科技" />
-    <category term="经济学" />
     <category term="中国" />
-    <category term="人际交往" />
     <category term="心理" />
-    <category term="java" />
-    <category term="java基础" />
-    <category term="java学习路线" />
-    <category term="鲁迅" />
-    <category term="游记" />
-    <category term="电影" />
-    <category term="动漫" />
-    <category term="短剧" />
-    <category term="电视剧" />
+    <category term="人际交往" />
     <category term="Excel" />
     <category term="office" />
     <category term="日常办公" />
     <category term="Premiere" />
     <category term="视频剪辑" />
+    <category term="鲁迅" />
     <category term="电子书" />
+    <category term="游记" />
+    <category term="电影" />
+    <category term="电视剧" />
+    <category term="动漫" />
+    <category term="短剧" />
+    <category term="计算机基础" />
+    <category term="云开发" />
+    <category term="微信小程序" />
+    <category term="数据库" />
+    <category term="MySQL" />
+    <category term="Python" />
+    <category term="编程" />
+    <category term="算法" />
     <category term="跨考" />
     <category term="考研" />
     <category term="计算机" />
     <category term="月报" />
-    <category term="云开发" />
-    <category term="微信小程序" />
-    <category term="计算机基础" />
-    <category term="数据库" />
-    <category term="MySQL" />
-    <category term="算法" />
-    <category term="Python" />
-    <category term="编程" />
     <entry>
         <id>http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0/</id>
         <title>数据库系统概述-91</title>
@@ -424,9 +424,9 @@
 不会&lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="算法" />
         <category term="Python" />
         <category term="编程" />
+        <category term="算法" />
         <updated>2023-10-12T10:49:32.922Z</updated>
     </entry>
     <entry>
@@ -653,9 +653,9 @@
 &lt;h2 id=&#34;类的声明&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#类的声明&#34;&gt;#&lt;/a&gt; 类的声明&lt;/h2&gt;
 &lt;div class=&#34;highlight-container&#34; data-rel=&#34;Python&#34;&gt;&lt;figure class=&#34;iseeu highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Potato&lt;/span&gt;:&lt;span class=&#34;comment&#34;&gt;#声明类名&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;__init__&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;self,name&lt;/span&gt;):&lt;span class=&#34;comment&#34;&gt;#声明构造方法，self用于在类中传递各种属性&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          self.name=name&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;kick&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;self&lt;/span&gt;):&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &lt;span class=&#34;built_in&#34;&gt;print&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;我叫%s。&amp;quot;&lt;/span&gt;%self.name);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
 </content>
-        <category term="算法" />
         <category term="Python" />
         <category term="编程" />
+        <category term="算法" />
         <updated>2023-10-12T10:49:32.918Z</updated>
     </entry>
     <entry>
