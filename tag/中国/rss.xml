@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>Hexo • Posts by &#34;中国&#34; tag</title>
-        <link>http://example.com</link>
+        <title>西芹的小站 • Posts by &#34;中国&#34; tag</title>
+        <link>https://xiqin-huang.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Thu, 12 Oct 2023 18:49:33 +0800</pubDate>
@@ -11,10 +11,16 @@
         <category>书籍</category>
         <category>java基础</category>
         <category>java学习路线</category>
+        <category>Excel</category>
+        <category>office</category>
+        <category>日常办公</category>
         <category>散文</category>
+        <category>游记</category>
+        <category>历史政治</category>
         <category>科幻</category>
         <category>小说</category>
-        <category>历史政治</category>
+        <category>Premiere</category>
+        <category>视频剪辑</category>
         <category>人物传记</category>
         <category>名言警句</category>
         <category>阅读</category>
@@ -23,42 +29,36 @@
         <category>历史</category>
         <category>政治</category>
         <category>明朝</category>
-        <category>科技人文</category>
-        <category>经济学</category>
         <category>杂文</category>
         <category>人生感悟</category>
-        <category>科技</category>
+        <category>科技人文</category>
+        <category>经济学</category>
         <category>中国</category>
-        <category>心理</category>
+        <category>科技</category>
         <category>人际交往</category>
-        <category>Excel</category>
-        <category>office</category>
-        <category>日常办公</category>
-        <category>Premiere</category>
-        <category>视频剪辑</category>
-        <category>鲁迅</category>
-        <category>电子书</category>
-        <category>游记</category>
+        <category>心理</category>
         <category>电影</category>
-        <category>电视剧</category>
         <category>动漫</category>
         <category>短剧</category>
+        <category>电视剧</category>
+        <category>电子书</category>
+        <category>跨考</category>
+        <category>考研</category>
+        <category>计算机</category>
+        <category>月报</category>
         <category>计算机基础</category>
         <category>云开发</category>
         <category>微信小程序</category>
         <category>数据库</category>
         <category>MySQL</category>
+        <category>鲁迅</category>
+        <category>算法</category>
         <category>Python</category>
         <category>编程</category>
-        <category>算法</category>
-        <category>跨考</category>
-        <category>考研</category>
-        <category>计算机</category>
-        <category>月报</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E7%BD%AE%E8%BA%AB%E4%BA%8B%E5%86%85%EF%BC%9A%E4%B8%AD%E5%9B%BD%E6%94%BF%E5%BA%9C%E4%B8%8E%E7%BB%8F%E6%B5%8E%E5%8F%91%E5%B1%95-%E5%85%B0%E5%B0%8F%E6%AC%A2-93/</guid>
+            <guid isPermalink="true">https://xiqin-huang.github.io/2023/10/12/shu-ji/zhi-shen-shi-nei-zhong-guo-zheng-fu-yu-jing-ji-fa-zhan-lan-xiao-huan-93/</guid>
             <title>置身事内：中国政府与经济发展-兰小欢-93</title>
-            <link>http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E7%BD%AE%E8%BA%AB%E4%BA%8B%E5%86%85%EF%BC%9A%E4%B8%AD%E5%9B%BD%E6%94%BF%E5%BA%9C%E4%B8%8E%E7%BB%8F%E6%B5%8E%E5%8F%91%E5%B1%95-%E5%85%B0%E5%B0%8F%E6%AC%A2-93/</link>
+            <link>https://xiqin-huang.github.io/2023/10/12/shu-ji/zhi-shen-shi-nei-zhong-guo-zheng-fu-yu-jing-ji-fa-zhan-lan-xiao-huan-93/</link>
             <category>经济学</category>
             <category>中国</category>
             <pubDate>Thu, 12 Oct 2023 18:49:33 +0800</pubDate>

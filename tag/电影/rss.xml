@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>Hexo • Posts by &#34;电影&#34; tag</title>
-        <link>http://example.com</link>
+        <title>西芹的小站 • Posts by &#34;电影&#34; tag</title>
+        <link>https://xiqin-huang.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Thu, 12 Oct 2023 18:49:33 +0800</pubDate>
@@ -11,10 +11,16 @@
         <category>书籍</category>
         <category>java基础</category>
         <category>java学习路线</category>
+        <category>Excel</category>
+        <category>office</category>
+        <category>日常办公</category>
         <category>散文</category>
+        <category>游记</category>
+        <category>历史政治</category>
         <category>科幻</category>
         <category>小说</category>
-        <category>历史政治</category>
+        <category>Premiere</category>
+        <category>视频剪辑</category>
         <category>人物传记</category>
         <category>名言警句</category>
         <category>阅读</category>
@@ -23,42 +29,36 @@
         <category>历史</category>
         <category>政治</category>
         <category>明朝</category>
-        <category>科技人文</category>
-        <category>经济学</category>
         <category>杂文</category>
         <category>人生感悟</category>
-        <category>科技</category>
+        <category>科技人文</category>
+        <category>经济学</category>
         <category>中国</category>
-        <category>心理</category>
+        <category>科技</category>
         <category>人际交往</category>
-        <category>Excel</category>
-        <category>office</category>
-        <category>日常办公</category>
-        <category>Premiere</category>
-        <category>视频剪辑</category>
-        <category>鲁迅</category>
-        <category>电子书</category>
-        <category>游记</category>
+        <category>心理</category>
         <category>电影</category>
-        <category>电视剧</category>
         <category>动漫</category>
         <category>短剧</category>
+        <category>电视剧</category>
+        <category>电子书</category>
+        <category>跨考</category>
+        <category>考研</category>
+        <category>计算机</category>
+        <category>月报</category>
         <category>计算机基础</category>
         <category>云开发</category>
         <category>微信小程序</category>
         <category>数据库</category>
         <category>MySQL</category>
+        <category>鲁迅</category>
+        <category>算法</category>
         <category>Python</category>
         <category>编程</category>
-        <category>算法</category>
-        <category>跨考</category>
-        <category>考研</category>
-        <category>计算机</category>
-        <category>月报</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E8%8E%AB%E6%96%AF%E7%A7%91%E4%B8%8D%E7%9B%B8%E4%BF%A1%E7%9C%BC%E6%B3%AA_86/</guid>
+            <guid isPermalink="true">https://xiqin-huang.github.io/2023/10/12/ying-ping/mo-si-ke-bu-xiang-xin-yan-lei-86/</guid>
             <title>莫斯科不相信眼泪_86</title>
-            <link>http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E8%8E%AB%E6%96%AF%E7%A7%91%E4%B8%8D%E7%9B%B8%E4%BF%A1%E7%9C%BC%E6%B3%AA_86/</link>
+            <link>https://xiqin-huang.github.io/2023/10/12/ying-ping/mo-si-ke-bu-xiang-xin-yan-lei-86/</link>
             <category>电影</category>
             <pubDate>Thu, 12 Oct 2023 18:49:33 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;优点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#优点&#34;&gt;#&lt;/a&gt; 优点&lt;/h1&gt;
@@ -79,9 +79,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E5%85%89%E8%8D%A3%E7%9A%84%E6%84%A4%E6%80%92_87/</guid>
+            <guid isPermalink="true">https://xiqin-huang.github.io/2023/10/12/ying-ping/guang-rong-de-fen-nu-87/</guid>
             <title>光荣的愤怒_87</title>
-            <link>http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E5%85%89%E8%8D%A3%E7%9A%84%E6%84%A4%E6%80%92_87/</link>
+            <link>https://xiqin-huang.github.io/2023/10/12/ying-ping/guang-rong-de-fen-nu-87/</link>
             <category>电影</category>
             <pubDate>Thu, 12 Oct 2023 18:49:33 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;优点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#优点&#34;&gt;#&lt;/a&gt; 优点&lt;/h1&gt;
@@ -100,9 +100,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94_87/</guid>
+            <guid isPermalink="true">https://xiqin-huang.github.io/2023/10/12/ying-ping/liao-bu-qi-de-gai-ci-bi-87/</guid>
             <title>了不起的盖茨比_87</title>
-            <link>http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94_87/</link>
+            <link>https://xiqin-huang.github.io/2023/10/12/ying-ping/liao-bu-qi-de-gai-ci-bi-87/</link>
             <category>电影</category>
             <pubDate>Thu, 12 Oct 2023 18:49:33 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;优点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#优点&#34;&gt;#&lt;/a&gt; 优点&lt;/h1&gt;

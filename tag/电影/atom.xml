@@ -1,17 +1,23 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
-    <title>Hexo • Posts by &#34;电影&#34; tag</title>
-    <link href="http://example.com" />
+    <id>https://xiqin-huang.github.io</id>
+    <title>西芹的小站 • Posts by &#34;电影&#34; tag</title>
+    <link href="https://xiqin-huang.github.io" />
     <updated>2023-10-12T10:49:33.072Z</updated>
     <category term="java" />
     <category term="书籍" />
     <category term="java基础" />
     <category term="java学习路线" />
+    <category term="Excel" />
+    <category term="office" />
+    <category term="日常办公" />
     <category term="散文" />
+    <category term="游记" />
+    <category term="历史政治" />
     <category term="科幻" />
     <category term="小说" />
-    <category term="历史政治" />
+    <category term="Premiere" />
+    <category term="视频剪辑" />
     <category term="人物传记" />
     <category term="名言警句" />
     <category term="阅读" />
@@ -20,42 +26,36 @@
     <category term="历史" />
     <category term="政治" />
     <category term="明朝" />
-    <category term="科技人文" />
-    <category term="经济学" />
     <category term="杂文" />
     <category term="人生感悟" />
-    <category term="科技" />
+    <category term="科技人文" />
+    <category term="经济学" />
     <category term="中国" />
-    <category term="心理" />
+    <category term="科技" />
     <category term="人际交往" />
-    <category term="Excel" />
-    <category term="office" />
-    <category term="日常办公" />
-    <category term="Premiere" />
-    <category term="视频剪辑" />
-    <category term="鲁迅" />
-    <category term="电子书" />
-    <category term="游记" />
+    <category term="心理" />
     <category term="电影" />
-    <category term="电视剧" />
     <category term="动漫" />
     <category term="短剧" />
+    <category term="电视剧" />
+    <category term="电子书" />
+    <category term="跨考" />
+    <category term="考研" />
+    <category term="计算机" />
+    <category term="月报" />
     <category term="计算机基础" />
     <category term="云开发" />
     <category term="微信小程序" />
     <category term="数据库" />
     <category term="MySQL" />
+    <category term="鲁迅" />
+    <category term="算法" />
     <category term="Python" />
     <category term="编程" />
-    <category term="算法" />
-    <category term="跨考" />
-    <category term="考研" />
-    <category term="计算机" />
-    <category term="月报" />
     <entry>
-        <id>http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E8%8E%AB%E6%96%AF%E7%A7%91%E4%B8%8D%E7%9B%B8%E4%BF%A1%E7%9C%BC%E6%B3%AA_86/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/ying-ping/mo-si-ke-bu-xiang-xin-yan-lei-86/</id>
         <title>莫斯科不相信眼泪_86</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E8%8E%AB%E6%96%AF%E7%A7%91%E4%B8%8D%E7%9B%B8%E4%BF%A1%E7%9C%BC%E6%B3%AA_86/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/ying-ping/mo-si-ke-bu-xiang-xin-yan-lei-86/"/>
         <content type="html">&lt;h1 id=&#34;优点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#优点&#34;&gt;#&lt;/a&gt; 优点&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;点题，女主的三次哭泣都是情节关键处，还有闹钟的隐喻。而女主最后一次落泪的时候，她终于收获了她真正的爱情。&lt;/li&gt;
@@ -76,9 +76,9 @@
         <updated>2023-10-12T10:49:33.072Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E5%85%89%E8%8D%A3%E7%9A%84%E6%84%A4%E6%80%92_87/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/ying-ping/guang-rong-de-fen-nu-87/</id>
         <title>光荣的愤怒_87</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E5%85%89%E8%8D%A3%E7%9A%84%E6%84%A4%E6%80%92_87/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/ying-ping/guang-rong-de-fen-nu-87/"/>
         <content type="html">&lt;h1 id=&#34;优点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#优点&#34;&gt;#&lt;/a&gt; 优点&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;优秀的开头。短短的开头就将故事的背景，主要人物的性格，以及产生矛盾的原因都讲述给了观众，使得故事的逻辑得以自洽。而且开头狗卵的那一段很精彩，完全捉住了观众的情绪，想要知道到底发生了什么。还有中间插入的文字也很不错，方便了观众了解故事背景。&lt;/li&gt;
@@ -97,9 +97,9 @@
         <updated>2023-10-12T10:49:33.058Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94_87/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/ying-ping/liao-bu-qi-de-gai-ci-bi-87/</id>
         <title>了不起的盖茨比_87</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94_87/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/ying-ping/liao-bu-qi-de-gai-ci-bi-87/"/>
         <content type="html">&lt;h1 id=&#34;优点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#优点&#34;&gt;#&lt;/a&gt; 优点&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;环境还原的很好，盖茨比宫殿般的房子，奢华的宴会，还有那一条泥泞的煤炭路都满足了我对于书中的想象。&lt;/li&gt;

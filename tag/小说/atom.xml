@@ -1,17 +1,23 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
-    <title>Hexo • Posts by &#34;小说&#34; tag</title>
-    <link href="http://example.com" />
+    <id>https://xiqin-huang.github.io</id>
+    <title>西芹的小站 • Posts by &#34;小说&#34; tag</title>
+    <link href="https://xiqin-huang.github.io" />
     <updated>2023-10-12T10:49:33.030Z</updated>
     <category term="java" />
     <category term="书籍" />
     <category term="java基础" />
     <category term="java学习路线" />
+    <category term="Excel" />
+    <category term="office" />
+    <category term="日常办公" />
     <category term="散文" />
+    <category term="游记" />
+    <category term="历史政治" />
     <category term="科幻" />
     <category term="小说" />
-    <category term="历史政治" />
+    <category term="Premiere" />
+    <category term="视频剪辑" />
     <category term="人物传记" />
     <category term="名言警句" />
     <category term="阅读" />
@@ -20,42 +26,36 @@
     <category term="历史" />
     <category term="政治" />
     <category term="明朝" />
-    <category term="科技人文" />
-    <category term="经济学" />
     <category term="杂文" />
     <category term="人生感悟" />
-    <category term="科技" />
+    <category term="科技人文" />
+    <category term="经济学" />
     <category term="中国" />
-    <category term="心理" />
+    <category term="科技" />
     <category term="人际交往" />
-    <category term="Excel" />
-    <category term="office" />
-    <category term="日常办公" />
-    <category term="Premiere" />
-    <category term="视频剪辑" />
-    <category term="鲁迅" />
-    <category term="电子书" />
-    <category term="游记" />
+    <category term="心理" />
     <category term="电影" />
-    <category term="电视剧" />
     <category term="动漫" />
     <category term="短剧" />
+    <category term="电视剧" />
+    <category term="电子书" />
+    <category term="跨考" />
+    <category term="考研" />
+    <category term="计算机" />
+    <category term="月报" />
     <category term="计算机基础" />
     <category term="云开发" />
     <category term="微信小程序" />
     <category term="数据库" />
     <category term="MySQL" />
+    <category term="鲁迅" />
+    <category term="算法" />
     <category term="Python" />
     <category term="编程" />
-    <category term="算法" />
-    <category term="跨考" />
-    <category term="考研" />
-    <category term="计算机" />
-    <category term="月报" />
     <entry>
-        <id>http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E9%AB%98%E8%80%81%E5%A4%B4_[%E6%B3%95]%E5%B7%B4%E5%B0%94%E6%89%8E%E5%85%8B_88/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/shu-ji/gao-lao-tou-fa-ba-er-zha-ke-88/</id>
         <title>高老头_[法]巴尔扎克_88</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E9%AB%98%E8%80%81%E5%A4%B4_[%E6%B3%95]%E5%B7%B4%E5%B0%94%E6%89%8E%E5%85%8B_88/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/shu-ji/gao-lao-tou-fa-ba-er-zha-ke-88/"/>
         <content type="html">&lt;h1 id=&#34;摘要&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#摘要&#34;&gt;#&lt;/a&gt; 摘要&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;谁又能说，枯萎的心灵和空无一物的骷髅，究竟哪一样看上去更可怕。&lt;/strong&gt;&lt;/li&gt;
@@ -91,9 +91,9 @@
         <updated>2023-10-12T10:49:33.030Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/shu-ji/du-shu-bi-ji/</id>
         <title>读书笔记</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/shu-ji/du-shu-bi-ji/"/>
         <content type="html">&lt;h1 id=&#34;月亮与六便士_毛姆_90&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#月亮与六便士_毛姆_90&#34;&gt;#&lt;/a&gt; 月亮与六便士_毛姆_90&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;那些慷慨激昂的人自以为他们说的话是前人闻所未闻的，殊不知此类豪言壮语早已被说过上百遍，而且连说话的腔调也是大同小异。&lt;/li&gt;
@@ -168,7 +168,7 @@
 &lt;p&gt;书本的开头就十分引人入胜，通过 “我” 的观察，寥寥数笔就写出了棋王王一生最突出的两个特征，一是嗜棋如命，躲避着亲人的送别，却到处寻人下棋，一找到人下棋就开心的不得了；二是对吃的渴望，细节在于对其吃饭时的神态，最妙的是写王一生将桌子上的干了的饭粒抠出来再放入口中细细咀嚼的神态。&lt;/p&gt;
 &lt;p&gt;“若饭粒儿落在衣服上，就马上一按，拈进嘴里。若一个没按住，饭粒儿由衣服上掉下地，他也立刻双脚不再移动，转了上身找，吃完以后，他把两只筷子吮净，拿水把饭盒冲满，先将上面一层油花吸净，然后就带着安全到达彼岸的神色小口小口的呷，他对吃是虔诚的，而且很精细。有时你会可怜那些饭被他吃得一个渣儿都不剩，真有点儿惨无人道。”&lt;/p&gt;
 &lt;p&gt;用着最平淡的语气来写最传神的文章，这是这篇小说的精妙之处。而小说的高潮是王一生与九位棋赛胜者同时进行比赛。“他把嘴定在碗边儿，半响，回报了棋步，才咽一口水下去，“咕” 的一声，声音大的可怕，眼里有了泪花。” 没有写棋局的凶险，而去写喝水的情形来刻画说明。而王一生隐隐有股书呆子气，“脚卵” 送了自己珍藏多年的棋盘给棋赛领导来让王一生去参赛，他拒绝了，宁愿在棋赛结束后，去和棋赛的赢家再比一次。而且这篇小说充满着一种传统文化，例如 “势”，“阴阳” 等。风格有点类似于冯骥才的《俗世奇人》，也是用精妙的语言来刻画人物。小说可读性很强，情节引人入胜。&lt;/p&gt;
-&lt;br/&gt;
+&lt;br&gt;
 &lt;h1 id=&#34;人类简史_以色列尤瓦尔赫拉利_87&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#人类简史_以色列尤瓦尔赫拉利_87&#34;&gt;#&lt;/a&gt; 人类简史_[以色列] 尤瓦尔。赫拉利_87&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;农业革命并没有让大多数人都过上更好的生活，只是让人类以更低的标准养活更多的人。&lt;/strong&gt;&lt;/li&gt;
@@ -201,15 +201,15 @@
 &lt;li&gt;&lt;strong&gt;写，是重要，而有时搁笔不写，却是更重要。&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </content>
+        <category term="历史政治" />
         <category term="科幻" />
         <category term="小说" />
-        <category term="历史政治" />
         <updated>2023-10-12T10:49:33.020Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E8%8E%AB%E6%B3%8A%E6%A1%91%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4%E7%B2%BE%E9%80%89_[%E6%B3%95]%E8%8E%AB%E6%B3%8A%E6%A1%91_90/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/shu-ji/mo-bo-sang-duan-pian-xiao-shuo-jing-xuan-fa-mo-bo-sang-90/</id>
         <title>莫泊桑短篇小说精选_[法]莫泊桑_90</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E8%8E%AB%E6%B3%8A%E6%A1%91%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4%E7%B2%BE%E9%80%89_[%E6%B3%95]%E8%8E%AB%E6%B3%8A%E6%A1%91_90/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/shu-ji/mo-bo-sang-duan-pian-xiao-shuo-jing-xuan-fa-mo-bo-sang-90/"/>
         <content type="html">&lt;h1 id=&#34;摘要&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#摘要&#34;&gt;#&lt;/a&gt; 摘要&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;焦虑不安的等待，反倒让人盼着敌人快点来。&lt;/li&gt;
@@ -261,9 +261,9 @@
         <updated>2023-10-12T10:49:33.018Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E8%80%81%E4%BA%BA%E4%B8%8E%E6%B5%B7_%E6%B5%B7%E6%98%8E%E5%A8%81_89/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/shu-ji/lao-ren-yu-hai-hai-ming-wei-89/</id>
         <title>老人与海_海明威_89</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E8%80%81%E4%BA%BA%E4%B8%8E%E6%B5%B7_%E6%B5%B7%E6%98%8E%E5%A8%81_89/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/shu-ji/lao-ren-yu-hai-hai-ming-wei-89/"/>
         <content type="html">&lt;h1 id=&#34;摘抄&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#摘抄&#34;&gt;#&lt;/a&gt; 摘抄&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;运气好当然不错。但我宁可准确。那么等运气来的时候，你就能有所准备了。&lt;/strong&gt;&lt;/li&gt;
@@ -289,9 +289,9 @@
         <updated>2023-10-12T10:49:33.014Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E6%AC%A7%E4%B9%9F%E5%A6%AE.%E8%91%9B%E6%9C%97%E5%8F%B0_[%E6%B3%95]%E5%B7%B4%E5%B0%94%E6%89%8E%E5%85%8B_90/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/shu-ji/ou-ye-ni.ge-lang-tai-fa-ba-er-zha-ke-90/</id>
         <title>欧也妮.葛朗台_[法]巴尔扎克_90</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E6%AC%A7%E4%B9%9F%E5%A6%AE.%E8%91%9B%E6%9C%97%E5%8F%B0_[%E6%B3%95]%E5%B7%B4%E5%B0%94%E6%89%8E%E5%85%8B_90/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/shu-ji/ou-ye-ni.ge-lang-tai-fa-ba-er-zha-ke-90/"/>
         <content type="html">&lt;h1 id=&#34;摘要&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#摘要&#34;&gt;#&lt;/a&gt; 摘要&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;晴雨表能够轮流的叫人愁，叫人笑，叫人高兴。&lt;/li&gt;
@@ -323,9 +323,9 @@
         <updated>2023-10-12T10:49:33.001Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E5%B0%98%E5%9F%83%E8%90%BD%E5%AE%9A_%E9%98%BF%E6%9D%A5_88/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/shu-ji/chen-ai-luo-ding-a-lai-88/</id>
         <title>尘埃落定_阿来_88</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E5%B0%98%E5%9F%83%E8%90%BD%E5%AE%9A_%E9%98%BF%E6%9D%A5_88/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/shu-ji/chen-ai-luo-ding-a-lai-88/"/>
         <content type="html">&lt;h1 id=&#34;摘要&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#摘要&#34;&gt;#&lt;/a&gt; 摘要&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;是的，上天叫我看见，叫我听见，叫我置身其中，又叫我超然物外。&lt;/strong&gt;&lt;/li&gt;
@@ -351,9 +351,9 @@
         <updated>2023-10-12T10:49:32.990Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E5%9C%A8%E8%B7%AF%E4%B8%8A_[%E7%BE%8E]%E6%9D%B0%E5%85%8B.%E5%87%AF%E9%B2%81%E6%8B%89%E5%85%8B_88/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/shu-ji/zai-lu-shang-mei-jie-ke.kai-lu-la-ke-88/</id>
         <title>在路上_[美]杰克.凯鲁拉克_88</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E5%9C%A8%E8%B7%AF%E4%B8%8A_[%E7%BE%8E]%E6%9D%B0%E5%85%8B.%E5%87%AF%E9%B2%81%E6%8B%89%E5%85%8B_88/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/shu-ji/zai-lu-shang-mei-jie-ke.kai-lu-la-ke-88/"/>
         <content type="html">&lt;h1 id=&#34;摘要&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#摘要&#34;&gt;#&lt;/a&gt; 摘要&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;在这条路上走下去，我知道会有女人，会有幻象，会有一切，在这条路上走下去，明珠会交到我手中。&lt;/li&gt;
@@ -385,9 +385,9 @@
         <updated>2023-10-12T10:49:32.988Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E5%80%9A%E5%A4%A9%E5%B1%A0%E9%BE%99%E8%AE%B0_%E9%87%91%E5%BA%B8_87/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/shu-ji/yi-tian-tu-long-ji-jin-yong-87/</id>
         <title>倚天屠龙记_金庸_87</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E5%80%9A%E5%A4%A9%E5%B1%A0%E9%BE%99%E8%AE%B0_%E9%87%91%E5%BA%B8_87/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/shu-ji/yi-tian-tu-long-ji-jin-yong-87/"/>
         <content type="html">&lt;h1 id=&#34;读后感&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#读后感&#34;&gt;#&lt;/a&gt; 读后感&lt;/h1&gt;
 &lt;p&gt;由于李连杰的《倚天屠龙记》电影给童年的我留下了深刻的印象，加之周围的同学一直推荐我阅读这本书，所以在一个明媚的早晨，我翻开了这本书，下面是我对这本书的一些感悟。&lt;/p&gt;
 &lt;p&gt;复杂的情况下，是否有双赢的选择？现在很多人都说世界不是 “零和” 游戏，要双赢，一开始我也认为这句话很有道理，但是现在我感觉这句话是不太现实的。因为有时候大家的核心利益是有冲突的，比如书中的宝物 —— 屠龙刀，大家都想要它，从而可以号令天下。而这个时候大家的核心利益就产生了冲突，谁都不会就此让步，就更谈不上双赢了。又比如金毛狮王谢逊的问题，他为了逼成昆出现，不惜杀害无辜的人，他们的亲人都渴望为无辜的人们复仇，而张无忌一心要保护他的义父谢逊，这样的情况又怎样达到双赢呢？所以说，双赢谈何容易，在没有核心利益冲突的时候，谈双赢很容易，做到双赢也很容易，但是在核心利益产生冲突的时候，双赢只是为了自己获取更大的利益的幌子罢了，毕竟谁又愿意把自己的利益无偿的让渡给别人。&lt;/p&gt;
@@ -402,9 +402,9 @@
         <updated>2023-10-12T10:49:32.981Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94_%E8%8F%B2%E8%8C%A8.%E6%9D%B0%E6%8B%89%E5%BE%B7_87/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/shu-ji/liao-bu-qi-de-gai-ci-bi-fei-ci.jie-la-de-87/</id>
         <title>了不起的盖茨比_菲茨.杰拉德_87</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94_%E8%8F%B2%E8%8C%A8.%E6%9D%B0%E6%8B%89%E5%BE%B7_87/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/shu-ji/liao-bu-qi-de-gai-ci-bi-fei-ci.jie-la-de-87/"/>
         <content type="html">&lt;h1 id=&#34;摘要&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#摘要&#34;&gt;#&lt;/a&gt; 摘要&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;每当你想要批评别人的时候，要牢记这个世界上的所有人，并不是都拥有你曾经拥有的那些优越条件。&lt;/strong&gt;&lt;/li&gt;
@@ -423,9 +423,9 @@
         <updated>2023-10-12T10:49:32.975Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E4%B8%89%E4%BD%93-%E5%88%98%E6%85%88%E6%AC%A3-95/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/shu-ji/san-ti-liu-ci-xin-95/</id>
         <title>三体-刘慈欣-95</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E4%B8%89%E4%BD%93-%E5%88%98%E6%85%88%E6%AC%A3-95/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/shu-ji/san-ti-liu-ci-xin-95/"/>
         <content type="html">&lt;h1 id=&#34;三体-95&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#三体-95&#34;&gt;#&lt;/a&gt; 三体 - 95&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;那你的生活是一种偶然，世界有这么多变幻莫测的因素，你的人生却没什么变故。&lt;/li&gt;

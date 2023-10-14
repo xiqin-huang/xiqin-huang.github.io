@@ -1,17 +1,23 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
-    <title>Hexo • Posts by &#34;科技人文&#34; tag</title>
-    <link href="http://example.com" />
+    <id>https://xiqin-huang.github.io</id>
+    <title>西芹的小站 • Posts by &#34;科技人文&#34; tag</title>
+    <link href="https://xiqin-huang.github.io" />
     <updated>2023-10-12T10:49:33.004Z</updated>
     <category term="java" />
     <category term="书籍" />
     <category term="java基础" />
     <category term="java学习路线" />
+    <category term="Excel" />
+    <category term="office" />
+    <category term="日常办公" />
     <category term="散文" />
+    <category term="游记" />
+    <category term="历史政治" />
     <category term="科幻" />
     <category term="小说" />
-    <category term="历史政治" />
+    <category term="Premiere" />
+    <category term="视频剪辑" />
     <category term="人物传记" />
     <category term="名言警句" />
     <category term="阅读" />
@@ -20,42 +26,36 @@
     <category term="历史" />
     <category term="政治" />
     <category term="明朝" />
-    <category term="科技人文" />
-    <category term="经济学" />
     <category term="杂文" />
     <category term="人生感悟" />
-    <category term="科技" />
+    <category term="科技人文" />
+    <category term="经济学" />
     <category term="中国" />
-    <category term="心理" />
+    <category term="科技" />
     <category term="人际交往" />
-    <category term="Excel" />
-    <category term="office" />
-    <category term="日常办公" />
-    <category term="Premiere" />
-    <category term="视频剪辑" />
-    <category term="鲁迅" />
-    <category term="电子书" />
-    <category term="游记" />
+    <category term="心理" />
     <category term="电影" />
-    <category term="电视剧" />
     <category term="动漫" />
     <category term="短剧" />
+    <category term="电视剧" />
+    <category term="电子书" />
+    <category term="跨考" />
+    <category term="考研" />
+    <category term="计算机" />
+    <category term="月报" />
     <category term="计算机基础" />
     <category term="云开发" />
     <category term="微信小程序" />
     <category term="数据库" />
     <category term="MySQL" />
+    <category term="鲁迅" />
+    <category term="算法" />
     <category term="Python" />
     <category term="编程" />
-    <category term="算法" />
-    <category term="跨考" />
-    <category term="考研" />
-    <category term="计算机" />
-    <category term="月报" />
     <entry>
-        <id>http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E6%B5%AA%E6%BD%AE%E4%B9%8B%E5%B7%85-%E5%90%B4%E5%86%9B-93/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/shu-ji/lang-chao-zhi-dian-wu-jun-93/</id>
         <title>浪潮之巅-吴军-93</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E6%B5%AA%E6%BD%AE%E4%B9%8B%E5%B7%85-%E5%90%B4%E5%86%9B-93/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/shu-ji/lang-chao-zhi-dian-wu-jun-93/"/>
         <content type="html">&lt;h1 id=&#34;摘抄&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#摘抄&#34;&gt;#&lt;/a&gt; 摘抄&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;对于一个弄潮的年轻人来讲，最幸运的，莫过于赶上一波大潮。&lt;/li&gt;
@@ -118,9 +118,9 @@
 &lt;li&gt;越是以前成功的公司，越容易相信自己固有的基因是最优秀的。&lt;/li&gt;
 &lt;li&gt;不得不说世界上有不少人缺乏常识和思考，并且热衷于传播谣言。&lt;/li&gt;
 &lt;li&gt;开放校园的真正含义在于像斯坦福大学那样，让大学融入社会。&lt;/li&gt;
-&lt;li&gt;要保证质量，最好的方法就是 “杀鸡用牛刀 &amp;quot;。&lt;/li&gt;
+&lt;li&gt;要保证质量，最好的方法就是 “杀鸡用牛刀 &#34;。&lt;/li&gt;
 &lt;li&gt;很多事情与其跟美国政府商量，不如找大公司和银行。&lt;/li&gt;
-&lt;li&gt;诺基亚由一个地区性的木工厂发展为全球最大的手机厂商，原因可以简单概括为 &amp;quot;长期探索，抓住机遇，制定规则&amp;quot; 这几个关键词。&lt;/li&gt;
+&lt;li&gt;诺基亚由一个地区性的木工厂发展为全球最大的手机厂商，原因可以简单概括为 &#34;长期探索，抓住机遇，制定规则&#34; 这几个关键词。&lt;/li&gt;
 &lt;li&gt;但是，作为一家通信公司，诺基亚不懂得从 2G 到 3G 的变化不是简简单单的通信设备更新和网速的提高，而是将移动电话过去的电话功能降为可有可无的次要地位，将手机从通信和短信设备，变成移动的终端。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;有长远发展眼光的公司一定会将前景不是很美妙但还值钱的部门卖掉。&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;在生产关系中有三个至关重要的因素，即所有权，经营过程中人与人的关系，以及利益的分配制度。&lt;/li&gt;

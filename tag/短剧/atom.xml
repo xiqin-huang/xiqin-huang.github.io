@@ -1,17 +1,23 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
-    <title>Hexo • Posts by &#34;短剧&#34; tag</title>
-    <link href="http://example.com" />
+    <id>https://xiqin-huang.github.io</id>
+    <title>西芹的小站 • Posts by &#34;短剧&#34; tag</title>
+    <link href="https://xiqin-huang.github.io" />
     <updated>2023-10-12T10:49:33.067Z</updated>
     <category term="java" />
     <category term="书籍" />
     <category term="java基础" />
     <category term="java学习路线" />
+    <category term="Excel" />
+    <category term="office" />
+    <category term="日常办公" />
     <category term="散文" />
+    <category term="游记" />
+    <category term="历史政治" />
     <category term="科幻" />
     <category term="小说" />
-    <category term="历史政治" />
+    <category term="Premiere" />
+    <category term="视频剪辑" />
     <category term="人物传记" />
     <category term="名言警句" />
     <category term="阅读" />
@@ -20,42 +26,36 @@
     <category term="历史" />
     <category term="政治" />
     <category term="明朝" />
-    <category term="科技人文" />
-    <category term="经济学" />
     <category term="杂文" />
     <category term="人生感悟" />
-    <category term="科技" />
+    <category term="科技人文" />
+    <category term="经济学" />
     <category term="中国" />
-    <category term="心理" />
+    <category term="科技" />
     <category term="人际交往" />
-    <category term="Excel" />
-    <category term="office" />
-    <category term="日常办公" />
-    <category term="Premiere" />
-    <category term="视频剪辑" />
-    <category term="鲁迅" />
-    <category term="电子书" />
-    <category term="游记" />
+    <category term="心理" />
     <category term="电影" />
-    <category term="电视剧" />
     <category term="动漫" />
     <category term="短剧" />
+    <category term="电视剧" />
+    <category term="电子书" />
+    <category term="跨考" />
+    <category term="考研" />
+    <category term="计算机" />
+    <category term="月报" />
     <category term="计算机基础" />
     <category term="云开发" />
     <category term="微信小程序" />
     <category term="数据库" />
     <category term="MySQL" />
+    <category term="鲁迅" />
+    <category term="算法" />
     <category term="Python" />
     <category term="编程" />
-    <category term="算法" />
-    <category term="跨考" />
-    <category term="考研" />
-    <category term="计算机" />
-    <category term="月报" />
     <entry>
-        <id>http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E6%96%B9%E8%88%9F%E5%A4%A9%E4%BD%BF_87/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/ying-ping/fang-zhou-tian-shi-87/</id>
         <title>方舟天使_87</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E6%96%B9%E8%88%9F%E5%A4%A9%E4%BD%BF_87/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/ying-ping/fang-zhou-tian-shi-87/"/>
         <content type="html">&lt;p&gt;故事并不复杂，讲述的是一个溺爱女儿的妈妈给女儿安装了方舟天使，用于监控女儿的故事。从母亲的行为我认识到不加约束的爱和无微不至的关怀对孩子的成长未必有好处，爱一个人不是不批评，不是只赞美。女主只有十五岁，当她第一次发生性关系，第一次吸毒的时候，就应该光明正大地批评她，教育她，而不是躲在背后使用方舟天使监控她，这样只能让事情变得更糟。还有过度的保护反而是害了孩子，如果不是年幼的时候，被满屏的 “马赛克” 阻挡，女儿未必会对这些东西有过分的好奇。刻意的隐瞒他们在这个年龄应该要懂得的东西，只会让他们的好奇心达到一个病态的程度，而且这个事情并不会因为你隐瞒而不存在，总有一天，他们会接触到这个东西。而且没有一个从小到大慢慢接受，慢慢成长的过程，到他们一旦接触的时候，很可能控制不了自己。话说美国那边的孩子真的想影片那样早熟吗？我觉得这样反而过早了。再说说女主最后用方舟天使的控制器殴打母亲的情节，看起来导演似乎是认可女主的做法的。但是我不是很认同女主的做法，因为我觉得女主犯下的错要大于母亲，女主的做法以及处于犯罪的边缘了，母亲虽然违背诺言，重新监控女儿，但是我觉得罪不至此，不应该做到这个地步。但是这也是我站在第三方的角度去看待这个问题，若是自己也遇到这种情况，我也不知道自己能不能控制住自己，想想都觉得毛骨悚然。这也让我想到了一个问题：我们眼中的世界是不是真正的世界？网络上也有很多这种利用错觉的游戏，我们的大脑会不会为了保护我们而给与我们一些错误的信息？或者以后会不会出现像影片一样的可以修改视觉的科技，甚至不像是影片中的马赛克，而是替换成其他东西，那么到时我们还能判断得出真假吗？&lt;/p&gt;
 </content>
         <category term="短剧" />

@@ -1,17 +1,23 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
-    <title>Hexo • Posts by &#34;办公&#34; category</title>
-    <link href="http://example.com" />
+    <id>https://xiqin-huang.github.io</id>
+    <title>西芹的小站 • Posts by &#34;办公&#34; category</title>
+    <link href="https://xiqin-huang.github.io" />
     <updated>2023-10-12T10:49:32.908Z</updated>
     <category term="java" />
     <category term="书籍" />
     <category term="java基础" />
     <category term="java学习路线" />
+    <category term="Excel" />
+    <category term="office" />
+    <category term="日常办公" />
     <category term="散文" />
+    <category term="游记" />
+    <category term="历史政治" />
     <category term="科幻" />
     <category term="小说" />
-    <category term="历史政治" />
+    <category term="Premiere" />
+    <category term="视频剪辑" />
     <category term="人物传记" />
     <category term="名言警句" />
     <category term="阅读" />
@@ -20,42 +26,36 @@
     <category term="历史" />
     <category term="政治" />
     <category term="明朝" />
-    <category term="科技人文" />
-    <category term="经济学" />
     <category term="杂文" />
     <category term="人生感悟" />
-    <category term="科技" />
+    <category term="科技人文" />
+    <category term="经济学" />
     <category term="中国" />
-    <category term="心理" />
+    <category term="科技" />
     <category term="人际交往" />
-    <category term="Excel" />
-    <category term="office" />
-    <category term="日常办公" />
-    <category term="Premiere" />
-    <category term="视频剪辑" />
-    <category term="鲁迅" />
-    <category term="电子书" />
-    <category term="游记" />
+    <category term="心理" />
     <category term="电影" />
-    <category term="电视剧" />
     <category term="动漫" />
     <category term="短剧" />
+    <category term="电视剧" />
+    <category term="电子书" />
+    <category term="跨考" />
+    <category term="考研" />
+    <category term="计算机" />
+    <category term="月报" />
     <category term="计算机基础" />
     <category term="云开发" />
     <category term="微信小程序" />
     <category term="数据库" />
     <category term="MySQL" />
+    <category term="鲁迅" />
+    <category term="算法" />
     <category term="Python" />
     <category term="编程" />
-    <category term="算法" />
-    <category term="跨考" />
-    <category term="考研" />
-    <category term="计算机" />
-    <category term="月报" />
     <entry>
-        <id>http://example.com/2023/10/12/%E5%8A%9E%E5%85%AC/Premiere%E7%AC%94%E8%AE%B0/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/ban-gong/premiere-bi-ji/</id>
         <title>Premiere笔记</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E5%8A%9E%E5%85%AC/Premiere%E7%AC%94%E8%AE%B0/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/ban-gong/premiere-bi-ji/"/>
         <content type="html">&lt;h2 id=&#34;常用技巧&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常用技巧&#34;&gt;#&lt;/a&gt; 常用技巧&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;新建字幕：新建 -&amp;gt; 旧版标题。&lt;/li&gt;
@@ -205,9 +205,9 @@
         <updated>2023-10-12T10:49:32.908Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E5%8A%9E%E5%85%AC/Excel/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/ban-gong/excel/</id>
         <title>Excel操作技巧</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E5%8A%9E%E5%85%AC/Excel/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/ban-gong/excel/"/>
         <content type="html">&lt;h2 id=&#34;01-excel入门&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#01-excel入门&#34;&gt;#&lt;/a&gt; 01 Excel 入门&lt;/h2&gt;
 &lt;p&gt;跨列居中：对齐方式 - 水平对齐 - 选定 “跨列居中”（Office365 版本）&lt;/p&gt;
 &lt;h3 id=&#34;自动调整栏宽&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#自动调整栏宽&#34;&gt;#&lt;/a&gt; 自动调整栏宽&lt;/h3&gt;

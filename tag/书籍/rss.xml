@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>Hexo • Posts by &#34;书籍&#34; tag</title>
-        <link>http://example.com</link>
+        <title>西芹的小站 • Posts by &#34;书籍&#34; tag</title>
+        <link>https://xiqin-huang.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
@@ -11,10 +11,16 @@
         <category>书籍</category>
         <category>java基础</category>
         <category>java学习路线</category>
+        <category>Excel</category>
+        <category>office</category>
+        <category>日常办公</category>
         <category>散文</category>
+        <category>游记</category>
+        <category>历史政治</category>
         <category>科幻</category>
         <category>小说</category>
-        <category>历史政治</category>
+        <category>Premiere</category>
+        <category>视频剪辑</category>
         <category>人物传记</category>
         <category>名言警句</category>
         <category>阅读</category>
@@ -23,42 +29,36 @@
         <category>历史</category>
         <category>政治</category>
         <category>明朝</category>
-        <category>科技人文</category>
-        <category>经济学</category>
         <category>杂文</category>
         <category>人生感悟</category>
-        <category>科技</category>
+        <category>科技人文</category>
+        <category>经济学</category>
         <category>中国</category>
-        <category>心理</category>
+        <category>科技</category>
         <category>人际交往</category>
-        <category>Excel</category>
-        <category>office</category>
-        <category>日常办公</category>
-        <category>Premiere</category>
-        <category>视频剪辑</category>
-        <category>鲁迅</category>
-        <category>电子书</category>
-        <category>游记</category>
+        <category>心理</category>
         <category>电影</category>
-        <category>电视剧</category>
         <category>动漫</category>
         <category>短剧</category>
+        <category>电视剧</category>
+        <category>电子书</category>
+        <category>跨考</category>
+        <category>考研</category>
+        <category>计算机</category>
+        <category>月报</category>
         <category>计算机基础</category>
         <category>云开发</category>
         <category>微信小程序</category>
         <category>数据库</category>
         <category>MySQL</category>
+        <category>鲁迅</category>
+        <category>算法</category>
         <category>Python</category>
         <category>编程</category>
-        <category>算法</category>
-        <category>跨考</category>
-        <category>考研</category>
-        <category>计算机</category>
-        <category>月报</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E5%9C%A8%E7%BB%86%E9%9B%A8%E4%B8%AD%E5%91%BC%E5%96%8A_%E4%BD%99%E5%8D%8E_95/</guid>
+            <guid isPermalink="true">https://xiqin-huang.github.io/2023/10/12/shu-ji/zai-xi-yu-zhong-hu-han-yu-hua-95/</guid>
             <title>在细雨中呼喊_余华_95</title>
-            <link>http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E5%9C%A8%E7%BB%86%E9%9B%A8%E4%B8%AD%E5%91%BC%E5%96%8A_%E4%BD%99%E5%8D%8E_95/</link>
+            <link>https://xiqin-huang.github.io/2023/10/12/shu-ji/zai-xi-yu-zhong-hu-han-yu-hua-95/</link>
             <category>书籍</category>
             <category>阅读</category>
             <category>余华</category>
@@ -102,9 +102,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/10/12/%E7%94%B5%E5%AD%90%E4%B9%A6/%E7%A0%81%E5%86%9C%E7%BF%BB%E8%BA%AB/</guid>
+            <guid isPermalink="true">https://xiqin-huang.github.io/2023/10/12/dian-zi-shu/ma-nong-fan-shen/</guid>
             <title>码农翻身-刘欣</title>
-            <link>http://example.com/2023/10/12/%E7%94%B5%E5%AD%90%E4%B9%A6/%E7%A0%81%E5%86%9C%E7%BF%BB%E8%BA%AB/</link>
+            <link>https://xiqin-huang.github.io/2023/10/12/dian-zi-shu/ma-nong-fan-shen/</link>
             <category>书籍</category>
             <category>电子书</category>
             <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
@@ -124,9 +124,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/10/12/java/HeadFirst%20Java-Kathy%20Sierra/</guid>
+            <guid isPermalink="true">https://xiqin-huang.github.io/2023/10/12/java/headfirst-java-kathy-sierra/</guid>
             <title>HeadFirst Java-Kathy Sierra-90</title>
-            <link>http://example.com/2023/10/12/java/HeadFirst%20Java-Kathy%20Sierra/</link>
+            <link>https://xiqin-huang.github.io/2023/10/12/java/headfirst-java-kathy-sierra/</link>
             <category>java</category>
             <category>书籍</category>
             <category>java基础</category>
@@ -143,7 +143,7 @@
 &lt;li&gt;import 和 C 的 include 并不相同，运用 import 只是帮你省下每个类前面的包名称而已。程序不会英文用来 import 而变大或变慢。&lt;/li&gt;
 &lt;li&gt;抽象类的产生源于有些类不应该被初始化，比如动物类应该是什么？&lt;/li&gt;
 &lt;li&gt;任何从 &lt;code&gt;ArrayList&amp;lt;Object&amp;gt;&lt;/code&gt;  取出的东西都会被当作 Object 类型的引用而不管它原来是什么。而且编译器是根据引用类型来判断哪些方法可以调用，而不是根据 Object 实际的类型。&lt;/li&gt;
-&lt;li&gt;多重继承会产生 “致命方块 &amp;quot; 问题，即两个及以上的直接父类拥有相同的方法，子类不知道应该调用哪个方法。&lt;/li&gt;
+&lt;li&gt;多重继承会产生 “致命方块 &#34; 问题，即两个及以上的直接父类拥有相同的方法，子类不知道应该调用哪个方法。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;接口解决致命方块的方法很简单：把全部方法设为抽象的，如此一来，子类就得实现这个此方法，因此 java 虚拟机在执行期间就不会搞不清楚要用哪一个继承版本。&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;在 java 中，程序员会在乎内存中的两个区域：对象的生存空间堆 (heap) 和方法调用及变量的生存空间 (stack)。&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;不管对象是否声明或创建，如果局部变量是个对该对象的引用，只有变量本身会放在栈上，对象本身只会存在于堆上。&lt;/strong&gt;&lt;/li&gt;
@@ -161,7 +161,7 @@
 &lt;li&gt;对象的状态并非只能用序列化来存储，也可以使用 transient 修饰存储。&lt;/li&gt;
 &lt;li&gt;java 的好处就在于大部分的输入 / 输出工作并不在乎链接串流的上游实际是什么。也就是说可以使用 BufferedReader 而不管是来自串流来自文件或 socket。&lt;/li&gt;
 &lt;li&gt;调度器在不同的 java 虚拟机上有不同的做法，就算是同一个程序在同一台机器上运行也会有不同的遭遇。&lt;/li&gt;
-&lt;li&gt;对泛型来说，extends 这个关键词代表 &amp;quot;是一个…&amp;quot;，且适用于类和接口。&lt;/li&gt;
+&lt;li&gt;对泛型来说，extends 这个关键词代表 &#34;是一个…&#34;，且适用于类和接口。&lt;/li&gt;
 &lt;li&gt;hashcode 是用来缩小寻找成本的，但最后还是要用 equals () 才能认定是否真的找到了相同的项目。如果两个对象有相同的 hashcode 值，它们不一定是相等的。但若两个对象相等，则 hashcode 值一定要相等。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;数组的类型是运行时检查的，但集合的类型检查只会发生在编译期间。&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;JAR 就是 JavaARchive，这种文件是个 pkzip 格式的文件，它能让你的一组类文件包装起来，所以交付时只需一个 JAR 文件。&lt;/li&gt;

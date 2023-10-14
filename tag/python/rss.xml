@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>Hexo • Posts by &#34;python&#34; tag</title>
-        <link>http://example.com</link>
+        <title>西芹的小站 • Posts by &#34;python&#34; tag</title>
+        <link>https://xiqin-huang.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
@@ -11,10 +11,16 @@
         <category>书籍</category>
         <category>java基础</category>
         <category>java学习路线</category>
+        <category>Excel</category>
+        <category>office</category>
+        <category>日常办公</category>
         <category>散文</category>
+        <category>游记</category>
+        <category>历史政治</category>
         <category>科幻</category>
         <category>小说</category>
-        <category>历史政治</category>
+        <category>Premiere</category>
+        <category>视频剪辑</category>
         <category>人物传记</category>
         <category>名言警句</category>
         <category>阅读</category>
@@ -23,47 +29,41 @@
         <category>历史</category>
         <category>政治</category>
         <category>明朝</category>
-        <category>科技人文</category>
-        <category>经济学</category>
         <category>杂文</category>
         <category>人生感悟</category>
-        <category>科技</category>
+        <category>科技人文</category>
+        <category>经济学</category>
         <category>中国</category>
-        <category>心理</category>
+        <category>科技</category>
         <category>人际交往</category>
-        <category>Excel</category>
-        <category>office</category>
-        <category>日常办公</category>
-        <category>Premiere</category>
-        <category>视频剪辑</category>
-        <category>鲁迅</category>
-        <category>电子书</category>
-        <category>游记</category>
+        <category>心理</category>
         <category>电影</category>
-        <category>电视剧</category>
         <category>动漫</category>
         <category>短剧</category>
+        <category>电视剧</category>
+        <category>电子书</category>
+        <category>跨考</category>
+        <category>考研</category>
+        <category>计算机</category>
+        <category>月报</category>
         <category>计算机基础</category>
         <category>云开发</category>
         <category>微信小程序</category>
         <category>数据库</category>
         <category>MySQL</category>
+        <category>鲁迅</category>
+        <category>算法</category>
         <category>Python</category>
         <category>编程</category>
-        <category>算法</category>
-        <category>跨考</category>
-        <category>考研</category>
-        <category>计算机</category>
-        <category>月报</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%9B%BD%E8%B5%9B%E9%A2%98%E7%9B%AE/</guid>
+            <guid isPermalink="true">https://xiqin-huang.github.io/2023/10/12/bian-cheng/lan-qiao-bei-guo-sai-ti-mu/</guid>
             <title>蓝桥杯国赛题目</title>
-            <link>http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%9B%BD%E8%B5%9B%E9%A2%98%E7%9B%AE/</link>
+            <link>https://xiqin-huang.github.io/2023/10/12/bian-cheng/lan-qiao-bei-guo-sai-ti-mu/</link>
+            <category>算法</category>
             <category>Python</category>
             <category>编程</category>
-            <category>算法</category>
             <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;a class=&#34;link&#34;   href=&#34;https://blog.csdn.net/weixin_43919497/article/details/110011722?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162261625316780264075413%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&amp;amp;request_id=162261625316780264075413&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v29-1-110011722.pc_search_result_before_js&amp;amp;utm_term=%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%8A%E8%93%9D%E6%A1%A5%E6%9D%AFpython%E7%BB%84%E5%9B%BD%E8%B5%9B%E7%AD%94%E6%A1%88&amp;amp;spm=1018.2226.3001.4187&#34; &gt;CSDN 题解 &lt;i class=&#34;fa-regular fa-arrow-up-right-from-square fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_43919497/article/details/110011722?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162261625316780264075413%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&amp;amp;request_id=162261625316780264075413&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v29-1-110011722.pc_search_result_before_js&amp;amp;utm_term=%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%8A%E8%93%9D%E6%A1%A5%E6%9D%AFpython%E7%BB%84%E5%9B%BD%E8%B5%9B%E7%AD%94%E6%A1%88&amp;amp;spm=1018.2226.3001.4187&#34;&gt;CSDN 题解&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;美丽的 2&lt;br&gt;
  遍历即可，然后使用 str 和 count 函数就可以查找数字是否含有 2&lt;/li&gt;
@@ -95,26 +95,32 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E7%AE%97%E6%B3%95%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</guid>
+            <guid isPermalink="true">https://xiqin-huang.github.io/2023/10/12/bian-cheng/suan-fa-chang-yong-ji-qiao/</guid>
             <title>算法常用技巧</title>
-            <link>http://example.com/2023/10/12/%E7%BC%96%E7%A8%8B/%E7%AE%97%E6%B3%95%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</link>
+            <link>https://xiqin-huang.github.io/2023/10/12/bian-cheng/suan-fa-chang-yong-ji-qiao/</link>
+            <category>算法</category>
             <category>Python</category>
             <category>编程</category>
-            <category>算法</category>
             <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;数学&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数学&#34;&gt;#&lt;/a&gt; 数学&lt;/h1&gt;
-&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Html&#34;&gt;&lt;figure class=&#34;iseeu highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;等差数列求和：Sn=(a1+an)*n/2;Sn=n*a1+d*(n-1)*n/2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;等比数列求和：Sn=a1*(1-qn)/(1-q);Sn=(a1-an*q)/(1-q)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;组合数学：A(n,m)=(n!)/(n-m)!;C(n,m)=A(n,m)/m!=(n!)/((n-m)!*m!&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;pre class=&#34;line-numbers language-markup&#34; data-language=&#34;markup&#34;&gt;&lt;code class=&#34;language-markup&#34;&gt;等差数列求和：Sn=(a1+an)*n/2;Sn=n*a1+d*(n-1)*n/2
+等比数列求和：Sn=a1*(1-qn)/(1-q);Sn=(a1-an*q)/(1-q)
+组合数学：A(n,m)=(n!)/(n-m)!;C(n,m)=A(n,m)/m!=(n!)/((n-m)!*m!&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;唯一分解定理&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;一个大于 1 的正整数 N，如果它的标准分解式为 N=p1a1+p2a2+…+pnan，那么它的正因数为（a1+1)(a2+1)…(an+1),&lt;br&gt;
  其中 pi 为素数（1 不为素数）&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;斐波那契数公式&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Python&#34;&gt;&lt;figure class=&#34;iseeu highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Solution&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;fib&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;self, n: &lt;span class=&#34;built_in&#34;&gt;int&lt;/span&gt;&lt;/span&gt;) -&amp;gt; &lt;span class=&#34;built_in&#34;&gt;int&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    sqrt5 = &lt;span class=&#34;number&#34;&gt;5&lt;/span&gt;**&lt;span class=&#34;number&#34;&gt;0.5&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    fibN = ((&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt; + sqrt5) / &lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;) ** n - ((&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt; - sqrt5) / &lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;) ** n&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;built_in&#34;&gt;round&lt;/span&gt;(fibN / sqrt5)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;pre class=&#34;line-numbers language-python&#34; data-language=&#34;python&#34;&gt;&lt;code class=&#34;language-python&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Solution&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;
+&lt;span class=&#34;token keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;fib&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;self&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;
+    sqrt5 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0.5&lt;/span&gt;
+    fibN &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; sqrt5&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;**&lt;/span&gt; n &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; sqrt5&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;**&lt;/span&gt; n
+&lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;round&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;fibN &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt; sqrt5&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;h1 id=&#34;做题小技巧&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#做题小技巧&#34;&gt;#&lt;/a&gt; 做题小技巧&lt;/h1&gt;
 &lt;p&gt;综合利用哈希表和前缀和可以解决连续子数组的问题。&lt;/p&gt;
 &lt;p&gt;有时候通过将问题的值进行变换，可以将问题转化为一个我们已知的问题或较为简单的问题，例如将 0 替换成 - 1，这样就可以使用通过前缀和的知识点来解决子数组中有相同 0 和 1 的问题。&lt;/p&gt;
 &lt;p&gt;子函数内使用 global 全局函数关键字&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;遍历的小技巧&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Python&#34;&gt;&lt;figure class=&#34;iseeu highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; i, w &lt;span class=&#34;keyword&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;built_in&#34;&gt;enumerate&lt;/span&gt;(servers)：i表示索引，w为实际从server中取出来的值&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;pre class=&#34;line-numbers language-python&#34; data-language=&#34;python&#34;&gt;&lt;code class=&#34;language-python&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; i&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; w &lt;span class=&#34;token keyword&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;enumerate&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;servers&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;：i表示索引，w为实际从server中取出来的值&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;h1 id=&#34;常用函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常用函数&#34;&gt;#&lt;/a&gt; 常用函数&lt;/h1&gt;
 &lt;h2 id=&#34;集合&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#集合&#34;&gt;#&lt;/a&gt; 集合&lt;/h2&gt;
 &lt;table&gt;
@@ -282,12 +288,23 @@
 &lt;/table&gt;
 &lt;h1 id=&#34;其他&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#其他&#34;&gt;#&lt;/a&gt; 其他&lt;/h1&gt;
 &lt;h2 id=&#34;datatime&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#datatime&#34;&gt;#&lt;/a&gt; datatime&lt;/h2&gt;
-&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Python&#34;&gt;&lt;figure class=&#34;iseeu highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;date.isocalendar()        &lt;span class=&#34;comment&#34;&gt;#返回结果是三元组(年号，第几周，第几天)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;date.strftime(&lt;span class=&#34;string&#34;&gt;&amp;quot;%j&amp;quot;&lt;/span&gt;)        &lt;span class=&#34;comment&#34;&gt;#计算输入的日期是一年中的第几天&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;end=datetime.datetime(year=&lt;span class=&#34;number&#34;&gt;2020&lt;/span&gt;,month=&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;,day=&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;dela=datetime.timedelta(days=&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; start.day==&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;or&lt;/span&gt; start.weekday()==&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;:&lt;span class=&#34;comment&#34;&gt;#月初或周一&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;pre class=&#34;line-numbers language-python&#34; data-language=&#34;python&#34;&gt;&lt;code class=&#34;language-python&#34;&gt;date&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;isocalendar&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;        &lt;span class=&#34;token comment&#34;&gt;#返回结果是三元组(年号，第几周，第几天)&lt;/span&gt;
+date&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;strftime&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;%j&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;        &lt;span class=&#34;token comment&#34;&gt;#计算输入的日期是一年中的第几天&lt;/span&gt;
+end&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;datetime&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;datetime&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;year&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2020&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;month&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;day&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;
+dela&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;datetime&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;timedelta&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;days&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; start&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;day&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;or&lt;/span&gt; start&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;weekday&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;#月初或周一&lt;/span&gt;&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;优先队列&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#优先队列&#34;&gt;#&lt;/a&gt; 优先队列&lt;/h2&gt;
 &lt;p&gt;优先队列是按照递增进行排列的，弹出的数据是最小的元素，如果想让其递减的排列，可以在前面乘一个 - 1.&lt;/p&gt;
-&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Python&#34;&gt;&lt;figure class=&#34;iseeu highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;import&lt;/span&gt; heapq     %导入库函数&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;heapq.heapify(nums)     %将数组转化为优先队列&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;heapq.heappush(nums,&lt;span class=&#34;number&#34;&gt;7&lt;/span&gt;)     %往优先队列中插入元素&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;num=heapq.heappop(nums)     %从优先队列中取出元素&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;pre class=&#34;line-numbers language-python&#34; data-language=&#34;python&#34;&gt;&lt;code class=&#34;language-python&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; heapq     &lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt;导入库函数
+heapq&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;heapify&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;nums&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;     &lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt;将数组转化为优先队列
+heapq&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;heappush&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;nums&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;     &lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt;往优先队列中插入元素
+num&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;heapq&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;heappop&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;nums&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;     &lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt;从优先队列中取出元素&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;类的声明&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#类的声明&#34;&gt;#&lt;/a&gt; 类的声明&lt;/h2&gt;
-&lt;div class=&#34;highlight-container&#34; data-rel=&#34;Python&#34;&gt;&lt;figure class=&#34;iseeu highlight python&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Potato&lt;/span&gt;:&lt;span class=&#34;comment&#34;&gt;#声明类名&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;__init__&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;self,name&lt;/span&gt;):&lt;span class=&#34;comment&#34;&gt;#声明构造方法，self用于在类中传递各种属性&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          self.name=name&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;kick&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;self&lt;/span&gt;):&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;          &lt;span class=&#34;built_in&#34;&gt;print&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;我叫%s。&amp;quot;&lt;/span&gt;%self.name);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;pre class=&#34;line-numbers language-python&#34; data-language=&#34;python&#34;&gt;&lt;code class=&#34;language-python&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Potato&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;#声明类名&lt;/span&gt;
+    &lt;span class=&#34;token keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;__init__&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;self&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;name&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;#声明构造方法，self用于在类中传递各种属性&lt;/span&gt;
+          self&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;name&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;name
+    &lt;span class=&#34;token keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;kick&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;self&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;
+          &lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;我叫%s。&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt;self&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;name&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
  ]]></description>
         </item>
     </channel>

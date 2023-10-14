@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>Hexo • Posts by &#34;科幻&#34; tag</title>
-        <link>http://example.com</link>
+        <title>西芹的小站 • Posts by &#34;科幻&#34; tag</title>
+        <link>https://xiqin-huang.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Thu, 12 Oct 2023 18:49:33 +0800</pubDate>
@@ -11,10 +11,16 @@
         <category>书籍</category>
         <category>java基础</category>
         <category>java学习路线</category>
+        <category>Excel</category>
+        <category>office</category>
+        <category>日常办公</category>
         <category>散文</category>
+        <category>游记</category>
+        <category>历史政治</category>
         <category>科幻</category>
         <category>小说</category>
-        <category>历史政治</category>
+        <category>Premiere</category>
+        <category>视频剪辑</category>
         <category>人物传记</category>
         <category>名言警句</category>
         <category>阅读</category>
@@ -23,45 +29,39 @@
         <category>历史</category>
         <category>政治</category>
         <category>明朝</category>
-        <category>科技人文</category>
-        <category>经济学</category>
         <category>杂文</category>
         <category>人生感悟</category>
-        <category>科技</category>
+        <category>科技人文</category>
+        <category>经济学</category>
         <category>中国</category>
-        <category>心理</category>
+        <category>科技</category>
         <category>人际交往</category>
-        <category>Excel</category>
-        <category>office</category>
-        <category>日常办公</category>
-        <category>Premiere</category>
-        <category>视频剪辑</category>
-        <category>鲁迅</category>
-        <category>电子书</category>
-        <category>游记</category>
+        <category>心理</category>
         <category>电影</category>
-        <category>电视剧</category>
         <category>动漫</category>
         <category>短剧</category>
+        <category>电视剧</category>
+        <category>电子书</category>
+        <category>跨考</category>
+        <category>考研</category>
+        <category>计算机</category>
+        <category>月报</category>
         <category>计算机基础</category>
         <category>云开发</category>
         <category>微信小程序</category>
         <category>数据库</category>
         <category>MySQL</category>
+        <category>鲁迅</category>
+        <category>算法</category>
         <category>Python</category>
         <category>编程</category>
-        <category>算法</category>
-        <category>跨考</category>
-        <category>考研</category>
-        <category>计算机</category>
-        <category>月报</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+            <guid isPermalink="true">https://xiqin-huang.github.io/2023/10/12/shu-ji/du-shu-bi-ji/</guid>
             <title>读书笔记</title>
-            <link>http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+            <link>https://xiqin-huang.github.io/2023/10/12/shu-ji/du-shu-bi-ji/</link>
+            <category>历史政治</category>
             <category>科幻</category>
             <category>小说</category>
-            <category>历史政治</category>
             <pubDate>Thu, 12 Oct 2023 18:49:33 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;月亮与六便士_毛姆_90&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#月亮与六便士_毛姆_90&#34;&gt;#&lt;/a&gt; 月亮与六便士_毛姆_90&lt;/h1&gt;
 &lt;ol&gt;
@@ -137,7 +137,7 @@
 &lt;p&gt;书本的开头就十分引人入胜，通过 “我” 的观察，寥寥数笔就写出了棋王王一生最突出的两个特征，一是嗜棋如命，躲避着亲人的送别，却到处寻人下棋，一找到人下棋就开心的不得了；二是对吃的渴望，细节在于对其吃饭时的神态，最妙的是写王一生将桌子上的干了的饭粒抠出来再放入口中细细咀嚼的神态。&lt;/p&gt;
 &lt;p&gt;“若饭粒儿落在衣服上，就马上一按，拈进嘴里。若一个没按住，饭粒儿由衣服上掉下地，他也立刻双脚不再移动，转了上身找，吃完以后，他把两只筷子吮净，拿水把饭盒冲满，先将上面一层油花吸净，然后就带着安全到达彼岸的神色小口小口的呷，他对吃是虔诚的，而且很精细。有时你会可怜那些饭被他吃得一个渣儿都不剩，真有点儿惨无人道。”&lt;/p&gt;
 &lt;p&gt;用着最平淡的语气来写最传神的文章，这是这篇小说的精妙之处。而小说的高潮是王一生与九位棋赛胜者同时进行比赛。“他把嘴定在碗边儿，半响，回报了棋步，才咽一口水下去，“咕” 的一声，声音大的可怕，眼里有了泪花。” 没有写棋局的凶险，而去写喝水的情形来刻画说明。而王一生隐隐有股书呆子气，“脚卵” 送了自己珍藏多年的棋盘给棋赛领导来让王一生去参赛，他拒绝了，宁愿在棋赛结束后，去和棋赛的赢家再比一次。而且这篇小说充满着一种传统文化，例如 “势”，“阴阳” 等。风格有点类似于冯骥才的《俗世奇人》，也是用精妙的语言来刻画人物。小说可读性很强，情节引人入胜。&lt;/p&gt;
-&lt;br/&gt;
+&lt;br&gt;
 &lt;h1 id=&#34;人类简史_以色列尤瓦尔赫拉利_87&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#人类简史_以色列尤瓦尔赫拉利_87&#34;&gt;#&lt;/a&gt; 人类简史_[以色列] 尤瓦尔。赫拉利_87&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;农业革命并没有让大多数人都过上更好的生活，只是让人类以更低的标准养活更多的人。&lt;/strong&gt;&lt;/li&gt;
@@ -172,9 +172,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E4%B8%89%E4%BD%93-%E5%88%98%E6%85%88%E6%AC%A3-95/</guid>
+            <guid isPermalink="true">https://xiqin-huang.github.io/2023/10/12/shu-ji/san-ti-liu-ci-xin-95/</guid>
             <title>三体-刘慈欣-95</title>
-            <link>http://example.com/2023/10/12/%E4%B9%A6%E7%B1%8D/%E4%B8%89%E4%BD%93-%E5%88%98%E6%85%88%E6%AC%A3-95/</link>
+            <link>https://xiqin-huang.github.io/2023/10/12/shu-ji/san-ti-liu-ci-xin-95/</link>
             <category>科幻</category>
             <category>小说</category>
             <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>

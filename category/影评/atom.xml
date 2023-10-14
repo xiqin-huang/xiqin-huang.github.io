@@ -1,17 +1,23 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
-    <title>Hexo • Posts by &#34;影评&#34; category</title>
-    <link href="http://example.com" />
+    <id>https://xiqin-huang.github.io</id>
+    <title>西芹的小站 • Posts by &#34;影评&#34; category</title>
+    <link href="https://xiqin-huang.github.io" />
     <updated>2023-10-12T10:49:33.074Z</updated>
     <category term="java" />
     <category term="书籍" />
     <category term="java基础" />
     <category term="java学习路线" />
+    <category term="Excel" />
+    <category term="office" />
+    <category term="日常办公" />
     <category term="散文" />
+    <category term="游记" />
+    <category term="历史政治" />
     <category term="科幻" />
     <category term="小说" />
-    <category term="历史政治" />
+    <category term="Premiere" />
+    <category term="视频剪辑" />
     <category term="人物传记" />
     <category term="名言警句" />
     <category term="阅读" />
@@ -20,42 +26,36 @@
     <category term="历史" />
     <category term="政治" />
     <category term="明朝" />
-    <category term="科技人文" />
-    <category term="经济学" />
     <category term="杂文" />
     <category term="人生感悟" />
-    <category term="科技" />
+    <category term="科技人文" />
+    <category term="经济学" />
     <category term="中国" />
-    <category term="心理" />
+    <category term="科技" />
     <category term="人际交往" />
-    <category term="Excel" />
-    <category term="office" />
-    <category term="日常办公" />
-    <category term="Premiere" />
-    <category term="视频剪辑" />
-    <category term="鲁迅" />
-    <category term="电子书" />
-    <category term="游记" />
+    <category term="心理" />
     <category term="电影" />
-    <category term="电视剧" />
     <category term="动漫" />
     <category term="短剧" />
+    <category term="电视剧" />
+    <category term="电子书" />
+    <category term="跨考" />
+    <category term="考研" />
+    <category term="计算机" />
+    <category term="月报" />
     <category term="计算机基础" />
     <category term="云开发" />
     <category term="微信小程序" />
     <category term="数据库" />
     <category term="MySQL" />
+    <category term="鲁迅" />
+    <category term="算法" />
     <category term="Python" />
     <category term="编程" />
-    <category term="算法" />
-    <category term="跨考" />
-    <category term="考研" />
-    <category term="计算机" />
-    <category term="月报" />
     <entry>
-        <id>http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E9%BD%90%E6%9C%A8%E6%A5%A0%E9%9B%84%E7%9A%84%E7%81%BE%E9%9A%BE_86/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/ying-ping/qi-mu-nan-xiong-de-zai-nan-86/</id>
         <title>齐木楠雄的灾难_86</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E9%BD%90%E6%9C%A8%E6%A5%A0%E9%9B%84%E7%9A%84%E7%81%BE%E9%9A%BE_86/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/ying-ping/qi-mu-nan-xiong-de-zai-nan-86/"/>
         <content type="html">&lt;h1 id=&#34;优点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#优点&#34;&gt;#&lt;/a&gt; 优点&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;个性突出的配角。本剧最大的特点就是塑造多个个性突出的配角，从而合理化了故事的进行，也使得故事更加搞笑。每个人物都代表着一种属性：燃堂是运动天才加傻，海腾是中二，心美是美貌，梦原是花心，灰吕是热血，鸟束是好色… 还有齐神父母一直发狗粮。&lt;/li&gt;
@@ -78,9 +78,9 @@
         <updated>2023-10-12T10:49:33.074Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E8%8E%AB%E6%96%AF%E7%A7%91%E4%B8%8D%E7%9B%B8%E4%BF%A1%E7%9C%BC%E6%B3%AA_86/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/ying-ping/mo-si-ke-bu-xiang-xin-yan-lei-86/</id>
         <title>莫斯科不相信眼泪_86</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E8%8E%AB%E6%96%AF%E7%A7%91%E4%B8%8D%E7%9B%B8%E4%BF%A1%E7%9C%BC%E6%B3%AA_86/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/ying-ping/mo-si-ke-bu-xiang-xin-yan-lei-86/"/>
         <content type="html">&lt;h1 id=&#34;优点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#优点&#34;&gt;#&lt;/a&gt; 优点&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;点题，女主的三次哭泣都是情节关键处，还有闹钟的隐喻。而女主最后一次落泪的时候，她终于收获了她真正的爱情。&lt;/li&gt;
@@ -101,9 +101,9 @@
         <updated>2023-10-12T10:49:33.072Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E6%AD%BB%E4%BA%A1%E7%AC%94%E8%AE%B0_90/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/ying-ping/si-wang-bi-ji-90/</id>
         <title>死亡笔记_90</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E6%AD%BB%E4%BA%A1%E7%AC%94%E8%AE%B0_90/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/ying-ping/si-wang-bi-ji-90/"/>
         <content type="html">&lt;h1 id=&#34;优点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#优点&#34;&gt;#&lt;/a&gt; 优点&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;精彩的智斗。作为一部智斗漫画，智斗当然是故事的主要卖点，本剧在这个方面做得非常好，其中最重要和最精彩的当然是 L 与夜神月的对决，L 在巨大的劣势下还是差点将月逼入绝境，虽然 L 被杀，但是他的成果为月的失败埋下了伏笔。M 和 N 与月的对决也同样精彩，但是还是差了那么一点。&lt;/li&gt;
@@ -143,18 +143,18 @@
         <updated>2023-10-12T10:49:33.070Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E6%96%B9%E8%88%9F%E5%A4%A9%E4%BD%BF_87/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/ying-ping/fang-zhou-tian-shi-87/</id>
         <title>方舟天使_87</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E6%96%B9%E8%88%9F%E5%A4%A9%E4%BD%BF_87/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/ying-ping/fang-zhou-tian-shi-87/"/>
         <content type="html">&lt;p&gt;故事并不复杂，讲述的是一个溺爱女儿的妈妈给女儿安装了方舟天使，用于监控女儿的故事。从母亲的行为我认识到不加约束的爱和无微不至的关怀对孩子的成长未必有好处，爱一个人不是不批评，不是只赞美。女主只有十五岁，当她第一次发生性关系，第一次吸毒的时候，就应该光明正大地批评她，教育她，而不是躲在背后使用方舟天使监控她，这样只能让事情变得更糟。还有过度的保护反而是害了孩子，如果不是年幼的时候，被满屏的 “马赛克” 阻挡，女儿未必会对这些东西有过分的好奇。刻意的隐瞒他们在这个年龄应该要懂得的东西，只会让他们的好奇心达到一个病态的程度，而且这个事情并不会因为你隐瞒而不存在，总有一天，他们会接触到这个东西。而且没有一个从小到大慢慢接受，慢慢成长的过程，到他们一旦接触的时候，很可能控制不了自己。话说美国那边的孩子真的想影片那样早熟吗？我觉得这样反而过早了。再说说女主最后用方舟天使的控制器殴打母亲的情节，看起来导演似乎是认可女主的做法的。但是我不是很认同女主的做法，因为我觉得女主犯下的错要大于母亲，女主的做法以及处于犯罪的边缘了，母亲虽然违背诺言，重新监控女儿，但是我觉得罪不至此，不应该做到这个地步。但是这也是我站在第三方的角度去看待这个问题，若是自己也遇到这种情况，我也不知道自己能不能控制住自己，想想都觉得毛骨悚然。这也让我想到了一个问题：我们眼中的世界是不是真正的世界？网络上也有很多这种利用错觉的游戏，我们的大脑会不会为了保护我们而给与我们一些错误的信息？或者以后会不会出现像影片一样的可以修改视觉的科技，甚至不像是影片中的马赛克，而是替换成其他东西，那么到时我们还能判断得出真假吗？&lt;/p&gt;
 </content>
         <category term="短剧" />
         <updated>2023-10-12T10:49:33.067Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E5%BF%83%E7%90%86%E6%B5%8B%E9%87%8F%E8%80%85_93/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/ying-ping/xin-li-ce-liang-zhe-93/</id>
         <title>心理测量者</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E5%BF%83%E7%90%86%E6%B5%8B%E9%87%8F%E8%80%85_93/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/ying-ping/xin-li-ce-liang-zhe-93/"/>
         <content type="html">&lt;ol&gt;
 &lt;li&gt;精美的画风，充满着未来感的画面，不仅酷，而且给故事增添了真实感。&lt;/li&gt;
 &lt;li&gt;充满魅力的人设，剧中的主要人物都有着自己独特的个性，猎犬一般的男主，心中永远积极乐观的女主，让人又爱又恨的反派男二，内心矛盾的男三，成熟大叔的男四，外表慵懒，内心刚强的男五，睿智的教授，冰美人女二，活泼的女三。每个主要角色都有着其丰满的角色塑造。你会感觉到他们行事有着其自身内在的逻辑，有一种人物推动故事行进的感觉，而不是编剧推着人物前行的感受。虽然一开始的时候觉得男三宜野座伸元有点烦人，但是后面揭示早年因父亲是潜在犯而饱受歧视，自己并肩作战的朋友变成潜在犯，人物的逻辑逻辑就理顺了。到最后父亲征陆舍命救他的时候，虽然这个故事情节有点老套，但是制作组的用心和前期的铺垫，还是感动到我了。后面宜野座摘下眼镜的时候跟是帅到我了，这时候，宜野座伸元的角色就完全丰满起来了。&lt;/li&gt;
@@ -171,9 +171,9 @@
         <updated>2023-10-12T10:49:33.065Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E5%A4%A7%E6%98%8E%E7%8E%8B%E6%9C%9D_95/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/ying-ping/da-ming-wang-zhao-95/</id>
         <title>大明王朝_95</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E5%A4%A7%E6%98%8E%E7%8E%8B%E6%9C%9D_95/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/ying-ping/da-ming-wang-zhao-95/"/>
         <content type="html">&lt;p&gt;在前期，我一直会想：为什么皇上不管严党，明明他们这么贪污腐败，是因为严党的势力太大吗？看到后面我明白了，其实皇室才是最贪污腐败的一群人，严党只是皇室用于敛财的棋子。皇上需要那么一个人，当他的看门狗，压制群臣，搜刮民财。比如在严党倒台之后，皇上马上撤换了吕芳，换上了陈洪，因为他就需要一个这样的人物，去顶住群臣的压力。给群臣一个靶子打，转移群臣的目标，推卸自己的责任。“有时候贤与不贤也由不得他们。” 说的就是这样，当你担任这个职务的时候，你就需要去做皇上想让你做的事情。我也慢慢开始明白了为什么身为清流领袖的徐阶不仅没有和严嵩水火不容，反而会有不少的交谈。严嵩作为首辅，权势滔天的缘故。但我想徐阶可能也看到倒了严党之后，自己也将担任如同严嵩一般的角色，他也不想斗，但是群臣要你斗，你不得不斗。虽然这样内斗不利于国家发展，但这样皇上的权力才得以巩固，当大臣们不内斗，团结在一起的话，国家是会变好，但是皇上的行为就会被限制，劝谏皇上的奏折将会数不胜数，这显然不是皇上想要看到的局面，只有两派不断的斗，皇上才可以坐收渔利。即使没有矛盾，皇上也会制造矛盾让大家斗起来。严党一倒，吕芳很快被皇上调走，选了一个恶狗一样的陈洪来掌管司礼监，让司礼监和内阁斗，总之一定要有斗争。所以为什么当吕芳试图整合严党、清流和司礼监三股势力的时候，受到皇上的严厉惩罚，因为皇上最不喜欢的就是看到群臣团结起来。后来严党倒台之后果然如此，徐阶的家人也开始兼并土地，皇上需要最接近自己的人有把柄捉在自己手上。最后严党倒台也不是因为贪污，而是因为严世蕃没有用对人，派去干活的人都是些 “废物”，根本没有推进改稻为桑的国策；也没有给皇上足够的钱，皇上为什么给这个位置你坐，就是让你帮他干活，帮他搜刮民财。严世蕃你们自己心里没有一点数的吗？居然自己拿大头，皇上拿剩下的，你不死谁死。&lt;/p&gt;
 &lt;p&gt;皇上是怎么压制群臣对自己的批评的呢？不是直接惩罚你，这样没什么效果，因为总会有人不怕死。他是利用举荐、师生关系、同乡关系将大臣们捆绑在一起，让他们形成派系。利用连坐，让你考虑以大局为重，不要牵连到旁人。而且由于派系的存在，你说的每句话，人们都会立场先行，先考虑你是想要斗倒谁，目标是为了什么，而这句话正确与否反而没显得这么重要。所以为什么皇上对海瑞这么生气又无可奈何，因为通过他对群臣的试探，发现大家都是站在海瑞这一边，证明海瑞的话，群臣是看进去了。群臣没有先考虑海瑞的立场，而是看他先说的对不对。群臣愿意团结在一起维护海瑞，这使得皇上生气万分。当然皇上对海瑞可以一杀了之，但他不会这样做，因为他的尊严不允许他这样做，他一直认为自己将群臣玩弄于鼓掌之中，这样做只会显示出他已经没有办法了，只能通过杀人来解决问题。而且这样还会客观上促进群臣们的团结。这也证明了有理走边天下都不怕，海瑞基本就是靠着自己的名声和《大明律》扛下了所有的压力。他很清楚自己最大的优势是自己没有黑历史，而他的对手们浑身都是黑历史。“有些事不上秤没有四两重，上了秤一千斤都打不住。” 说的就是这个，黑历史相当于是一个隐形炸弹，没有事的时候还好，出了事没有人能救得了。&lt;/p&gt;
 &lt;p&gt;剧中的演员都很不错，我比较喜欢的是严嵩、吕芳、皇上、徐阶、海瑞、胡宗宪、王用汲、杨金水。其他的都不错，只是没有这几个这么出彩。还有布景、金属器皿、纸张等都很考究，给故事增添了不少代入感。&lt;/p&gt;
@@ -182,9 +182,9 @@
         <updated>2023-10-12T10:49:33.063Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E5%86%B0%E6%B5%B7%E6%88%98%E8%AE%B0_94/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/ying-ping/bing-hai-zhan-ji-94/</id>
         <title>冰海战记_94</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E5%86%B0%E6%B5%B7%E6%88%98%E8%AE%B0_94/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/ying-ping/bing-hai-zhan-ji-94/"/>
         <content type="html">&lt;h1 id=&#34;优点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#优点&#34;&gt;#&lt;/a&gt; 优点&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;塑造了拉谢拉特这个复杂的人物。让人又爱又恨，爱的是他坚持自己的最初的理想，忍着恶心去干坏事来达到自己的目的；恨的是他亲手破坏了无数个家庭的幸福，烧杀抢掠，无恶不作。24 话时，面对国王给出的两个选择 —— 牺牲威尔士还是王子，习惯于牺牲他人的拉谢拉特做出了第三个选择 —— 牺牲自己。他砍下了国王的头颅，自己也毅然决然的去往死亡，这一刻他达到了他人生的顶点，让观众为他惋惜。&lt;/li&gt;
@@ -206,9 +206,9 @@
         <updated>2023-10-12T10:49:33.061Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E5%85%89%E8%8D%A3%E7%9A%84%E6%84%A4%E6%80%92_87/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/ying-ping/guang-rong-de-fen-nu-87/</id>
         <title>光荣的愤怒_87</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E5%85%89%E8%8D%A3%E7%9A%84%E6%84%A4%E6%80%92_87/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/ying-ping/guang-rong-de-fen-nu-87/"/>
         <content type="html">&lt;h1 id=&#34;优点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#优点&#34;&gt;#&lt;/a&gt; 优点&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;优秀的开头。短短的开头就将故事的背景，主要人物的性格，以及产生矛盾的原因都讲述给了观众，使得故事的逻辑得以自洽。而且开头狗卵的那一段很精彩，完全捉住了观众的情绪，想要知道到底发生了什么。还有中间插入的文字也很不错，方便了观众了解故事背景。&lt;/li&gt;
@@ -227,9 +227,9 @@
         <updated>2023-10-12T10:49:33.058Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94_87/</id>
+        <id>https://xiqin-huang.github.io/2023/10/12/ying-ping/liao-bu-qi-de-gai-ci-bi-87/</id>
         <title>了不起的盖茨比_87</title>
-        <link rel="alternate" href="http://example.com/2023/10/12/%E5%BD%B1%E8%AF%84/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94_87/"/>
+        <link rel="alternate" href="https://xiqin-huang.github.io/2023/10/12/ying-ping/liao-bu-qi-de-gai-ci-bi-87/"/>
         <content type="html">&lt;h1 id=&#34;优点&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#优点&#34;&gt;#&lt;/a&gt; 优点&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;环境还原的很好，盖茨比宫殿般的房子，奢华的宴会，还有那一条泥泞的煤炭路都满足了我对于书中的想象。&lt;/li&gt;
