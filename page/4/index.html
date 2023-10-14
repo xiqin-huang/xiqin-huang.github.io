@@ -38,9 +38,7 @@
 
 
 
-    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
     <link rel="stylesheet" href="/css/post.css">
-
 
 
 
@@ -48,7 +46,119 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 6.3.0">
+<meta name="generator" content="Hexo 6.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style>
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 </head>
 
@@ -212,8 +322,8 @@
         
         <li><div class="divider"></div></li>
         <li>
-            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
-                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            <a href="https://github.com/xiqin-huang" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>关注我
             </a>
         </li>
         
@@ -269,8 +379,8 @@
     }
 </style>
 
-<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
-   data-tooltip="Fork Me" data-position="left" data-delay="50">
+<a href="https://github.com/xiqin-huang" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="关注我" data-position="left" data-delay="50">
     <svg viewBox="0 0 250 250" aria-hidden="true">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
         <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
@@ -292,7 +402,7 @@
         <div class="brand">
             <div class="title center-align">
                 
-                    subtitle
+                欢迎来到西芹的小站
                 
             </div>
 
@@ -304,9 +414,11 @@
                     var typed = new Typed("#subtitle", {
                         strings: [ 
                             
-                                "从来没有真正的绝境, 只有心灵的迷途",
+                                "没有调查，没有发言权。",
                             
-                                "Never really desperate, only the lost of the soul",
+                                "我的目标只是让自己正确——我并不关心正确的答案是不是来源于我。",
+                            
+                                "事情有大道理，有小道理，一切小道理都归大道理管着。",
                             
                         ],
                         startDelay: 300,
@@ -350,507 +462,6 @@
     <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
         <div class="row article-row">
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2023/10/12/shu-ji/ming-mo-nong-min-zhan-zheng-shi-gu-cheng-93/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="明末农民战争史-顾诚-93">
-                            
-                            <span class="card-title">明末农民战争史-顾诚-93</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                # 摘抄
-
-可见，家丁制度是明朝后期军政败坏下出现的一种畸形产物，它标志着官兵逐渐由维护整个地主阶级统治的力量，蜕变为将领们谋取私利的工具。正是由于存在着这种不成文的家丁制度，我们在叙述明末官兵时，既要看到它在总体上十分虚弱，又要看到那些军
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E4%B9%A6%E7%B1%8D/" class="post-category">
-                                    书籍
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%8E%86%E5%8F%B2/">
-                            <span class="chip bg-color">历史</span>
-                        </a>
-                        
-                        <a href="/tags/%E6%94%BF%E6%B2%BB/">
-                            <span class="chip bg-color">政治</span>
-                        </a>
-                        
-                        <a href="/tags/%E6%98%8E%E6%9C%9D/">
-                            <span class="chip bg-color">明朝</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2023/10/12/shu-ji/ming-zhao-na-xie-shi-er-dang-nian-ming-yue-91/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="明朝那些事儿_当年明月_91">
-                            
-                            <span class="card-title">明朝那些事儿_当年明月_91</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                
-在元朝，老百姓如果不能上学和当官就没有名字，只能以父母年龄相加或者出生的日期命名。
-莫道石人一只眼，挑动黄河天下反。
-敲开那扇门可能意味着侮辱，但不敲那扇门就会饿死。
-生命的尊严和生存的压力，哪个更重要？
-只有失去一切，你才能明白自己的力
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E4%B9%A6%E7%B1%8D/" class="post-category">
-                                    书籍
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%8E%86%E5%8F%B2%E6%94%BF%E6%B2%BB/">
-                            <span class="chip bg-color">历史政治</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2023/10/12/shu-ji/pi-pan-xing-si-wei-mei-mo-er-95/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="批判性思维-[美]摩尔-95">
-                            
-                            <span class="card-title">批判性思维-[美]摩尔-95</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                # 摘抄
-
-人们往往会忽视重要的因素，会无视和我们所持的观点相抵触的思想。
-得出结论的时候也就是形成信念的时候。
-客观断言的特征是：它的真或假不依赖于思考者认为它是真的还是假的。
-可以支持结论的前提是必须是真的。
-可以支持结论的前提必须是和
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E4%B9%A6%E7%B1%8D/" class="post-category">
-                                    书籍
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%BF%83%E7%90%86%E5%AD%A6/">
-                            <span class="chip bg-color">心理学</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2023/10/12/shu-ji/de-guo-ren-de-zhan-zheng-ying-ni-gu-la-si.si-tu-jia-te-75/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="德国人的战争_[英]尼古拉斯.斯图加特_75">
-                            
-                            <span class="card-title">德国人的战争_[英]尼古拉斯.斯图加特_75</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                # 摘要
-
-人们互相打招呼时想必会像一战时期那样，更爱用 “上帝惩罚英国” 这个口号，并非 “希特勒万岁” 这个官方词语。
-强权就是公理，必须采取最严厉的手段。
-看来这是想追随俄罗斯人，想灭绝（波兰）的知识阶层。
-纳粹政权知道，让德国人吃饱
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E4%B9%A6%E7%B1%8D/" class="post-category">
-                                    书籍
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%8E%86%E5%8F%B2%E6%94%BF%E6%B2%BB/">
-                            <span class="chip bg-color">历史政治</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2023/10/12/shu-ji/chen-ai-luo-ding-a-lai-88/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="尘埃落定_阿来_88">
-                            
-                            <span class="card-title">尘埃落定_阿来_88</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                # 摘要
-
-是的，上天叫我看见，叫我听见，叫我置身其中，又叫我超然物外。
-我看到这张脸，被仇恨，被胆怯，被严寒所折磨，变得比月亮还苍白，比伤口还敏感。
-住口吧，人只能毁在自己手里。
-同得到了东西的悲伤相比，得不到时的悲伤根本算不上是悲伤。
-
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E4%B9%A6%E7%B1%8D/" class="post-category">
-                                    书籍
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%B0%8F%E8%AF%B4/">
-                            <span class="chip bg-color">小说</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2023/10/12/shu-ji/zai-lu-shang-mei-jie-ke.kai-lu-la-ke-88/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="在路上_[美]杰克.凯鲁拉克_88">
-                            
-                            <span class="card-title">在路上_[美]杰克.凯鲁拉克_88</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                # 摘要
-
-在这条路上走下去，我知道会有女人，会有幻象，会有一切，在这条路上走下去，明珠会交到我手中。
-我并不惊恐，之觉得自己仿佛是另一个人，一个陌生人，我一生困顿，过着幽灵般的生活。
-我花了无数雨天时光，一面喝咖啡，一面涂涂画画。
-这就是
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E4%B9%A6%E7%B1%8D/" class="post-category">
-                                    书籍
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%B0%8F%E8%AF%B4/">
-                            <span class="chip bg-color">小说</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2023/10/12/shu-ji/zai-xi-yu-zhong-hu-han-yu-hua-95/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="在细雨中呼喊_余华_95">
-                            
-                            <span class="card-title">在细雨中呼喊_余华_95</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                # 摘要
-
-记忆超越了尘世的恩怨之后，独自来到了。
-王跃进：“你们看，她多下流。”，冯玉青父亲：“我女儿都让你睡过啦。”，冯玉青不再关心正在进行着的婚礼，她开始为自己的命运迷惑不解。
-我们并不是生活在土地上，事实上我们生活在时间里。
-时间将
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E4%B9%A6%E7%B1%8D/" class="post-category">
-                                    书籍
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E4%B9%A6%E7%B1%8D/">
-                            <span class="chip bg-color">书籍</span>
-                        </a>
-                        
-                        <a href="/tags/%E9%98%85%E8%AF%BB/">
-                            <span class="chip bg-color">阅读</span>
-                        </a>
-                        
-                        <a href="/tags/%E4%BD%99%E5%8D%8E/">
-                            <span class="chip bg-color">余华</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2023/10/12/shu-ji/ming-ren-ming-yan-zhai-chao/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="名人名言摘抄">
-                            
-                            <span class="card-title">名人名言摘抄</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                
-《韩非子》：不为最先，不耻最后。
-《圣经》：你们不要论断人，免得你们被别人论断。
-司马迁：然此可为智者道，难为俗人言。
-汤园林：一个人狭隘起来多么可怕，不相信任何美好的事，也就不会有任何希望，想冬天的草，只能慢慢枯萎。
-马丁。路德。金：我
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E4%B9%A6%E7%B1%8D/" class="post-category">
-                                    书籍
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%90%8D%E8%A8%80%E8%AD%A6%E5%8F%A5/">
-                            <span class="chip bg-color">名言警句</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2023/10/12/shu-ji/ba-ci-wei-ji-wen-tie-jun-89/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="八次危机_温铁军_89">
-                            
-                            <span class="card-title">八次危机_温铁军_89</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                # 摘要
-
-决定政府以何种体制运作的核心是财政税收。
-政府之服务于资本，只是这个阶段上层建筑派生于并服从于经济基础的一般内涵。
-中国是在几乎不具备工业化内外部条件的条件下进入工业化的。
-城市工业化的危机代价会对乡村转移，是在城市实现 “软着
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E4%B9%A6%E7%B1%8D/" class="post-category">
-                                    书籍
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E5%8E%86%E5%8F%B2%E6%94%BF%E6%B2%BB/">
-                            <span class="chip bg-color">历史政治</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
             
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
@@ -1013,6 +624,500 @@
             </div>
               <!-- 隐藏某个文章 -->
             
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/10/12/shu-ji/liao-bu-qi-de-gai-ci-bi-fei-ci.jie-la-de-87/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="了不起的盖茨比_菲茨.杰拉德_87">
+                            
+                            <span class="card-title">了不起的盖茨比_菲茨.杰拉德_87</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                # 摘要
+
+每当你想要批评别人的时候，要牢记这个世界上的所有人，并不是都拥有你曾经拥有的那些优越条件。
+我既身处其中，又身在其外，对人生的变幻和五彩斑斓，既感到陶醉又感到厌恶。
+于是，我们努力的向前划，逆流而上的小舟，不停的被浪潮推回到过去
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E4%B9%A6%E7%B1%8D/" class="post-category">
+                                    书籍
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E5%B0%8F%E8%AF%B4/">
+                            <span class="chip bg-color">小说</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/10/12/shu-ji/xiang-tu-zhong-guo-fei-xiao-tong-88/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="乡土中国_费孝通_88">
+                            
+                            <span class="card-title">乡土中国_费孝通_88</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                # 摘要
+
+规矩不是法律，规则是 “习” 出来的礼俗。
+“这不是见外了么？” 乡土社会里从熟悉得到信任。
+乡土社会的信用并不是对契约的重视，而是发生于对一种行为的规矩熟悉到不假思索时的可靠性。
+陌生人所组成的现代社会是无法用乡土社会的风俗来
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E4%B9%A6%E7%B1%8D/" class="post-category">
+                                    书籍
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E5%8E%86%E5%8F%B2%E6%94%BF%E6%B2%BB/">
+                            <span class="chip bg-color">历史政治</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/10/12/shu-ji/san-ti-liu-ci-xin-95/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="三体-刘慈欣-95">
+                            
+                            <span class="card-title">三体-刘慈欣-95</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                # 三体 - 95
+
+那你的生活是一种偶然，世界有这么多变幻莫测的因素，你的人生却没什么变故。
+是的，整个人类历史也是偶然，从石器时代到今天都没什么重大变故，真幸运。但既然是幸运，总有结束的一天；现在我告诉你，结束了，做好心理准备吧。
+在中
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E4%B9%A6%E7%B1%8D/" class="post-category">
+                                    书籍
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E7%A7%91%E5%B9%BB/">
+                            <span class="chip bg-color">科幻</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%B0%8F%E8%AF%B4/">
+                            <span class="chip bg-color">小说</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/10/12/shu-ji/yi-ge-ren-de-cun-zhuang-liu-liang-cheng-92/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="一个人的村庄_刘亮程_92">
+                            
+                            <span class="card-title">一个人的村庄_刘亮程_92</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                # 摘要
+
+无论乖好与否，在我卑微的一生中，都免不了驴一样般被人使唤，放弃自己想做的事，想住的房子，想爱的人乃至想说的话。
+夜再黑，夜空是晴朗的。
+我感到我的喉管里埋着一千匹马的嘶鸣，四肢涌动着一万只马蹄的奔腾声。而我，只是低下头，轻轻的叹
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E4%B9%A6%E7%B1%8D/" class="post-category">
+                                    书籍
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E6%95%A3%E6%96%87/">
+                            <span class="chip bg-color">散文</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/10/12/qi-ta/xi-an-you-ji/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="西安游记">
+                            
+                            <span class="card-title">西安游记</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                # day1
+路线：陕西省博物馆 - 钟楼 - 鼓楼 - 城墙 - 回民街
+作为一个有点恐高的人而言，第一次坐飞机有点紧张，其实飞机很平稳，上升过程中就像是坐车一样。而且从飞机上俯瞰地面的感觉很奇妙，是一种很特殊的感觉，后面到一定高度之后就
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E5%85%B6%E4%BB%96/" class="post-category">
+                                    其他
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E6%B8%B8%E8%AE%B0/">
+                            <span class="chip bg-color">游记</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/10/12/dian-zi-shu/ma-nong-fan-shen/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="码农翻身-刘欣">
+                            
+                            <span class="card-title">码农翻身-刘欣</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+最好的办法是：把日志、安全、事务、性能统计这样的非功能性代码和业务逻辑完全隔离开来！因为它们关注点和业务代码完全不同，它们之间应该是正交的。
+CAS 本质上就是一个认证中心的 cookie，加上多个子系统的 cookie 而已。
+计算机行
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E7%94%B5%E5%AD%90%E4%B9%A6/" class="post-category">
+                                    电子书
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E4%B9%A6%E7%B1%8D/">
+                            <span class="chip bg-color">书籍</span>
+                        </a>
+                        
+                        <a href="/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/">
+                            <span class="chip bg-color">电子书</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/10/12/dian-zi-shu/shang-jiao-sheng-cun-shou-ce/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="上交生存手册">
+                            
+                            <span class="card-title">上交生存手册</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+平庸的生活方式是麻醉药。他只会束缚你，让你没有作为，甚至没有出息地度过大学的四年。
+一般来说，一项任务的价值，取决于它在时间尺度上的作用效率。花同样的功夫，我们应该尽量多做那些对整个人生都产生正面影响的事情，少做对中期的未来产生影响的事情
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E7%94%B5%E5%AD%90%E4%B9%A6/" class="post-category">
+                                    电子书
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/">
+                            <span class="chip bg-color">电子书</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/10/12/bian-cheng/shu-ju-ku-xi-tong-gai-shu/shu-ju-ku-xi-tong-gai-shu/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="数据库系统概述-91">
+                            
+                            <span class="card-title">数据库系统概述-91</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                # 绪论
+数据库的特点之一是数据的共享，严格地讲，这里的数据共享是指多种应用、多种语言、多个用户互相覆盖地使用数据集合。
+数据库 DB、数据库系统 DBS 和数据库管理系统 DBMS 之间的关系是 DBS 包括 DB 和 DBMS。
+在数据
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E7%BC%96%E7%A8%8B/" class="post-category">
+                                    编程
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/">
+                            <span class="chip bg-color">计算机基础</span>
+                        </a>
+                        
+                        <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">
+                            <span class="chip bg-color">数据库</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/10/12/bian-cheng/lan-qiao-bei-guo-sai-ti-mu/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="蓝桥杯国赛题目">
+                            
+                            <span class="card-title">蓝桥杯国赛题目</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                CSDN 题解
+
+美丽的 2
+ 遍历即可，然后使用 str 和 count 函数就可以查找数字是否含有 2
+合数个数
+使用埃氏算法，就可以找到所有合数，然后使用 count 计算个数即可
+使用埃氏算法要小心一点，它是用于判断 n 以内的素数
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-10-12
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E7%BC%96%E7%A8%8B/" class="post-category">
+                                    编程
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E7%AE%97%E6%B3%95/">
+                            <span class="chip bg-color">算法</span>
+                        </a>
+                        
+                        <a href="/tags/Python/">
+                            <span class="chip bg-color">Python</span>
+                        </a>
+                        
+                        <a href="/tags/%E7%BC%96%E7%A8%8B/">
+                            <span class="chip bg-color">编程</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
         </div>
     </article>
 
@@ -1030,7 +1135,7 @@
             
         </div>
         <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">4 / 6</div>
+            <div class="center-align b-text-gray">4 / 5</div>
         </div>
         <div class="col s6 m4 l4">
             
@@ -1048,63 +1153,9 @@
 
     <footer class="page-footer bg-color">
     
-        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
-<style>
-    .aplayer .aplayer-lrc p {
-        
-        display: none;
-        
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 16px !important;
-    }
-
-    .aplayer .aplayer-lrc p.aplayer-lrc-current {
-        
-        display: none;
-        
-        font-size: 15px;
-        color: #42b983;
-    }
-
-    
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-        left: -66px !important;
-    }
-
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-        left: 0px !important;
-    }
-
-    
-</style>
-<div class="">
-    
-    <div class="row">
-        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
-                   server="netease"
-                   type="playlist"
-                   id="503838841"
-                   fixed='true'
-                   autoplay='false'
-                   theme='#42b983'
-                   loop='all'
-                   order='random'
-                   preload='auto'
-                   volume='0.7'
-                   list-folded='true'
-        >
-        </meting-js>
-    </div>
-</div>
-
-<script src="/libs/aplayer/APlayer.min.js"></script>
-<script src="/libs/aplayer/Meting.min.js"></script>
-
-    
 
     <div class="container row center-align"
-         style="margin-bottom: 0px !important;">
+         style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
@@ -1119,7 +1170,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">210.4k</span>
+                        class="white-color">200k</span>
             
             
             
@@ -1141,17 +1192,71 @@
 
             <!-- 运行天数提醒. -->
             
+                <span id="sitetime"> Loading ...</span>
+                <script>
+                    var calcSiteTime = function () {
+                        var seconds = 1000;
+                        var minutes = seconds * 60;
+                        var hours = minutes * 60;
+                        var days = hours * 24;
+                        var years = days * 365;
+                        var today = new Date();
+                        var startYear = "2022";
+                        var startMonth = "6";
+                        var startDate = "3";
+                        var startHour = "0";
+                        var startMinute = "0";
+                        var startSecond = "0";
+                        var todayYear = today.getFullYear();
+                        var todayMonth = today.getMonth() + 1;
+                        var todayDate = today.getDate();
+                        var todayHour = today.getHours();
+                        var todayMinute = today.getMinutes();
+                        var todaySecond = today.getSeconds();
+                        var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                        var diff = t2 - t1;
+                        var diffYears = Math.floor(diff / years);
+                        var diffDays = Math.floor((diff / days) - diffYears * 365);
+
+                        // 区分是否有年份.
+                        var language = 'zh-CN';
+                        if (startYear === String(todayYear)) {
+                            document.getElementById("year").innerHTML = todayYear;
+                            var daysTip = 'This site has been running for ' + diffDays + ' days';
+                            if (language === 'zh-CN') {
+                                daysTip = '本站已运行 ' + diffDays + ' 天';
+                            } else if (language === 'zh-HK') {
+                                daysTip = '本站已運行 ' + diffDays + ' 天';
+                            }
+                            document.getElementById("sitetime").innerHTML = daysTip;
+                        } else {
+                            document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                            var yearsAndDaysTip = 'This site has been running for ' + diffYears + ' years and '
+                                + diffDays + ' days';
+                            if (language === 'zh-CN') {
+                                yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天';
+                            } else if (language === 'zh-HK') {
+                                yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天';
+                            }
+                            document.getElementById("sitetime").innerHTML = yearsAndDaysTip;
+                        }
+                    }
+
+                    calcSiteTime();
+                </script>
+            
             <br>
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
-    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <a href="https://github.com/xiqin-huang" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
 
 
 
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <a href="mailto:1815750296@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fas fa-envelope-open"></i>
     </a>
 
@@ -1160,10 +1265,6 @@
 
 
 
-
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
 
 
 
@@ -1348,10 +1449,6 @@ $(function () {
     <!-- 鼠标星星特效 -->
     
 
-     
-        <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
-        <script src="/libs/others/TencentCaptcha.js"></script>
-        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
     
 
     <!-- Baidu Analytics -->
