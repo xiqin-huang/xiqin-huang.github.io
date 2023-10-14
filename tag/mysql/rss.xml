@@ -7,13 +7,17 @@
         <language>zh-CN</language>
         <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
         <lastBuildDate>Thu, 12 Oct 2023 18:49:32 +0800</lastBuildDate>
+        <category>java</category>
+        <category>书籍</category>
+        <category>java基础</category>
+        <category>java学习路线</category>
         <category>散文</category>
+        <category>游记</category>
         <category>科幻</category>
         <category>小说</category>
         <category>历史政治</category>
         <category>人物传记</category>
         <category>名言警句</category>
-        <category>书籍</category>
         <category>阅读</category>
         <category>余华</category>
         <category>心理学</category>
@@ -28,21 +32,16 @@
         <category>中国</category>
         <category>心理</category>
         <category>人际交往</category>
-        <category>java</category>
-        <category>java基础</category>
-        <category>java学习路线</category>
-        <category>鲁迅</category>
         <category>Excel</category>
         <category>office</category>
         <category>日常办公</category>
-        <category>游记</category>
+        <category>电子书</category>
         <category>Premiere</category>
         <category>视频剪辑</category>
-        <category>月报</category>
         <category>跨考</category>
         <category>考研</category>
         <category>计算机</category>
-        <category>电子书</category>
+        <category>月报</category>
         <category>计算机基础</category>
         <category>云开发</category>
         <category>微信小程序</category>
@@ -51,6 +50,7 @@
         <category>算法</category>
         <category>Python</category>
         <category>编程</category>
+        <category>鲁迅</category>
         <item>
             <guid isPermalink="true">https://xiqin-huang.github.io/2023/10/12/bian-cheng/shu-ju-ku-lian-xi/</guid>
             <title>数据库练习</title>
