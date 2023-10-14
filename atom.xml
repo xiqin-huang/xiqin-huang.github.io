@@ -8,16 +8,11 @@
     <category term="书籍" />
     <category term="java基础" />
     <category term="java学习路线" />
-    <category term="Excel" />
-    <category term="office" />
-    <category term="日常办公" />
     <category term="散文" />
     <category term="游记" />
     <category term="历史政治" />
     <category term="科幻" />
     <category term="小说" />
-    <category term="Premiere" />
-    <category term="视频剪辑" />
     <category term="人物传记" />
     <category term="名言警句" />
     <category term="阅读" />
@@ -26,18 +21,20 @@
     <category term="历史" />
     <category term="政治" />
     <category term="明朝" />
+    <category term="科技人文" />
     <category term="杂文" />
     <category term="人生感悟" />
-    <category term="科技人文" />
     <category term="经济学" />
     <category term="中国" />
     <category term="科技" />
     <category term="人际交往" />
     <category term="心理" />
-    <category term="电影" />
-    <category term="动漫" />
-    <category term="短剧" />
-    <category term="电视剧" />
+    <category term="Premiere" />
+    <category term="视频剪辑" />
+    <category term="Excel" />
+    <category term="office" />
+    <category term="日常办公" />
+    <category term="鲁迅" />
     <category term="电子书" />
     <category term="跨考" />
     <category term="考研" />
@@ -48,10 +45,13 @@
     <category term="微信小程序" />
     <category term="数据库" />
     <category term="MySQL" />
-    <category term="鲁迅" />
-    <category term="算法" />
     <category term="Python" />
     <category term="编程" />
+    <category term="算法" />
+    <category term="电影" />
+    <category term="电视剧" />
+    <category term="动漫" />
+    <category term="短剧" />
     <entry>
         <id>https://xiqin-huang.github.io/2023/10/12/ying-ping/qi-mu-nan-xiong-de-zai-nan-86/</id>
         <title>齐木楠雄的灾难_86</title>
@@ -3677,9 +3677,9 @@
 不会&lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="算法" />
         <category term="Python" />
         <category term="编程" />
+        <category term="算法" />
         <updated>2023-10-12T10:49:32.922Z</updated>
     </entry>
     <entry>
@@ -3923,9 +3923,9 @@ num&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;heapq&lt;span class=
     &lt;span class=&#34;token keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;kick&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;self&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;
           &lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;我叫%s。&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt;self&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;name&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 </content>
-        <category term="算法" />
         <category term="Python" />
         <category term="编程" />
+        <category term="算法" />
         <updated>2023-10-12T10:49:32.918Z</updated>
     </entry>
     <entry>

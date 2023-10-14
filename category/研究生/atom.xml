@@ -8,16 +8,11 @@
     <category term="书籍" />
     <category term="java基础" />
     <category term="java学习路线" />
-    <category term="Excel" />
-    <category term="office" />
-    <category term="日常办公" />
     <category term="散文" />
     <category term="游记" />
     <category term="历史政治" />
     <category term="科幻" />
     <category term="小说" />
-    <category term="Premiere" />
-    <category term="视频剪辑" />
     <category term="人物传记" />
     <category term="名言警句" />
     <category term="阅读" />
@@ -26,18 +21,20 @@
     <category term="历史" />
     <category term="政治" />
     <category term="明朝" />
+    <category term="科技人文" />
     <category term="杂文" />
     <category term="人生感悟" />
-    <category term="科技人文" />
     <category term="经济学" />
     <category term="中国" />
     <category term="科技" />
     <category term="人际交往" />
     <category term="心理" />
-    <category term="电影" />
-    <category term="动漫" />
-    <category term="短剧" />
-    <category term="电视剧" />
+    <category term="Premiere" />
+    <category term="视频剪辑" />
+    <category term="Excel" />
+    <category term="office" />
+    <category term="日常办公" />
+    <category term="鲁迅" />
     <category term="电子书" />
     <category term="跨考" />
     <category term="考研" />
@@ -48,10 +45,13 @@
     <category term="微信小程序" />
     <category term="数据库" />
     <category term="MySQL" />
-    <category term="鲁迅" />
-    <category term="算法" />
     <category term="Python" />
     <category term="编程" />
+    <category term="算法" />
+    <category term="电影" />
+    <category term="电视剧" />
+    <category term="动漫" />
+    <category term="短剧" />
     <entry>
         <id>https://xiqin-huang.github.io/2023/10/12/yan-jiu-sheng/yan-yi-shi-yue-yue-bao/</id>
         <title>研一十月月报</title>
