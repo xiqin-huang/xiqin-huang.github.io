@@ -12,7 +12,6 @@
         <category>java基础</category>
         <category>java学习路线</category>
         <category>散文</category>
-        <category>游记</category>
         <category>科幻</category>
         <category>小说</category>
         <category>历史政治</category>
@@ -27,37 +26,38 @@
         <category>科技人文</category>
         <category>杂文</category>
         <category>人生感悟</category>
-        <category>经济学</category>
         <category>科技</category>
+        <category>经济学</category>
         <category>中国</category>
         <category>心理</category>
         <category>人际交往</category>
+        <category>游记</category>
+        <category>鲁迅</category>
         <category>Excel</category>
         <category>office</category>
         <category>日常办公</category>
-        <category>电子书</category>
         <category>Premiere</category>
         <category>视频剪辑</category>
+        <category>电子书</category>
         <category>跨考</category>
         <category>考研</category>
         <category>计算机</category>
         <category>月报</category>
         <category>计算机基础</category>
-        <category>云开发</category>
-        <category>微信小程序</category>
         <category>数据库</category>
         <category>MySQL</category>
-        <category>算法</category>
+        <category>云开发</category>
+        <category>微信小程序</category>
         <category>Python</category>
         <category>编程</category>
-        <category>鲁迅</category>
+        <category>算法</category>
         <item>
             <guid isPermalink="true">https://xiqin-huang.github.io/2023/10/12/bian-cheng/lan-qiao-bei-guo-sai-ti-mu/</guid>
             <title>蓝桥杯国赛题目</title>
             <link>https://xiqin-huang.github.io/2023/10/12/bian-cheng/lan-qiao-bei-guo-sai-ti-mu/</link>
-            <category>算法</category>
             <category>Python</category>
             <category>编程</category>
+            <category>算法</category>
             <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_43919497/article/details/110011722?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162261625316780264075413%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&amp;amp;request_id=162261625316780264075413&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v29-1-110011722.pc_search_result_before_js&amp;amp;utm_term=%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%8A%E8%93%9D%E6%A1%A5%E6%9D%AFpython%E7%BB%84%E5%9B%BD%E8%B5%9B%E7%AD%94%E6%A1%88&amp;amp;spm=1018.2226.3001.4187&#34;&gt;CSDN 题解&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -127,9 +127,9 @@
             <guid isPermalink="true">https://xiqin-huang.github.io/2023/10/12/bian-cheng/suan-fa-chang-yong-ji-qiao/</guid>
             <title>算法常用技巧</title>
             <link>https://xiqin-huang.github.io/2023/10/12/bian-cheng/suan-fa-chang-yong-ji-qiao/</link>
-            <category>算法</category>
             <category>Python</category>
             <category>编程</category>
+            <category>算法</category>
             <pubDate>Thu, 12 Oct 2023 18:49:32 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;数学&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数学&#34;&gt;#&lt;/a&gt; 数学&lt;/h1&gt;
 &lt;pre class=&#34;line-numbers language-markup&#34; data-language=&#34;markup&#34;&gt;&lt;code class=&#34;language-markup&#34;&gt;等差数列求和：Sn=(a1+an)*n/2;Sn=n*a1+d*(n-1)*n/2
